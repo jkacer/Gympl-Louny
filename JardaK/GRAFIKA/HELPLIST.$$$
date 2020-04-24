@@ -1,0 +1,45 @@
+Tento adreç ı obsahuje tyto soubory:
+
+G1-TROJU PAS - z klad, nakresl¡ se troj£heln¡k
+G2-INTG1 PAS - vìpoŸet obsahu pod sinusoidou od x1 do x2
+               na d d¡lk… obd‚ln¡kovou metodou
+G3-INTG2 PAS - vìpoŸet obsahu pod sinusoidou od x1 do x2
+               na d d¡lk… lichobØ§n¡kovou metodou
+G4-INTPO PAS - interpolace a§ 15 zadanìch bod…
+               podle Lagrange i Newtona najednou - 2 obr zky
+G5-NCTV1 PAS - extrapolace a§ 15 bod… line rn¡ metodou
+               nejmenç¡ch Ÿtverc…
+G6-FRAKT PAS - kreslen¡ vnoıenìch troj£heln¡k… pomoc¡
+               frakt ln¡ grafiky - rekurze, max 8 vnoıen¡
+G7-FRAKC PAS - kreslen¡ vnoıenìch obd‚ln¡k… pomoc¡
+               frakt ln¡ grafiky - rekurze, max 6 vnoıen¡
+G8-OBD_R PAS - kreslen¡ soustıednìch obd‚ln¡k… rekurzivnØ
+G9-OBD_I PAS - kreslen¡ soustıednìch obd‚ln¡k… iteraŸnØ
+G10-MITS PAS - podobnØ jako G6, jinì vzor
+G11-VNBK PAS - nakresl¡ kru§nici k([x,y],r , dalç¡ bod a spoj¡ ho se stıedem
+G12-DRKR PAS - nakresl¡ kru§nici k([x,y],r , dalç¡ bod a ten je stıedem
+               dalç¡ kru§nice, kter  se p…vodn¡ dotìk 
+G13-OPSK PAS - nakresl¡ troj£heln¡k a op¡çe mu kru§nici
+G14-TECN PAS - nakresl¡ kru§nici k([x,y],r , dalç¡ bod a z toho 2 teŸny
+               ke kru§nici
+G15-VPSK PAS - nakresl¡ troj£heln¡k a vep¡çe mu kru§nici
+G16-HODI PAS - jednoduch‚ GAS hodiny
+G17-NCT2 PAS - extrapolace a§ 15 bod… kvadratickou metodou
+               nejmenç¡ch Ÿtverc…
+G18-NIPD PAS - opØt Newtonova interpolace (jako G4), ale metodou
+               POM·RN DIFERENCE
+G19-INT3 PAS - vìpoŸet urŸit‚ho integr lu pomoc¡ Simpsonovy metody,
+               od x1 do x2 na d d¡lk…
+G20-KR1  PAS - nakresl¡ kru§nici norm ln¡m zp…sobem
+G21-KR2  PAS - nakresl¡ kru§nici £spornìm zp…sobem s £hlem BETA
+G22-ELIP PAS - nakresl¡ elipsu norm ln¡m zp…sobem
+G23-ELOT PAS - nakresl¡ elipsu v otoŸen‚ soustavØ souıadn‚ o X stupå…
+G24-PARK PAS - nakresl¡ kru§nici parametricky
+G25-HYPE PAS - nakresl¡ hyperbolu parametricky
+G26-6STN PAS - nakresl¡ libovolnì 6-tistØn, body se zad vaj¡ v prostoru,
+               transformace do 2D pomoc¡ STüEDOVHO PROMÖTµNÖ
+
+GRAFIKA  PAS - unita pro vçechnu grafiku
+HODINY   PAS - unita pro hodiny
+
+Datum posledn¡ aktualizace : 5.5.1996

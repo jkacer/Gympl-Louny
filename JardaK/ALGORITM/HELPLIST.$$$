@@ -1,0 +1,23 @@
+Tento adres ý obsahuje tyto soubory:
+
+SIT      PAS - spoŸte poŸet mo§nost¡, jak se lze dostat do bodu [X,Y]
+
+Datum posledn¡ aktualizace: 8.5.1996
+
+
+PS k pý¡kladu 7:
+
+n = 1    n = 2   n = 3   n = 4    n = 5    n = 6   ² Z toho vyplìv , §e
+ I        II      III     IIII    IIIII    IIIIII  ² U   = U    + U 
+          =       =I      =II     ==I      ===     ²  n+2   n+1    n
+                  I=      II=     I==      II==    ²
+                          I=I     =I=      =II=    ²
+                          ==      III=     ==II    ²
+                                  =III     IIII=   ²
+                                  I=II     II=II   ²
+                                  II=I     =IIII   ²
+                                           I=III   ²
+                                           III=I   ²
+                                           I==I    ²
+                                           I=I=    ²
+                                           =I=I    ²

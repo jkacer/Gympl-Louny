@@ -1,0 +1,30 @@
+{ Created by GAS 1995 }
+{
+ Naleznÿte vÁechny PYTHAGOREJSKê troj£heln°ky,
+ jejichß vÁechny 3 strany jsou menÁ° neß danÇ N.
+}
+
+program XXX;
+
+uses Crt,Matika;
+
+var I,J,K:Integer;
+    N:    Integer;
+
+begin
+ ClrScr;
+ WriteLn('Budou vyps†ny vÁechny pythagorejskÇ troj£heln°ky,');
+ WriteLn('jejichß vÁechny 3 strany jsou menÁ° neß N.');
+ Write('N ? (max. 32767) ');
+ ReadLn(N);
+
+ for I:=1 to N-1 do
+  for J:=1 to N-1 do
+   for K:=1 to N-1 do
+    if JePythagTrojuh(I,J,K) then WriteLn('A=',I,' B=',J,' C=',K);
+
+ WriteLn('==== Enter ====');
+ ReadLn;
+end.
+
+

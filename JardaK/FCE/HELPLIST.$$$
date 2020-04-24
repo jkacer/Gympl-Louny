@@ -1,0 +1,24 @@
+Tento adres†˝ obsahuje tyto soubory :
+
+ITERACE  PAS - vypoüte x=f(x) t°m, ße do X dosazuje vypoü°tanÇ Y
+	     - tolerance Eta.....	
+PULENI_I PAS - vypoüte 0=f(x) t°m, ße pÖl° interval a bu‘ A nebo B
+	       dosad° do st˝edu, aby teüna prot°nala osu x
+TETIVY   PAS - to samÇ, ale "st˝ed" se vypoü°t†v† podle vzoreüku
+		    A f(B) - B f(A)
+	       c = -----------------
+	              f(B) - f(A)
+
+TECNY    PAS - to samÇ, ale bod novÇho teünÿn° se vypoüte podle vzoreüku
+                         f(c)
+               c = c - ----------
+                         f`(c)
+
+POM_UN   PAS - unita, kter† vypoü°t†va gon. fce  
+	       a vyb°r† poßadovanou od ußivatele;
+             - 7.3.96 zmÿnÿno na st†lou fci Sinus(x)
+
+
+Datum posledn° aktualizace : 7.3.1996
+
+	

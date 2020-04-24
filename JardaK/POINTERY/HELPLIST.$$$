@@ -1,0 +1,18 @@
+Tento adres ý obsahuje tyto soubory:
+
+UKAZ01   PAS - vytvoý¡ line rn¡ spojovì seznam celìch Ÿ¡sel o 10 Ÿ¡slech
+               a pak z nØj vycuc v  dalç¡
+UKAZ02   PAS - vytvoý¡ line rn¡ spojovì seznam celìch Ÿ¡sel o 20 Ÿ¡slech
+               a pak z nØj udØl  dalç¡, kterì obsahuje Ÿ¡sla dØliteln 
+               zadanìm Ÿ¡slem
+UKAZ03   PAS - vyhled  max/min prvek ze seznamu c.Ÿ. o 20 Ÿ¡slech
+UKAZ04   PAS - v seznamu vynech  vŸechny prvky dØliteln‚ zadanìm Ÿ¡slem
+UKAZ05   PAS - ze souboru VYTAHNI.TXT vyt hne seznam velkìch p¡smen
+               a seznam Ÿ¡slic - ten pak obr t¡; tak‚ s nimi d le pracuje
+UKAZ06   PAS - vytvoý¡ dynamickou GAS matici a pracuje s n¡
+
+DYN_MAT  PAS - unita pro dynamick‚ GAS matice - objektovØ
+POINTERY PAS - unita pro line rn¡ spojov‚ seznamy
+VYTAZKY  PAS - unita pro limitovan‚ vìta§ky ze soubor… - objektovØ
+
+Datum posledn¡ aktualizace: 21.1.1996

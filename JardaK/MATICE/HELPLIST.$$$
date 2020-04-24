@@ -1,0 +1,33 @@
+Tento adres ý obsahuje tyto soubory:
+
+M166     PAS - zjist¡, v kolika sloupc¡ch matice je stejnì
+               souŸet jako v 1. sloupci
+M167     PAS - urŸ¡ Ÿ¡slo sloupce s maxim ln¡m souŸtem prvk…;
+               je-li jich v¡c, urŸ¡ vçechny
+M168     PAS - urŸ¡ vçechny sloupce, kter‚ maj¡ stejn‚ prvky
+               na stejnìch pozic¡ch jako 1. sloupec
+M169     PAS - urŸ¡, v kolika sloupc¡ch jsou stejn  Ÿ¡sla jako v 1. sloupci,
+               na poýad¡ naz le§¡
+M170     PAS - zjist¡, zda je matice soumØrn  podle hlavn¡ £hlopý¡Ÿky
+M171     PAS - pýerovn  sloupce matice, aby byly uspoý d ny podle velikosti
+M172     PAS - pýerovn  ý dky matice, aby byly uspoý d ny podle sv‚ho
+               1. prvku; obsah ý dk… z…st v  zachov n
+M173     PAS - pýerovn  ý dky matice, aby byly uspoý d ny podle souŸtu
+               vçech svìch prvk…; obsah ý dku z…st v  zachov n
+M174     PAS - urŸ¡, v kolika ý dc¡ch se nach z¡ permutace-ka§d‚ jen jednou;
+               matice je NxN, permutace 1...N
+M175     PAS - vyp¡çe vçechny ý dky s permutac¡ 1...N; matice je NxN
+M176     PAS - vymØn¡ nejvØtç¡ prvek z matice s nejmenç¡m
+M177     PAS - vymØn¡ v matici prvek s nejmenç¡ v hou za prvek s nejmenç¡
+               v hou; VµHA = 2 x vlastn¡ hodnota + souŸet soused… (max. 8)
+M178     PAS - vymØn¡ v matici prvek s nejvØtç¡ hodnotou nad diagon lou
+               za prvek s nejmenç¡ hodnotou pod diagon lou
+M179     PAS - nalezne sedlovì bod matice;
+               SEDLOVí BOD = nejvØtç¡ v ý dku a nejmenç¡ ve sloupci
+               nebo nejmenç¡ v ý dku a nejvØtç¡ ve sloupci
+M180     PAS - na ka§d‚m ý dku matice najde minim ln¡ prvek a prohod¡ ho
+               s prvkem na diagon le
+
+MATICE   PAS - vçe potýebn‚ pro vìçe uveden‚
+
+Datum posledn¡ aktualizace: 8.5.1996

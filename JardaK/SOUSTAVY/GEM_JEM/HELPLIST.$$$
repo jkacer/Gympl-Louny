@@ -1,0 +1,12 @@
+Tento adres ý obsahuje tyto soubory:
+
+GEM_ZSUB PAS - vyýeç¡ soustavy rovnic pomoc¡ GEM a zpØtn‚ substituce
+GEM_JEM  PAS - vyýeç¡ soustavu rovnic pomoc¡ GEM a JEM
+JEM_PSUB PAS - vyýeç¡ soustavu rovnic pomoc¡ JEM a pý¡m‚ substituce
+TROJUH   PAS - vygeneruje horn¡ a doln¡ troj£heln¡kovou matici
+
+GJ_ELIM  PAS - unita s typy pro ýeçen¡ soustav 
+	       a s procedurami Vypis, GEM, JEM, ZpetnaSub, PrimaSub......
+
+Datum posledn¡ aktualizace : 8.5.1996
+	
