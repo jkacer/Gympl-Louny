@@ -1,0 +1,4 @@
+*     text=auto
+*.pas text eol=CRLF working-tree-encoding=CP852
+*.PAS text eol=CRLF working-tree-encoding=CP852
+*.$$$ text eol=CRLF working-tree-encoding=CP852
