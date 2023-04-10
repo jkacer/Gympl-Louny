@@ -14,7 +14,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pı¡stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  {$I+}
@@ -30,7 +30,7 @@ begin
                end;
    until not(Je);
   end;
- WriteLn('Soubor m  ',K,' slov, co zaŸ¡naj¡ a konŸ¡ stejnØ.');
+ WriteLn('Soubor mÃ¡ ',K,' slov, co zaÄÃ­najÃ­ a konÄÃ­ stejnÄ›.');
  Close(F);
  ReadLn;
 end.

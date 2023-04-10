@@ -19,7 +19,7 @@ begin
  for I:=1 to N do
   Souc:=Souc+(1/I);
 
- WriteLn('SouŸet pıevr cenìch hodnot Ÿ¡sel od 1 do ',N,' je ',Souc:8:6);
+ WriteLn('SouÄet pÅ™evrÃ¡cenÃ½ch hodnot ÄÃ­sel od 1 do ',N,' je ',Souc:8:6);
  ReadLn;
 end.
 

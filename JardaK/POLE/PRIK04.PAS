@@ -1,7 +1,7 @@
 { Created by GAS 1995 }
 {
- NapiÁte program pro poü°t†n° velkÏch mocnin matice 4 X 4.
- Prvky matice jsou ü°sla <-5,5>.
+ Napi≈°te program pro poƒç√≠t√°n√≠ velk√Ωch mocnin matice 4 X 4.
+ Prvky matice jsou ƒç√≠sla <-5,5>.
  Vstup N = mocnitel.
 }
 
@@ -14,17 +14,17 @@ var N:  Byte;
     Vys:PMatice44;
 begin
  ClrScr;
- WriteLn('N†hodnÿ vygenerovan† matice 4 X 4 bude umocnÿna');
- WriteLn('na V†mi zadanÏ exponent N.');
+ WriteLn('N√°hodnƒõ vygenerovan√° matice 4 X 4 bude umocnƒõna');
+ WriteLn('na V√°mi zadan√Ω exponent N.');
  Write('N ? (max. 255) ');
  ReadLn(N);
  Mat:=New(PMatice44);
  DejMatici(Mat);
- WriteLn('Vygenerovan† matice :');
+ WriteLn('Vygenerovan√° matice :');
  TiskMatice(Mat);
  Matice_Init(Mat);
  DejMocninuMat(N,Vys);
- WriteLn('VÏsledn† matice :');
+ WriteLn('V√Ωsledn√° matice :');
  TiskMatice(Vys);
  Matice_Done;
  Dispose(Mat);

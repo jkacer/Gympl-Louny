@@ -61,7 +61,7 @@ begin
  if KolikH>=12 then KolikH:=KolikH-12;
 
  Uhel:=(PI*KolikH*30)/180;
- Uhel:=Uhel+(PI*KolikM/2)/180; { 30 min. = 15 stupå… na velkì }
+ Uhel:=Uhel+(PI*KolikM/2)/180; { 30 min. = 15 stupÅˆÅ¯ na velkÃ½ }
  PozXH:=(R-1)*Sin(Uhel);
  PozYH:=(R-1)*Cos(Uhel);
 

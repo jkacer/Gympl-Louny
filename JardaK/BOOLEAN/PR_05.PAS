@@ -1,5 +1,5 @@
 {
- BOOLEAN - pý¡klad 05
+ BOOLEAN - pÅ™Ã­klad 05
 }
 
 {

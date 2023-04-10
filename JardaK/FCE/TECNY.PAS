@@ -1,14 +1,14 @@
 { Created by GAS 1996 }
 program XXX;
 {
- Vyuß°v† toho, ße vypoü°t†v† "st˝ed", dokud X-Y>Eta = povolen† odchylka
+ Vyu≈æ√≠v√° toho, ≈æe vypoƒç√≠t√°v√° "st≈ôed", dokud X-Y>Eta = povolen√° odchylka
                               ||||
                               VVVV
 
                      C = ( (A*f`(A)) - f(A) )/( f`(A) );
                        = A - ( (f(A)) / (f`(A)) )
 
- Na C se pak uprav° bu‘ A nebo B, podle toho, aby to pak prot°nalo osu x
+ Na C se pak uprav√≠ buƒè A nebo B, podle toho, aby to pak prot√≠nalo osu x
 }
 uses Crt,Pom_Un;
 
@@ -22,12 +22,12 @@ var
 
 begin  { program }
  ClrScr;
- WriteLn('VÏpoüet " 0=f(x) "');
+ WriteLn('V√Ωpoƒçet " 0=f(x) "');
  Prirad_Fci;
 
- A:=Dej_Real('Doln° interval ?');
- B:=Dej_Real('Horn° interval ?');
- Eta:=Dej_Real('P˝esnost ?');
+ A:=Dej_Real('Doln√≠ interval ?');
+ B:=Dej_Real('Horn√≠ interval ?');
+ Eta:=Dej_Real('P≈ôesnost ?');
  if A>B then begin
               Pom:=A;
               A:=B;
@@ -36,7 +36,7 @@ begin  { program }
  {
  if Pocitej(A)*Pocitej(B)>0 then
      begin
-      WriteLn('Funkce neproch†z° x pr†vÿ 1x !!! Konec.');
+      WriteLn('Funkce neproch√°z√≠ x pr√°vƒõ 1x !!! Konec.');
       Sound(500);Delay(100);NoSound;
       Exit;
      end;
@@ -60,18 +60,18 @@ begin  { program }
                            else if (KdeTecnu<A) or
                                    (KdeTecnu>B) then begin
                                                       WriteLn('Mimo interval <a,b> !!!');
-                                                      WriteLn('VÏsledek neplatnÏ.');
+                                                      WriteLn('V√Ωsledek neplatn√Ω.');
                                                       Vyp:=True;
                                                       Vysl:=0;
                                                      end;
   if KeyPressed then begin
                       Vyp:=True;
-                      WriteLn('P˝eruÁeno-vÏsledek neplat°');
+                      WriteLn('P≈ôeru≈°eno-v√Ωsledek neplat√≠');
                       Vysl:=0;
                      end;
  until Vyp;
  WriteLn;
- WriteLn('VÏsledek : ',Vysl:8:5);
+ WriteLn('V√Ωsledek : ',Vysl:8:5);
  ReadLn;
 end.
 
@@ -117,7 +117,7 @@ end.
 
 
 {
- Odvozen° vzoreüku pro vÏpoüet C:
+ Odvozen√≠ vzoreƒçku pro v√Ωpoƒçet C:
 
         y - f(a)  =  k (x-a)
         y - f(a)  =  f`(a) (x-a)

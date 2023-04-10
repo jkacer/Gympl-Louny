@@ -11,11 +11,11 @@ var
 begin
  ClrScr;
  Napln(Pole);
- WriteLn('N hodnØ vygenerovan‚ pole:');
+ WriteLn('NÃ¡hodnÄ› vygenerovanÃ© pole:');
  Vypis(Pole);
 
  HofmanSort(Pole);
- WriteLn('Setı¡dØno HofmanSortem:');
+ WriteLn('SetÅ™Ã­dÄ›no HofmanSortem:');
  Vypis(Pole);
  ReadLn;
 end.

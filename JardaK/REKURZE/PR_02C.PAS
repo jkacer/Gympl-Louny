@@ -13,7 +13,7 @@ var
 begin
  ClrScr;
 
- WriteLn('VìpoŸet N nad K.');
+ WriteLn('VÃ½poÄet N nad K.');
  Write('N ? <0,255> '); ReadLn(N);
  Write('K ? <0,255> '); ReadLn(K);
  Vysl:=N_Nad_K(N,K);

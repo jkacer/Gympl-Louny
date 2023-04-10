@@ -6,7 +6,7 @@ uses
       Crt;
 
 const
-      Dny : array[1..7] of string[2] = ( 'PO','éT','ST','¬T','Pµ','SO','NE' );
+      Dny : array[1..7] of string[2] = ( 'PO','ÃšT','ST','ÄŒT','PÃ','SO','NE' );
 
 function KolikPatku(KolikDni:Byte;PrvniDen:Byte):Byte;
 var
@@ -41,18 +41,18 @@ var
 begin
  ClrScr;
  repeat
-  Write('Kolik je dn¡ v mØs¡ci ? <28,31> ');
+  Write('Kolik je dnÃ­ v mÄ›sÃ­ci ? <28,31> ');
   ReadLn(Kolik);
  until (Kolik>27) and (Kolik<32);
  repeat
-  Write('Prvn¡ den je ? <1,7> ');
+  Write('PrvnÃ­ den je ? <1,7> ');
   ReadLn(PrvniDenJe);
  until (PrvniDenJe>0) and (PrvniDenJe<8);
 
  Vysl:=KolikPatku(Kolik,PrvniDenJe);
  TextBackGround(Black);
  WriteLn;
- WriteLn('V mØs¡ci je ',Vysl,' p tk….');
+ WriteLn('V mÄ›sÃ­ci je ',Vysl,' pÃ¡tkÅ¯.');
  ReadLn;
 end.
 

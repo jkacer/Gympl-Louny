@@ -8,9 +8,9 @@ var Kolikaty:Integer;
 
 begin
  ClrScr;
- Write('Kolik t‚ prvoŸ¡slo ? ');
+ Write('KolikÃ¡tÃ© prvoÄÃ­slo ? ');
  ReadLn(Kolikaty);
- WriteLn(Kolikaty,'-t‚ prvoŸ¡slo je ',Nte_Prvoc(Kolikaty),'.');
+ WriteLn(Kolikaty,'-tÃ© prvoÄÃ­slo je ',Nte_Prvoc(Kolikaty),'.');
  ReadLn;
 end.
 

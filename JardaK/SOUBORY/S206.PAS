@@ -10,7 +10,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  {$I+}

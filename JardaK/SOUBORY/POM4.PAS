@@ -10,7 +10,7 @@ begin
  {$I-}
  ReWrite(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k ZDROJ1.CIS !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k ZDROJ1.CIS !!!');
                       Exit;
                      end;
  {$I+}
@@ -23,7 +23,7 @@ begin
  {$I-}
  ReWrite(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k ZDROJ2.CIS !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k ZDROJ2.CIS !!!');
                       Exit;
                      end;
  {$I+}
@@ -36,7 +36,7 @@ begin
  {$I-}
  ReWrite(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k ZDROJ3.CIS !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k ZDROJ3.CIS !!!');
                       Exit;
                      end;
  {$I+}
@@ -49,7 +49,7 @@ begin
  {$I-}
  ReWrite(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k ZDROJ4.CIS !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k ZDROJ4.CIS !!!');
                       Exit;
                      end;
  {$I+}

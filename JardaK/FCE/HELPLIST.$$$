@@ -1,24 +1,24 @@
-Tento adres ı obsahuje tyto soubory :
+Tento adresÃ¡Å™ obsahuje tyto soubory :
 
-ITERACE  PAS - vypoŸte x=f(x) t¡m, §e do X dosazuje vypoŸ¡tan‚ Y
+ITERACE  PAS - vypoÄte x=f(x) tÃ­m, Å¾e do X dosazuje vypoÄÃ­tanÃ© Y
 	     - tolerance Eta.....	
-PULENI_I PAS - vypoŸte 0=f(x) t¡m, §e p…l¡ interval a buÔ A nebo B
-	       dosad¡ do stıedu, aby teŸna prot¡nala osu x
-TETIVY   PAS - to sam‚, ale "stıed" se vypoŸ¡t v  podle vzoreŸku
+PULENI_I PAS - vypoÄte 0=f(x) tÃ­m, Å¾e pÅ¯lÃ­ interval a buÄ A nebo B
+	       dosadÃ­ do stÅ™edu, aby teÄna protÃ­nala osu x
+TETIVY   PAS - to samÃ©, ale "stÅ™ed" se vypoÄÃ­tÃ¡vÃ¡ podle vzoreÄku
 		    A f(B) - B f(A)
 	       c = -----------------
 	              f(B) - f(A)
 
-TECNY    PAS - to sam‚, ale bod nov‚ho teŸnØn¡ se vypoŸte podle vzoreŸku
+TECNY    PAS - to samÃ©, ale bod novÃ©ho teÄnÄ›nÃ­ se vypoÄte podle vzoreÄku
                          f(c)
                c = c - ----------
                          f`(c)
 
-POM_UN   PAS - unita, kter  vypoŸ¡t va gon. fce  
-	       a vyb¡r  po§adovanou od u§ivatele;
-             - 7.3.96 zmØnØno na st lou fci Sinus(x)
+POM_UN   PAS - unita, kterÃ¡ vypoÄÃ­tÃ¡va gon. fce  
+	       a vybÃ­rÃ¡ poÅ¾adovanou od uÅ¾ivatele;
+             - 7.3.96 zmÄ›nÄ›no na stÃ¡lou fci Sinus(x)
 
 
-Datum posledn¡ aktualizace : 7.3.1996
+Datum poslednÃ­ aktualizace : 7.3.1996
 
 	

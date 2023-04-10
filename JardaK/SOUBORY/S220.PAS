@@ -12,12 +12,12 @@ begin
  {$I-}
  Reset(F1);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB2.CIS !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB2.CIS !!!');
                       Exit;
                      end;
  ReWrite(F2);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB4.CIS !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB4.CIS !!!');
                       Exit;
                      end;
  {$I+}

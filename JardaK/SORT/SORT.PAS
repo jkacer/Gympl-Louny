@@ -58,10 +58,10 @@ var
       Celkem:   Word;
 begin
  Celkem:=0;
- for I:=2 to MaxPrvku do { zmençuje se nesetı¡dØn  oblast }
+ for I:=2 to MaxPrvku do { zmenÅ¡uje se nesetÅ™Ã­dÄ›nÃ¡ oblast }
   begin
    Kolik:=0;
-   for J:=I to MaxPrvku do  { vyhled v n¡ nejvØtç¡ho prvku a n hrada }
+   for J:=I to MaxPrvku do  { vyhledÃ¡vÃ¡nÃ­ nejvÄ›tÅ¡Ã­ho prvku a nÃ¡hrada }
     begin
      if X[J]<X[I-1] then begin
                           Pom:=X[J];

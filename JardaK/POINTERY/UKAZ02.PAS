@@ -1,7 +1,7 @@
 { Created by Gas 1995 }
 {
- Napiçte program, kt. vyhled  poŸet Ÿ¡sel dØlitelnìch
- zadanìm Ÿ¡slem.
+ NapiÅ¡te program, kt. vyhledÃ¡ poÄet ÄÃ­sel dÄ›litelnÃ½ch
+ zadanÃ½m ÄÃ­slem.
 }
 program XXX;
 
@@ -14,18 +14,18 @@ begin
  Desktop(Blue,LightGray,#176);
  Ramecek(3,3,78,23,'GAS Pointer Demo',Blue,White,Yellow,#32);
  Window(5,4,76,22);
- Pis('Bude vytvoıen line rn¡ spojovì seznam celìch Ÿ¡sel o 20 prvc¡ch.',NeMez,JoPip);
+ Pis('Bude vytvoÅ™en lineÃ¡rnÃ­ spojovÃ½ seznam celÃ½ch ÄÃ­sel o 20 prvcÃ­ch.',NeMez,JoPip);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
  Seznam:=VytvorSez(20);
  TiskniSez(Seznam);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
  repeat
-  Write('DØliteln‚ kolika ? ');
+  Write('DÄ›litelnÃ© kolika ? ');
   ReadLn(N);
-  if N<1 then WriteLn('VØtç¡ ne§ 0 !');
+  if N<1 then WriteLn('VÄ›tÅ¡Ã­ neÅ¾ 0 !');
  until N>0;
  Kolik:=DejKolikDelSez(Seznam,N);
- WriteLn('Bylo nalezeno ',Kolik,' Ÿ¡sel.');
+ WriteLn('Bylo nalezeno ',Kolik,' ÄÃ­sel.');
  ZrusSez(Seznam);
  WriteLn('==== Enter ====');
  ReadLn;

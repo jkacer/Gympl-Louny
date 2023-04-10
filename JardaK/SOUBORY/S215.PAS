@@ -18,7 +18,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  {$I+}
@@ -33,7 +33,7 @@ begin
      Delete(S,1,Poz);
     end;
   end;
- WriteLn('V souboru je ',K,' vØt.');
+ WriteLn('V souboru je ',K,' vÄ›t.');
 
  Close(F);
  Reset(F);
@@ -67,7 +67,7 @@ begin
     '.':begin
          Inc(Poz);
          if Length(PomStr)>Length(Slovo) then Slovo:=PomStr;
-         WriteLn('Nejdelç¡ slovo ',Poz,'. vØty :',Slovo);
+         WriteLn('NejdelÅ¡Ã­ slovo ',Poz,'. vÄ›ty :',Slovo);
          Slovo:='';
          PomStr:='';
         end;

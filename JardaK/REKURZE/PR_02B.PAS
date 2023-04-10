@@ -13,10 +13,10 @@ var
 begin
  ClrScr;
 
- WriteLn('VìpoŸet X na N.');
+ WriteLn('VÃ½poÄet X na N.');
  Write('X ? <0,255> '); ReadLn(X);
  Write('N ? <0,255> '); ReadLn(N);
- WriteLn('Pro vysok  Ÿ¡sla nemus¡ bìt vìpoŸet korektn¡.');
+ WriteLn('Pro vysokÃ¡ ÄÃ­sla nemusÃ­ bÃ½t vÃ½poÄet korektnÃ­.');
 
  Vysl:=X_Na_N(X,N);
 

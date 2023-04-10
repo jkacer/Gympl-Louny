@@ -12,17 +12,17 @@ begin
  {$I-}
  Reset(F1);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  Reset(F2);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB2.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB2.TXT !!!');
                       Exit;
                      end;
  ReWrite(F3);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB3.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB3.TXT !!!');
                       Exit;
                      end;
  {$I+}

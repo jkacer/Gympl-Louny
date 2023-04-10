@@ -1,13 +1,13 @@
-Tento adres ı obsahuje tyto soubory:
+Tento adresÃ¡Å™ obsahuje tyto soubory:
 
-C1       PAS - sŸ¡t n¡ a odŸ¡t n¡ komplexn¡ch Ÿ¡sel, velikost k.Ÿ.
-C2       PAS - n soben¡ a dØlen¡ komplexn¡ch Ÿ¡sel, velikost k.Ÿ.
-C3       PAS - pıevod z algebraick‚ho do goniometrick‚ho tvaru
-C4       PAS - pıevod z goniometrick‚ho do algebraick‚ho tvaru
-BIN_ROV  PAS - spoŸte vìsledky binomick‚ rovnice a nakresl¡ je
+C1       PAS - sÄÃ­tÃ¡nÃ­ a odÄÃ­tÃ¡nÃ­ komplexnÃ­ch ÄÃ­sel, velikost k.Ä.
+C2       PAS - nÃ¡sobenÃ­ a dÄ›lenÃ­ komplexnÃ­ch ÄÃ­sel, velikost k.Ä.
+C3       PAS - pÅ™evod z algebraickÃ©ho do goniometrickÃ©ho tvaru
+C4       PAS - pÅ™evod z goniometrickÃ©ho do algebraickÃ©ho tvaru
+BIN_ROV  PAS - spoÄte vÃ½sledky binomickÃ© rovnice a nakreslÃ­ je
 
-COMPLEX  PAS - unita se vçemi funkcemi a procedurami pro aritmetiku
-               komplexn¡ch Ÿ¡sel
-COM_GRPH PAS - unita pro grafiku; osy, kreslen¡ bod…; pıevzato z GRAFIKA.PAS
+COMPLEX  PAS - unita se vÅ¡emi funkcemi a procedurami pro aritmetiku
+               komplexnÃ­ch ÄÃ­sel
+COM_GRPH PAS - unita pro grafiku; osy, kreslenÃ­ bodÅ¯; pÅ™evzato z GRAFIKA.PAS
 
-Datum posledn¡ aktualizace: 11.5.1996
+Datum poslednÃ­ aktualizace: 11.5.1996

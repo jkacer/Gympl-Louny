@@ -1,9 +1,9 @@
 {
- BOOLEAN - pı¡klad 08
+ BOOLEAN - pÅ™Ã­klad 08
 }
 
 {
- Zjist¡, zda bod le§¡ v obr zku podle zad n¡ mat. ot.
+ ZjistÃ­, zda bod leÅ¾Ã­ v obrÃ¡zku podle zadÃ¡nÃ­ mat. ot.
 }
 
 program XXX;
@@ -22,8 +22,8 @@ type
 procedure Dej_Bod(Z:Char;var B:TBod);
 begin
  WriteLn('Zadej bod ',Z,' !');
- Write('X-ov  slo§ka = '); ReadLn(B.X);
- Write('Y-ov  slo§ka = '); ReadLn(B.Y);
+ Write('X-ovÃ¡ sloÅ¾ka = '); ReadLn(B.X);
+ Write('Y-ovÃ¡ sloÅ¾ka = '); ReadLn(B.Y);
 end;
 
 
@@ -44,8 +44,8 @@ end;
 
 function Lezi_4(B:TBod):Boolean;
 begin
- Lezi_4 := ( (B.Y>=0) and (B.Y<=2) and (B.X>=-1) and (B.X<=+1) ) or { Ÿtverec }
-           ( (B.Y<=0) and ((Abs(B.X) + Abs(B.Y)) <= 2) );   { troj£heln¡k }
+ Lezi_4 := ( (B.Y>=0) and (B.Y<=2) and (B.X>=-1) and (B.X<=+1) ) or { Ätverec }
+           ( (B.Y<=0) and ((Abs(B.X) + Abs(B.Y)) <= 2) );   { trojÃºhelnÃ­k }
 end;
 
 var
@@ -54,14 +54,14 @@ begin
  ClrScr;
  Dej_Bod('B',Bod);
 
- if Lezi_1(Bod) then WriteLn('Le§¡ v obr. 1')
-                else WriteLn('Nele§¡ v obr. 1');
- if Lezi_2(Bod) then WriteLn('Le§¡ v obr. 2')
-                else WriteLn('Nele§¡ v obr. 2');
- if Lezi_3(Bod) then WriteLn('Le§¡ v obr. 3')
-                else WriteLn('Nele§¡ v obr. 3');
- if Lezi_4(Bod) then WriteLn('Le§¡ v obr. 4')
-                else WriteLn('Nele§¡ v obr. 4');
+ if Lezi_1(Bod) then WriteLn('LeÅ¾Ã­ v obr. 1')
+                else WriteLn('NeleÅ¾Ã­ v obr. 1');
+ if Lezi_2(Bod) then WriteLn('LeÅ¾Ã­ v obr. 2')
+                else WriteLn('NeleÅ¾Ã­ v obr. 2');
+ if Lezi_3(Bod) then WriteLn('LeÅ¾Ã­ v obr. 3')
+                else WriteLn('NeleÅ¾Ã­ v obr. 3');
+ if Lezi_4(Bod) then WriteLn('LeÅ¾Ã­ v obr. 4')
+                else WriteLn('NeleÅ¾Ã­ v obr. 4');
 
  ReadLn;
 end.

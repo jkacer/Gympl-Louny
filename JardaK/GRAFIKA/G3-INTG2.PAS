@@ -13,7 +13,7 @@ uses Crt,Graph,Grafika;
 label 1;
 
 var
-    { Zobrazen° }
+    { Zobrazen√≠ }
 
     GD,GM:   Integer;
     X,Y:     Integer;
@@ -31,7 +31,7 @@ var
     TX1,TX2,
     TY1,TY2: Integer;
 
-    { VÏpoüet }
+    { V√Ωpoƒçet }
 
     H:       Real;
     Suma:    Real;

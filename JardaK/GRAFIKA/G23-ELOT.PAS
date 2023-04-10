@@ -13,7 +13,7 @@ uses Crt,Graph,Grafika;
 
 
 var
-    { Zobrazen¡ }
+    { ZobrazenÃ­ }
 
     GD,GM:   Integer;
     X,Y:     Integer;
@@ -41,7 +41,7 @@ begin
  KolikX:=12;
  KolikY:=9;
 
- Alfa:=DejRozsah('Zadej £hel - po smØru h.r.',0,360,X,Y);
+ Alfa:=DejRozsah('Zadej Ãºhel - po smÄ›ru h.r.',0,360,X,Y);
  SX:=DejRozsah('SX = ?',-KolikX,+KolikX,X,Y);
  SY:=DejRozsah('SY = ?',-KolikY,+KolikY,X,Y);
  A :=DejRozsah('A = ?', 0,KolikX,X,Y);
@@ -64,7 +64,7 @@ begin
  JednotkyY(X,Y,KolikY,JednY,Pomalu);
 
  Osy_Otoc(X,Y,KolikX,KolikY,JednX,JednY,Alfa);
- Bod_Otoc_Draw('Stýed',SX,SY,Alfa,X,Y,JednX,JednY);
+ Bod_Otoc_Draw('StÅ™ed',SX,SY,Alfa,X,Y,JednX,JednY);
  Elipsa_Otoc(SX,SY,A,B,Alfa,X,Y,JednX,JednY);
 
  Sound(1000);

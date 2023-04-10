@@ -10,7 +10,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v p˝°stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v p≈ô√≠stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  {$I+}
@@ -29,7 +29,7 @@ begin
    end;
   end;
  Close(F);
- WriteLn('Poüet p°smen :');
+ WriteLn('Poƒçet p√≠smen :');
  WriteLn(' A: ',A);
  WriteLn(' B: ',B);
  WriteLn(' C: ',C);

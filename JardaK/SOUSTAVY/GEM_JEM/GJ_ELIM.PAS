@@ -64,21 +64,21 @@ begin
    begin
     if X[I,I]=0 then Nejde:=True;
     if not(Nejde) then begin
-                        { VìpoŸet koeficientu z akt. a "1." ı dku }
+                        { VÃ½poÄet koeficientu z akt. a "1." Å™Ã¡dku }
                         Koef := -( X[J,I] / X[I,I] );
                         for K:=1 to S do
-                         { Koef. se n sob¡ "1." ı. a seŸ¡t  se s akt.ı. }
+                         { Koef. se nÃ¡sobÃ­ "1." Å™. a seÄÃ­tÃ¡ se s akt.Å™. }
                          X[J,K]:=X[I,K]*Koef+X[J,K];
                         Krok:=Krok+1;
                        end;
    end;
 
  if Nejde then begin
-                WriteLn('VìpoŸet byl pıeruçen kv…li nule v dØlen¡ na ',Krok,'. kroku.');
+                WriteLn('VÃ½poÄet byl pÅ™eruÅ¡en kvÅ¯li nule v dÄ›lenÃ­ na ',Krok,'. kroku.');
                 GEM:=False;
                end
           else begin
-                WriteLn('Metoda GEM byla £spØçnØ dokonŸena.');
+                WriteLn('Metoda GEM byla ÃºspÄ›Å¡nÄ› dokonÄena.');
                 GEM:=True;
                end;
 end; { function GEM }
@@ -98,20 +98,20 @@ begin
    begin
     if X[I,I]=0 then Nejde:=True;
     if not(Nejde) then begin
-                        { VìpoŸet koef. z akt. a "posledn¡ho" ı dku }
+                        { VÃ½poÄet koef. z akt. a "poslednÃ­ho" Å™Ã¡dku }
                         Koef := -( X[J,I] / X[I,I] );
                         for K:=1 to S do
-                       { Koef. se n sob¡ "posledn¡m" ı. a seŸ¡t  se s akt.ı. }
+                       { Koef. se nÃ¡sobÃ­ "poslednÃ­m" Å™. a seÄÃ­tÃ¡ se s akt.Å™. }
                          X[J,K]:=X[I,K]*Koef+X[J,K];
                         Krok:=Krok+1;
                        end;
    end;
  if Nejde then begin
-                WriteLn('VìpoŸet byl pıeruçen kv…li nule v dØlen¡ na ',Krok,'. kroku.');
+                WriteLn('VÃ½poÄet byl pÅ™eruÅ¡en kvÅ¯li nule v dÄ›lenÃ­ na ',Krok,'. kroku.');
                 JEM:=False;
                end
           else begin
-                WriteLn('Metoda JEM byla £spØçnØ dokonŸena.');
+                WriteLn('Metoda JEM byla ÃºspÄ›Å¡nÄ› dokonÄena.');
                 JEM:=True;
                end;
 end; { function JEM }
@@ -139,14 +139,14 @@ begin
  Krok:=1;
  Nejde:=False;
 
- { Nulov n¡ vìsledk… }
+ { NulovÃ¡nÃ­ vÃ½sledkÅ¯ }
  for I:=1 to R do
   Y[I]:=0;
 
- { Pro posledn¡ Ÿ¡slo mimo cyklus }
+ { Pro poslednÃ­ ÄÃ­slo mimo cyklus }
  if X[R,S-1] = 0 then begin
                        ZpetnaSub:=False;
-                       WriteLn('VìpoŸet pıeruçen kv…li nule v 1. Ÿlenu !');
+                       WriteLn('VÃ½poÄet pÅ™eruÅ¡en kvÅ¯li nule v 1. Älenu !');
                        Exit;
                       end;
  Y[R]:=X[R,S]/X[R,S-1];
@@ -159,11 +159,11 @@ begin
                                   else Y[I]:= (X[I,S]-Souc)/X[I,I];
                      end;
  if Nejde then begin
-                WriteLn('VìpoŸet byl pıeruçen kv…li nule v dØlen¡ na ',Krok,'. kroku.');
+                WriteLn('VÃ½poÄet byl pÅ™eruÅ¡en kvÅ¯li nule v dÄ›lenÃ­ na ',Krok,'. kroku.');
                 ZpetnaSub:=False;
                end
           else begin
-                WriteLn('Metoda "ZpØtn Substituce" byla £spØçnØ dokonŸena.');
+                WriteLn('Metoda "ZpÄ›tnÃ¡Substituce" byla ÃºspÄ›Å¡nÄ› dokonÄena.');
                 ZpetnaSub:=True;
                end;
 end; { function ZpetnaSub }
@@ -191,14 +191,14 @@ begin
  Krok:=1;
  Nejde:=False;
 
- { Nulov n¡ vìsledk… }
+ { NulovÃ¡nÃ­ vÃ½sledkÅ¯ }
  for I:=1 to R do
   Y[I]:=0;
 
- { Pro prvn¡ Ÿ¡slo mimo cyklus }
+ { Pro prvnÃ­ ÄÃ­slo mimo cyklus }
  if X[1,1] = 0 then begin
                      PrimaSub:=False;
-                     WriteLn('VìpoŸet pıeruçen kv…li nule v 1. Ÿlenu !');
+                     WriteLn('VÃ½poÄet pÅ™eruÅ¡en kvÅ¯li nule v 1. Älenu !');
                      Exit;
                     end;
  Y[1]:=X[1,S]/X[1,1];
@@ -211,11 +211,11 @@ begin
                                   else Y[I]:= (X[I,S]-Souc)/X[I,I];
                      end;
  if Nejde then begin
-                WriteLn('VìpoŸet byl pıeruçen kv…li nule v dØlen¡ na ',Krok,'. kroku.');
+                WriteLn('VÃ½poÄet byl pÅ™eruÅ¡en kvÅ¯li nule v dÄ›lenÃ­ na ',Krok,'. kroku.');
                 PrimaSub:=False;
                end
           else begin
-                WriteLn('Metoda "Pı¡m Substituce" byla £spØçnØ dokonŸena.');
+                WriteLn('Metoda "PÅ™Ã­mÃ¡Substituce" byla ÃºspÄ›Å¡nÄ› dokonÄena.');
                 PrimaSub:=True;
                end;
 end; { function PrimaSub }

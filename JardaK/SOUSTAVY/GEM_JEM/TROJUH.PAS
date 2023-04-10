@@ -53,7 +53,7 @@ var
 begin
  Randomize;
  ClrScr;
- WriteLn('N hodnØ vygenerovan‚ matice:');
+ WriteLn('NÃ¡hodnÄ› vygenerovanÃ© matice:');
  Generuj_Nad(M1);
  Generuj_Pod(M2);
 

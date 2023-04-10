@@ -4,7 +4,7 @@ unit Com_Grph;
 ===========================================================================
 ==========                                                       ==========
 ==========              Gama Software 1996                       ==========
-==========            vytaßeno z GRAFIKA.PAS                     ==========
+==========            vyta≈æeno z GRAFIKA.PAS                     ==========
 ===========================================================================
 
 }
@@ -52,7 +52,7 @@ begin
  InitGraph(GD,GM,'');
  if GraphResult <> grOK then begin
                               WriteLn('Chyba v inicializaci grafiky !');
-                              WriteLn('Patrnÿ nenalezen soubor *.BGI');
+                              WriteLn('Patrnƒõ nenalezen soubor *.BGI');
                               Com_Grph_Init := g_Chyba;
                               Exit;
                              end;
@@ -136,7 +136,7 @@ begin
  TextBackGround(Black);
  ClrScr;
  WriteLn('(c) Gama Software 1996.');
- WriteLn('Kaüer & Hofmann = The best software for everybody.');
+ WriteLn('Kaƒçer & Hofmann = The best software for everybody.');
  NoSound;
  Delay(500);
 end;

@@ -1,64 +1,64 @@
 
- CeloŸ¡seln‚ typy
- ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
-Turbo Pascal obsahuje pØt pıeddefinovanìch celoŸ¡selnìch typ…. Ka§dì typ
-popisuje urŸitou podmno§inu mno§iny celìch Ÿ¡sel.
+ CeloÄÃ­selnÃ© typy
+ â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€
+Turbo Pascal obsahuje pÄ›t pÅ™eddefinovanÃ½ch celoÄÃ­selnÃ½ch typÅ¯. KaÅ¾dÃ½ typ
+popisuje urÄitou podmnoÅ¾inu mnoÅ¾iny celÃ½ch ÄÃ­sel.
 
-  Typ      ³ Rozsah                  ³ Form t
- ÍÍÍÍÍÍÍÍÍÍ³ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ³ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
-  Shortint ³ -128..127               ³ Znam‚nkovì 8-bit…
-  Integer  ³ -32768..32767           ³ Znam‚nkovì 16-bit…
-  Longint  ³ -2147483648..2147483647 ³ Znam‚nkovì 32-bit…
-  Byte     ³ 0..255                  ³ Bez znam‚nka 8-bit…
-  Word     ³ 0..65535                ³ Bez znam‚nka 16-bit…
+  Typ      â”‚ Rozsah                  â”‚ FormÃ¡t
+ â•â•â•â•â•â•â•â•â•â•â”‚â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â”‚â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+  Shortint â”‚ -128..127               â”‚ ZnamÃ©nkovÃ½ 8-bitÅ¯
+  Integer  â”‚ -32768..32767           â”‚ ZnamÃ©nkovÃ½ 16-bitÅ¯
+  Longint  â”‚ -2147483648..2147483647 â”‚ ZnamÃ©nkovÃ½ 32-bitÅ¯
+  Byte     â”‚ 0..255                  â”‚ Bez znamÃ©nka 8-bitÅ¯
+  Word     â”‚ 0..65535                â”‚ Bez znamÃ©nka 16-bitÅ¯
 
-Vçechny celoŸ¡seln‚ typy jsou ordin ln¡ typy.
+VÅ¡echny celoÄÃ­selnÃ© typy jsou ordinÃ¡lnÃ­ typy.
 
-Dalç¡ Ÿtyıi pıeddefinovan‚ typy jsou Boolean, WordBool, LongBool (logick‚
+DalÅ¡Ã­ ÄtyÅ™i pÅ™eddefinovanÃ© typy jsou Boolean, WordBool, LongBool (logickÃ©
 typy) a Char (typ znak).
 
-VìŸtovì typ (enumerated) a interval jsou u§ivatelsky definovan‚ ordin ln¡
+VÃ½ÄtovÃ½ typ (enumerated) a interval jsou uÅ¾ivatelsky definovanÃ© ordinÃ¡lnÃ­
 typy.
 
-S ordin ln¡mi typy mohou pracovat tyto standardn¡ funkce:
+S ordinÃ¡lnÃ­mi typy mohou pracovat tyto standardnÃ­ funkce:
 
  Ord
  Pred
  Succ
 
- Re ln‚ typy
- ßßßßßßßßßßßßßßßßßßßßß
-Re lnì typ obsahuje mno§inu hodnot, kter‚ jsou podmno§inou re lnìch Ÿ¡sel,
-kter‚ mohou bìt reprezentov ny ve form tu pohybliv‚ ı dov‚ Ÿ rky s pevnìm
-poŸtem Ÿ¡slic.
+ ReÃ¡lnÃ© typy
+ â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€â–€
+ReÃ¡lnÃ½ typ obsahuje mnoÅ¾inu hodnot, kterÃ© jsou podmnoÅ¾inou reÃ¡lnÃ½ch ÄÃ­sel,
+kterÃ© mohou bÃ½t reprezentovÃ¡ny ve formÃ¡tu pohyblivÃ© Å™Ã¡dovÃ© ÄÃ¡rky s pevnÃ½m
+poÄtem ÄÃ­slic.
 
-Hodnota Ÿ¡sla v pohybliv‚ ı dov‚ Ÿ rce je tvoıena z tı¡ hodnot, M, B a E,
-takovìch, §e M x B E = N, kde B je v§dy 2, a M i E jsou cel‚ hodnoty v
-rozsahu re ln‚ho typu.
+Hodnota ÄÃ­sla v pohyblivÃ© Å™Ã¡dovÃ© ÄÃ¡rce je tvoÅ™ena z tÅ™Ã­ hodnot, M, B a E,
+takovÃ½ch, Å¾e M x B E = N, kde B je vÅ¾dy 2, a M i E jsou celÃ© hodnoty v
+rozsahu reÃ¡lnÃ©ho typu.
 
-Turbo Pascal obsahuje pØt pıeddefinovanìch typ… Ÿ¡sel v pohybliv‚ ı dov‚
-Ÿ rce. Ka§dì z tØchto typ… m  sv…j specifikovanì rozsah a pıesnost.
+Turbo Pascal obsahuje pÄ›t pÅ™eddefinovanÃ½ch typÅ¯ ÄÃ­sel v pohyblivÃ© Å™Ã¡dovÃ©
+ÄÃ¡rce. KaÅ¾dÃ½ z tÄ›chto typÅ¯ mÃ¡ svÅ¯j specifikovanÃ½ rozsah a pÅ™esnost.
 
-  Typ      ³ Rozsah              ³ ¬¡slic ³ Bajt…
- ÍÍÍÍÍÍÍÍÍÍ³ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ³ÍÍÍÍÍÍÍÍ³ÍÍÍÍÍÍÍÍ
-  real     ³ 2.9e-39..1.7e38     ³ 11-12  ³ 6
-  single   ³ 1.5e-45..3.4e38     ³ 7-8    ³ 4
-  double   ³ 5.0e-324..1.7e308   ³ 15-16  ³ 8
-  extended ³ 3.4e-4932..1.1e4932 ³ 19-20  ³ 10
-  comp     ³ -9.2e18..9.2e18     ³ 19-20  ³ 8
+  Typ      â”‚ Rozsah              â”‚ ÄŒÃ­slic â”‚ BajtÅ¯
+ â•â•â•â•â•â•â•â•â•â•â”‚â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â”‚â•â•â•â•â•â•â•â•â”‚â•â•â•â•â•â•â•â•
+  real     â”‚ 2.9e-39..1.7e38     â”‚ 11-12  â”‚ 6
+  single   â”‚ 1.5e-45..3.4e38     â”‚ 7-8    â”‚ 4
+  double   â”‚ 5.0e-324..1.7e308   â”‚ 15-16  â”‚ 8
+  extended â”‚ 3.4e-4932..1.1e4932 â”‚ 19-20  â”‚ 10
+  comp     â”‚ -9.2e18..9.2e18     â”‚ 19-20  â”‚ 8
 
-Pozn.: Typ comp je 64-bitov‚ cel‚ Ÿ¡slo (integer) v rozsahu od
+Pozn.: Typ comp je 64-bitovÃ© celÃ© ÄÃ­slo (integer) v rozsahu od
 
   (-263 + 1) do (263 - 1).
 
-Turbo Pascal podporuje dva modely generov n¡ k¢du pro re ln‚ typy:
+Turbo Pascal podporuje dva modely generovÃ¡nÃ­ kÃ³du pro reÃ¡lnÃ© typy:
 
- - Softwarovì, {$N-}
- - Hardwarovì 8087, {$N+}
+ - SoftwarovÃ½, {$N-}
+ - HardwarovÃ½ 8087, {$N+}
 
-Direktiva kompil toru $N slou§¡ k pıep¡n n¡ mezi tØmito dvØma modely.
+Direktiva kompilÃ¡toru $N slouÅ¾Ã­ k pÅ™epÃ­nÃ¡nÃ­ mezi tÄ›mito dvÄ›ma modely.
 
-V re§imu $N+, direktiva pıekladaŸe $E ı¡d¡, zda v c¡lov‚m k¢du bude zahrnuta
-softwarov  emulaŸn¡ knihovna 8087.
+V reÅ¾imu $N+, direktiva pÅ™ekladaÄe $E Å™Ã­dÃ­, zda v cÃ­lovÃ©m kÃ³du bude zahrnuta
+softwarovÃ¡ emulaÄnÃ­ knihovna 8087.
 
 

@@ -1,6 +1,6 @@
 { Created by Gas 1995 }
 {
- NapiÁte program, kt. vyhled† maximum/minimum ze seznamu.
+ Napi≈°te program, kt. vyhled√° maximum/minimum ze seznamu.
 }
 program XXX;
 
@@ -13,7 +13,7 @@ begin
  Desktop(Blue,LightGray,#176);
  Ramecek(3,3,78,23,'GAS Pointer Demo',Blue,White,Yellow,#32);
  Window(5,4,76,22);
- Pis('Bude vytvo˝en line†rn° spojovÏ seznam celÏch ü°sel o 20 prvc°ch.',NeMez,JoPip);
+ Pis('Bude vytvo≈ôen line√°rn√≠ spojov√Ω seznam cel√Ωch ƒç√≠sel o 20 prvc√≠ch.',NeMez,JoPip);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
  Seznam:=VytvorSez(20);
  TiskniSez(Seznam);

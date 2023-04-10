@@ -56,7 +56,7 @@ const
       Pomalu = True;
       Rychle = False;
 
-{ Pro osy co jsou v pÖli }
+{ Pro osy co jsou v p≈Øli }
 
 procedure Pip;
 function  DejRozsah(Ceho:String;Min,Max:Integer;X,Y:Integer):Integer;
@@ -68,11 +68,11 @@ procedure SipkaY(X,Y:Integer);
 procedure JednotkyX(X,Y:Integer;KolikX,JednX:ShortInt;Jak:Boolean);
 procedure JednotkyY(X,Y:Integer;KolikY,JednY:ShortInt;Jak:Boolean);
 
-{ Vr†t° real. ü°slo - vÏsledek. Spoüte se k˝°ßem-22 nebo Sarrusem-33 }
+{ Vr√°t√≠ real. ƒç√≠slo - v√Ωsledek. Spoƒçte se k≈ô√≠≈æem-22 nebo Sarrusem-33 }
 function  Dej_Det22(X:Determinant22):Real;
 function  Dej_Det33(X:Determinant33):Real;
 
-{ Spoü°taj° se koeficienty X,Y(,Z) u soustavy o 2(3) rovnic°ch }
+{ Spoƒç√≠taj√≠ se koeficienty X,Y(,Z) u soustavy o 2(3) rovnic√≠ch }
 procedure Dej_Det_XY(A1,B1,C1,A2,B2,C2:Real;var XX,YY:Real);
 procedure Dej_Det_XYZ(A1,B1,C1,D1, A2,B2,C2,D2, A3,B3,C3,D3:Real;
                        var XX,YY,ZZ:Real);
@@ -85,32 +85,32 @@ procedure OsaUsecky(X1,Y1,X2,Y2:ShortInt;Barva:Word;KolikX:ShortInt;X,Y:Integer;
 procedure Primka(X1,Y1,X2,Y2:Real;Barva:Word;KolikX:ShortInt;X,Y:Integer;JednX,JednY:ShortInt);
 function  DejSmernici(A1,B1,C1,A2,B2,C2:Real):Real;
 
-{ Pro vÏpoüet interpolac° }
- { Test pro vÁechny }
+{ Pro v√Ωpoƒçet interpolac√≠ }
+ { Test pro v≈°echny }
 function  JsouRuznyX(Pole:BodyInter;KolikB:Byte):Boolean;
 
  { Lagrangeova }
 function  LagrangeovaInter(X:Real;Kolik:Byte;Pole:BodyInter):Real;
 
- { Newtonova klasick† }
+ { Newtonova klasick√° }
 procedure DejAcka(KolikB:Byte;Body:BodyInter;var Acka:PoleAcek);
 function  NewtonovaInt_Nn(X:Real;KolikB:Byte;Body:BodyInter;Acka:PoleAcek):Real;
 
- { Newtonova metodou pomÿrnÇ diference }
+ { Newtonova metodou pomƒõrn√© diference }
 procedure PD_DejAcka(KolikB:Byte;Body:BodyInter;var Acka:PoleAcek);
 function  PD_NewtonovaInt_Nn(X:Real;KolikB:Byte;Body:BodyInter;Acka:PoleAcek):Real;
 
-{ Metoda nejmenÁ°ch ütvercÖ-line†rn° }
+{ Metoda nejmen≈°√≠ch ƒçtverc≈Ø-line√°rn√≠ }
 procedure DejKoefAB(KolikB:Byte;Pole:BodyInter;var AA,BB:Real);
-{ Metoda nejmenÁ°ch ütvercÖ-kvadratick† }
+{ Metoda nejmen≈°√≠ch ƒçtverc≈Ø-kvadratick√° }
 procedure DejKoefABC(KolikB:Byte;Pole:BodyInter;var AA,BB,CC:Real);
 
-{ Integr†ly }
+{ Integr√°ly }
 procedure Sinusoida(X,Y:Integer;JednX,JednY,KolikX,KolikY:ShortInt;Jak:Boolean);
-{ Simpsonova metoda integr†lÖ}
+{ Simpsonova metoda integr√°l≈Ø}
 procedure Udelej_Krivku(X1,Y1,X2,Y2,X3,Y3:Real;X,Y:Integer;JednX,JednY:ShortInt);
 
-{ Pro frakt†ln° grafiku }
+{ Pro frakt√°ln√≠ grafiku }
 
 procedure FrTrojuhelnik(N:Byte;AX,AY,BX,BY,CX,CY:Integer);
 procedure FrObdelnik(N:Byte;AX,AY,BX,BY,CX,CY,DX,DY:Integer);
@@ -120,7 +120,7 @@ procedure FrObdelnikJednoduch_Iterace(N:Byte;AX,AY:Integer);
 
 procedure FrTrojuhelnik_Mitsubishi(N:Byte;AX,AY,BX,BY,CX,CY:Integer);
 
-{ Pro vlastn° grafiku }
+{ Pro vlastn√≠ grafiku }
 procedure Bod_Otoc(X1,Y1:Real;Alfa:Word;var X2,Y2:Real);
 procedure Bod_Otoc_Draw(S:string;X1,Y1:Real;Alfa:Word;X,Y:Integer;JednX,JednY:ShortInt);
 procedure Osy_Otoc(X,Y:Integer;KolikX,KolikY,JednX,JednY:ShortInt;Alfa:Word);
@@ -130,15 +130,15 @@ procedure Kruznice2(SX,SY,R:Real;X,Y:Integer;JednX,JednY:ShortInt);
 procedure Elipsa(SX,SY,A,B:Real; X,Y:Integer;JednX,JednY:ShortInt);
 procedure Elipsa_Otoc(SX,SY,A,B:Real;Alfa:Word; X,Y:Integer;JednX,JednY:ShortInt);
 
-{ Krußnice parametrizovan† racion†ln°mi funkcemi }
+{ Kru≈ænice parametrizovan√° racion√°ln√≠mi funkcemi }
 procedure Kruznice3(SX,SY,R:Real;X,Y:Integer;JednX,JednY:ShortInt);
 
-{ Hyberbola parametrizovan† racion†ln°mi funkcemi }
+{ Hyberbola parametrizovan√° racion√°ln√≠mi funkcemi }
 procedure Hyperbola(SX,SY,A,B:Real;X,Y:Integer;JednX,JednY:ShortInt);
 
-{ P˝evod bodu z 3D do 2D st˝edovÏm prom°t†n°m }
+{ P≈ôevod bodu z 3D do 2D st≈ôedov√Ωm prom√≠t√°n√≠m }
 procedure Make2D(X,Y,Z:Real;H,D:Real;var XX,YY:Real);
-{ Nakresli libovolnÏ Áestistÿn ve 3D }
+{ Nakresli libovoln√Ω ≈°estistƒõn ve 3D }
 procedure Kresli6Sten3D(Co:T6Sten;H,D:Real;X,Y:Integer;JednX,JednY:ShortInt);
 
 
@@ -183,11 +183,11 @@ begin
   if Ord(Znak)=13 then Vypal:=True
                   else begin
                         case Znak of
-                         #72:begin    { Áipka nahoru }
+                         #72:begin    { ≈°ipka nahoru }
                               Inc(Pom);
                               if Pom>Max then Pom:=Min;
                              end;
-                         #80:begin    { Áipka dolu }
+                         #80:begin    { ≈°ipka dolu }
                               Dec(Pom);
                               if Pom<Min then Pom:=Max;
                              end;
@@ -244,11 +244,11 @@ begin
   if Ord(Znak)=13 then Vypal:=True
                   else begin
                         case Znak of
-                         #72:begin    { Áipka nahoru }
+                         #72:begin    { ≈°ipka nahoru }
                               Inc(Pom,2);
                               if Pom>Max then Pom:=Min;
                              end;
-                         #80:begin    { Áipka dolu }
+                         #80:begin    { ≈°ipka dolu }
                               Dec(Pom,2);
                               if Pom<Min then Pom:=Max;
                              end;
@@ -382,13 +382,13 @@ begin
 end;
 
 function Dej_Det22(X:Determinant22):Real;
-{ Jenom k˝°ßem z LH do PD = +  a pak z PH do LD = - }
+{ Jenom k≈ô√≠≈æem z LH do PD = +  a pak z PH do LD = - }
 begin
  Dej_Det22:=( X[1,1] * X[2,2] )-( X[1,2] * X[2,1] );
 end;
 
 function  Dej_Det33(X:Determinant33):Real;
-{ Pomoc° Sarrusova pravidla }
+{ Pomoc√≠ Sarrusova pravidla }
 begin
  Dej_Det33 := +( X[1,1] * X[2,2] * X[3,3] )
               +( X[2,1] * X[3,2] * X[1,3] )
@@ -435,7 +435,7 @@ procedure Dej_Det_XYZ(A1,B1,C1,D1, A2,B2,C2,D2, A3,B3,C3,D3:Real;
 var Det:           Determinant33;
     D,DX,DY,DZ:    Real;
 begin
- { Norm†ln° naplnÿn° }
+ { Norm√°ln√≠ naplnƒõn√≠ }
  Det[1,1]:=A1;
  Det[1,2]:=B1;
  Det[1,3]:=C1;
@@ -453,27 +453,27 @@ begin
               Exit;
              end;
 
- { Do 1. sloupce ü°sla z pravÏ strany }
+ { Do 1. sloupce ƒç√≠sla z prav√Ω strany }
  Det[1,1]:=D1;
  Det[2,1]:=D2;
  Det[3,1]:=D3;
  DX:=Dej_Det33(Det);
 
- { Do 1. sloupce pÖvodn° hodnoty }
+ { Do 1. sloupce p≈Øvodn√≠ hodnoty }
  Det[1,1]:=A1;
  Det[2,1]:=A2;
  Det[3,1]:=A3;
- { Do 2. sloupce ü°sla z pravÏ strany }
+ { Do 2. sloupce ƒç√≠sla z prav√Ω strany }
  Det[1,2]:=D1;
  Det[2,2]:=D2;
  Det[3,2]:=D3;
  DY:=Dej_Det33(Det);
 
- { Do 2. sloupce pÖvodn° hodnoty }
+ { Do 2. sloupce p≈Øvodn√≠ hodnoty }
  Det[1,2]:=B1;
  Det[2,2]:=B2;
  Det[3,2]:=B3;
- { Do 3. sloupce ü°sla z pravÏ strany }
+ { Do 3. sloupce ƒç√≠sla z prav√Ω strany }
  Det[1,3]:=D1;
  Det[2,3]:=D2;
  Det[3,3]:=D3;
@@ -515,10 +515,10 @@ end;
 
 procedure DejObecRci(X1,Y1,X2,Y2:Real;var A,B,C:Real);
 begin
- { Smÿrovej vektor £seüky do obecnÏho ˝eÁen° }
+ { Smƒõrovej vektor √∫seƒçky do obecn√Ωho ≈ôe≈°en√≠ }
  A:=-(Y2-Y1);
  B:=X2-X1;
- { C se dopoü°t† z A,B a jednoho krajn°ho bodu }
+ { C se dopoƒç√≠t√° z A,B a jednoho krajn√≠ho bodu }
  C:=-A*X1-B*Y1;
 end;
 
@@ -532,7 +532,7 @@ var SX,SY:   Real;
 begin
  DejStred(X1,Y1,X2,Y2,SX,SY);
 
- { Smÿrovej vektor £seüky = norm†lovej osy }
+ { Smƒõrovej vektor √∫seƒçky = norm√°lovej osy }
  A:=X2-X1;
  B:=Y2-Y1;
 
@@ -613,7 +613,7 @@ end;
 
 
 {
- LagrangeÖv interpolaün° polynom :
+ Lagrange≈Øv interpolaƒçn√≠ polynom :
 
         n
  Ln(x)=S  f(xi)*li(x)
@@ -661,26 +661,26 @@ begin
 end;
 
 {
- NewtonÖv interpolaün° polynom :
+ Newton≈Øv interpolaƒçn√≠ polynom :
 
  Nn(x) = a0 + a1(x-x0) + a2(x-x0)(x-x1) + a3(x-x0)(x-x1)(x-x2) +
          + an(x-x0)(x-x1)*...*(x-xn-1)
 
 
- Nutno vypoü°tat †üka.
+ Nutno vypoƒç√≠tat √°ƒçka.
 
  a0 = f(x0)
  a1 = ( f(x1)-a0 )/(x1-x0)
  a2 = ( f(x2)-a0-a1(x2-x0) )/(x2-x0)(x2-x1)
 
- Vych†z° to NIP => algoritmus p˝°mÇ substituce.
+ Vych√°z√≠ to NIP => algoritmus p≈ô√≠m√© substituce.
 }
 
 procedure DejAcka(KolikB:Byte;Body:BodyInter;var Acka:PoleAcek);
 var I,J:Byte;
     Pom:Real;
 begin
- for I:=0 to 14 do  { nulov†n° }
+ for I:=0 to 14 do  { nulov√°n√≠ }
   Acka[I]:=0;
 
  Acka[0]:=Body[0].Y;   { pro y0 }
@@ -690,13 +690,13 @@ begin
    Acka[I]:=Body[I].Y-Acka[0]; { yi - a0 } { Todle je jenom pro a1 }
    Pom:=Body[I].X-Body[0].X;   { xi - x0 }
 
-   for J:=1 to I-1 do    { pracuje aß od a2 }
+   for J:=1 to I-1 do    { pracuje a≈æ od a2 }
     begin
-     Acka[I]:=Acka[I]-Acka[J]*Pom;  { p˝evede na druhou stranu a*z†vorka }
-     Pom:=Pom*(Body[I].X-Body[J].X);{ p˝id† dalÁ° z†vorku }
+     Acka[I]:=Acka[I]-Acka[J]*Pom;  { p≈ôevede na druhou stranu a*z√°vorka }
+     Pom:=Pom*(Body[I].X-Body[J].X);{ p≈ôid√° dal≈°√≠ z√°vorku }
     end; { for J }
 
-   Acka[I]:=Acka[I]/Pom; { vydÿl° vÁema dolejÁ°ma z†vorkama }
+   Acka[I]:=Acka[I]/Pom; { vydƒõl√≠ v≈°ema dolej≈°√≠ma z√°vorkama }
   end; { for I }
 
 end;
@@ -717,18 +717,18 @@ end;
 
 {
 
- f[x0] = f(x0) = y0            - pom. dif. 0. ˝†du
+ f[x0] = f(x0) = y0            - pom. dif. 0. ≈ô√°du
 
 
               f[x1] - f[x0]
- f[x0,x1] = ----------------   - pom. dif. 1. ˝†du
+ f[x0,x1] = ----------------   - pom. dif. 1. ≈ô√°du
                 x1  -   x0
 
 
                  f(x2) - f(x1)       f(x1) - f(x0)
                 ---------------  -  ---------------
                    x2  -   x1          x1  -   x0
- f[x0,x1,x2] = -------------------------------------  - pom. dif. 2. ˝†du
+ f[x0,x1,x2] = -------------------------------------  - pom. dif. 2. ≈ô√°du
                        x2        -         x0
 
 }
@@ -779,15 +779,15 @@ var
     PD:      PoleProPD;
 begin
  NulujPolePD(PD);
- { NultÇ sloupce PD = 0. pomÿrnÇ dif. = y0...y14 }
+ { Nult√© sloupce PD = 0. pomƒõrn√© dif. = y0...y14 }
  for I:=0 to 14 do
   PD[I,0]:=Body[I].Y;
- { VÏpoüet pomÿrnÏma difer. do troj£heln°ku, ho˝ejÁek - to je jedno }
- { TrojÖh se rozÁi˝uje }
+ { V√Ωpoƒçet pomƒõrn√Ωma difer. do troj√∫heln√≠ku, ho≈ôej≈°ek - to je jedno }
+ { Troj≈Øh se roz≈°i≈ôuje }
  for I:=0 to KolikB-1 do
   for J:=1 to I do
    PD[I,J]:=(PD[I,J-1]-PD[I-1,J-1])/(Body[I].X-Body[I-J].X);
- { Naplnÿn° †üek £klop˝°ükou z LevaHore do PravaDole }
+ { Naplnƒõn√≠ √°ƒçek √∫klop≈ô√≠ƒçkou z LevaHore do PravaDole }
  for I:=0 to KolikB-1 do
   Acka[I]:=PD[I,I];
 end;
@@ -795,12 +795,12 @@ end;
 {
  Nn = a0 + a1(x-x0) + a2(x-x0)(x-x1) + a3(x-x0)(x-x1)(x-x2) + .....
       ..... + an(x-x0)(x-x1)...(x-xn-1)
- Postupnÿ se vytÏk† p˝ed z†vorku, co je moßnÇ =
- = postupnÿ pro n    prvkÖ (x-x0),
-   pak      pro n-1  prvkÖ (x-x1),
-   pak      pro n-2  prvkÖ (x-x2)....
+ Postupnƒõ se vyt√Ωk√° p≈ôed z√°vorku, co je mo≈æn√© =
+ = postupnƒõ pro n    prvk≈Ø (x-x0),
+   pak      pro n-1  prvk≈Ø (x-x1),
+   pak      pro n-2  prvk≈Ø (x-x2)....
 
- Z toho se odvod° algoritmus:
+ Z toho se odvod√≠ algoritmus:
  H = an
  pro I = n-1,n-2,n-3,...,1,0
   H = H(x-xI) + aI
@@ -854,7 +854,7 @@ begin
  until RX2>KolikX;
 end;
 
-{ Pro Simpsonovo pravidlo - vykresl° kv. k˝ivku na jednom d°lku }
+{ Pro Simpsonovo pravidlo - vykresl√≠ kv. k≈ôivku na jednom d√≠lku }
 procedure Udelej_Krivku(X1,Y1,X2,Y2,X3,Y3:Real;X,Y:Integer;JednX,JednY:ShortInt);
 
           {*****************************************************************}
@@ -887,7 +887,7 @@ begin
 
 
  Prepocti(X1,0,PX1,StredY,X,Y,JednX,JednY);
- { X1 a PX1 to nevad° }
+ { X1 a PX1 to nevad√≠ }
  RX1:=X1;
  RY1:=Y1;
 
@@ -967,7 +967,7 @@ begin
   aD+bB=F
 }
 
- { Vr†t° ˝eÁen° soustavy 2 rovnic v AA a BB }
+ { Vr√°t√≠ ≈ôe≈°en√≠ soustavy 2 rovnic v AA a BB }
  Dej_Det_XY(A,D,E,D,B,F,AA,BB);
 end;
 
@@ -1043,7 +1043,7 @@ begin
   aF + bH + cC = J
 }
 
- { Vr†t° ˝eÁen° soustavy 3 rovnic v AA,BB a CC }
+ { Vr√°t√≠ ≈ôe≈°en√≠ soustavy 3 rovnic v AA,BB a CC }
  Dej_Det_XYZ(A,E,F,G,E,B,H,I,F,H,C,J,AA,BB,CC);
 end;
 
@@ -1191,7 +1191,7 @@ end; { procedure FrTrojuhelnik_Mitsubishi }
 
 procedure Bod_Otoc(X1,Y1:Real;Alfa:Word;var X2,Y2:Real);
 var
-     Uhel:      Real;    { V radi†nech }
+     Uhel:      Real;    { V radi√°nech }
 begin
  Uhel := (PI*Alfa) / 180;
 
@@ -1201,11 +1201,11 @@ end; { procedure Bod_Otoc }
 
 procedure Bod_Otoc_Draw(S:string;X1,Y1:Real;Alfa:Word;X,Y:Integer;JednX,JednY:ShortInt);
 var
-     PX,PY:     Integer; { KoneünÏ body na obrazovce }
-     X2,Y2:     Real;    { P˝epoü°tanÏ body na starÏ sou˝adnice }
-     Uhel:      Real;    { V radi†nech }
+     PX,PY:     Integer; { Koneƒçn√Ω body na obrazovce }
+     X2,Y2:     Real;    { P≈ôepoƒç√≠tan√Ω body na star√Ω sou≈ôadnice }
+     Uhel:      Real;    { V radi√°nech }
 
-     OX,OY:     Real;    { To samÏ pro ü†ry k ose - kolmice }
+     OX,OY:     Real;    { To sam√Ω pro ƒç√°ry k ose - kolmice }
      POX,POY:   Integer;
 begin
  Bod_Otoc(X1,Y1,Alfa,X2,Y2);
@@ -1233,9 +1233,9 @@ end; { procedure Bod_Otoc_Draw }
 
 procedure Osy_Otoc(X,Y:Integer;KolikX,KolikY,JednX,JednY:ShortInt;Alfa:Word);
 var
-     PX,PY:     Integer; { KoneünÏ body na obrazovce }
-     X2,Y2:     Real;    { P˝epoü°tanÏ body na starÏ sou˝adnice }
-     Uhel:      Real;    { V radi†nech }
+     PX,PY:     Integer; { Koneƒçn√Ω body na obrazovce }
+     X2,Y2:     Real;    { P≈ôepoƒç√≠tan√Ω body na star√Ω sou≈ôadnice }
+     Uhel:      Real;    { V radi√°nech }
 
      JX1,JX2,
      JY1,JY2:   Real;    { Pro jednotky }
@@ -1335,7 +1335,7 @@ var
 begin
  for I:=1 to 3600 do
   begin
-   Uhel := ((PI*I)/180)/10;   { trik - na 1 stupeÂ 10 teüek }
+   Uhel := ((PI*I)/180)/10;   { trik - na 1 stupe≈à 10 teƒçek }
    XX := SX + R*Cos(Uhel);
    YY := SY + R*Sin(Uhel);
    Prepocti(XX,YY,PX,PY,X,Y,JednX,JednY);
@@ -1348,13 +1348,13 @@ var
       Beta:        Real;
       Uhel:        Real;
 
-      OldX,OldY,            { StarÏ a novÏ hodnoty }
+      OldX,OldY,            { Star√Ω a nov√Ω hodnoty }
       NewX,NewY:   Real;
 
       POX,POY,
-      PNX,PNY:     Integer; { P˝epoüty na pixely }
+      PNX,PNY:     Integer; { P≈ôepoƒçty na pixely }
 
-      BX1,BX2,              { St˝ed nen° v 0,0 }
+      BX1,BX2,              { St≈ôed nen√≠ v 0,0 }
       BY1,BY2:     Real;
       I:           Integer;
 begin
@@ -1363,7 +1363,7 @@ begin
  Beta:=3;
  Uhel := ((PI*Beta)/180);
 
- { Nep˝iü°tat st˝ed !!!! }
+ { Nep≈ôiƒç√≠tat st≈ôed !!!! }
  OldX:=R;
  OldY:=0;
 
@@ -1373,8 +1373,8 @@ begin
    NewX := OldX*Cos(Uhel) - OldY*Sin(Uhel);
    NewY := OldY*Cos(Uhel) + OldX*Sin(Uhel);
 
-   { St˝ed se p˝iüte aß tady - jenom na kreslen°, }
-   { v dalÁ°m cyklu se s n°m zase nepoü°t† }
+   { St≈ôed se p≈ôiƒçte a≈æ tady - jenom na kreslen√≠, }
+   { v dal≈°√≠m cyklu se s n√≠m zase nepoƒç√≠t√° }
    BX1:=OldX+SX;
    BX2:=NewX+SX;
    BY1:=OldY+SY;
@@ -1428,7 +1428,7 @@ var
 begin
  for I:=1 to 3600 do
   begin
-   Uhel := ((PI*I)/180)/10;   { trik - na 1 stupeÂ 10 teüek }
+   Uhel := ((PI*I)/180)/10;   { trik - na 1 stupe≈à 10 teƒçek }
    XX := SX + A*Cos(Uhel);
    YY := SY + B*Sin(Uhel);
    Prepocti(XX,YY,PX,PY,X,Y,JednX,JednY);
@@ -1441,13 +1441,13 @@ procedure Elipsa_Otoc(SX,SY,A,B:Real;Alfa:Word; X,Y:Integer;JednX,JednY:ShortInt
 var
       Uhel:     Real;
       XX,YY:    Real;
-      OX,OY:    Real; { P˝etoüenÏ }
+      OX,OY:    Real; { P≈ôetoƒçen√Ω }
       PX,PY:    Integer;
       I:        Integer;
 begin
  for I:=1 to 3600 do
   begin
-   Uhel := ((PI*I)/180)/10;   { trik - na 1 stupeÂ 10 teüek }
+   Uhel := ((PI*I)/180)/10;   { trik - na 1 stupe≈à 10 teƒçek }
    XX := SX + A*Cos(Uhel);
    YY := SY + B*Sin(Uhel);
    Bod_Otoc(XX,YY,Alfa,OX,OY);
@@ -1471,15 +1471,15 @@ begin
  for I:= -1000 to 1000 do
   begin
    XX := R * ( (1-Sqr(I/1000)) / (1+Sqr(I/1000)) ); { POZOR /1000 }
-   XX := XX + SX; { St˝ed nen° v 0 }
+   XX := XX + SX; { St≈ôed nen√≠ v 0 }
 
    YY := R * ( (2*I/1000) / (1+Sqr(I/1000)) );      { POZOR /1000 }
-   YY := YY + SY; { St˝ed nen° v 0 }
+   YY := YY + SY; { St≈ôed nen√≠ v 0 }
 
    Prepocti(XX,YY,PX,PY,X,Y,JednX,JednY);
    PutPixel(PX,PY,Red);
 
-   { St˝edov† soumÿrnost pro 2. pÖlku }
+   { St≈ôedov√° soumƒõrnost pro 2. p≈Ølku }
    PX := PX - 2*(PX-SPX);
    PY := PY - 2*(PY-SPY);
    PutPixel(PX,PY,Red);
@@ -1489,17 +1489,17 @@ end; { procedure Kruznice3 }
 procedure Hyperbola(SX,SY,A,B:Real;X,Y:Integer;JednX,JednY:ShortInt);
 var
       XX,YY:    Real;
-      SPX,SPY:  Integer; { St˝ed }
-      { 1. pÖlka }
+      SPX,SPY:  Integer; { St≈ôed }
+      { 1. p≈Ølka }
       PX1,PY1:  Integer;
       PX2,PY2:  Integer;
-      { 2. pÖlka }
+      { 2. p≈Ølka }
       PX3,PY3:  Integer;
       PX4,PY4:  Integer;
       { To by byly nuly ve jmenovateli }
       T_Dole,
       T_Nahore,
-      Pom:      Real;  { Slouß° i jako promÿnn† cyklu }
+      Pom:      Real;  { Slou≈æ√≠ i jako promƒõnn√° cyklu }
 begin
  T_Dole   := -B/A;
  T_Nahore := +B/A;
@@ -1517,21 +1517,21 @@ begin
  Pom:=T_Dole+0.01;
  repeat
   XX := -A + ( (2*A*Sqr(B)) / ( Sqr(B)-(Sqr(A)*Sqr(Pom)) ) );
-  XX := XX + SX; { St˝ed nen° v 0 }
+  XX := XX + SX; { St≈ôed nen√≠ v 0 }
 
   YY := ( Pom * 2*A*Sqr(B) ) / (Sqr(B)-(Sqr(A)*Sqr(Pom)));
-  YY := YY + SY; { St˝ed nen° v 0 }
+  YY := YY + SY; { St≈ôed nen√≠ v 0 }
 
   Prepocti(XX,YY,PX2,PY2,X,Y,JednX,JednY);
-  { PoprvÏ nezn†me PX1 a PY1 }
+  { Poprv√Ω nezn√°me PX1 a PY1 }
   if Pom>(T_Dole+0.01) then Line(PX1,PY1,PX2,PY2);
   PX1:=PX2;
   PY1:=PY2;
 
-  { St˝edov† soumÿrnost pro 2. pÖlku }
+  { St≈ôedov√° soumƒõrnost pro 2. p≈Ølku }
   PX4 := PX2 - 2*(PX2-SPX);
   PY4 := PY2 - 2*(PY2-SPY);
-  { PoprvÏ nezn†me PX3 a PY3 }
+  { Poprv√Ω nezn√°me PX3 a PY3 }
   if Pom>(T_Dole+0.01) then Line(PX3,PY3,PX4,PY4);
   PX3:=PX4;
   PY3:=PY4;
@@ -1549,22 +1549,22 @@ end; { procedure Make2D }
 
 {
  d...distance
- h...vÏÁka horizontu
+ h...v√Ω≈°ka horizontu
 
  S [ 0, -d, h ]      X`[ X`,  Y`, Z` ]
 
- X = S + t(X`-S)  ---> p˝°mka p
+ X = S + t(X`-S)  ---> p≈ô√≠mka p
 
  x = 0 + t(X`-0)
  y = d + t(Y`+d) ---------------------+
  z = h + t(Z`-h)                      +               d
                                       +-----> t = ---------  ===+
- Y = 0 protoße je to v prÖmÿtnÿ ------+            Y` + d       ∫
-                                                                ∫
-                                                                ∫
+ Y = 0 proto≈æe je to v pr≈Ømƒõtnƒõ ------+            Y` + d       ‚ïë
+                                                                ‚ïë
+                                                                ‚ïë
  +==============================================================+
- ∫
- ∫                                    d
+ ‚ïë
+ ‚ïë                                    d
  +==> X = 0 + t(X`-0)  =  tX`  =  --------- X`
                                    Y` + d
 
@@ -1638,7 +1638,7 @@ end. { unit Grafika }
 (*
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
- Zde jsou p˝ebytenÏ procedury a fce nebo ty co se nepovedly
+ Zde jsou p≈ôebyten√Ω procedury a fce nebo ty co se nepovedly
 
                       Je to natvrdo
 
@@ -1699,7 +1699,7 @@ begin
  NewtonovaInter:=Pom;
 end;
 
- Pro osy co nejsou v pÖli
+ Pro osy co nejsou v p≈Øli
 
 
 p DejPocatek(X,Y:Integer;JednX,JednY,MinX,MaxX,MinY,MaxY:ShortInt;var PocX,PocY:Integer);
@@ -1718,9 +1718,9 @@ p NewZanesBod(S:String;PX,PY:Integer;X,Y:Integer;PocX,PocY:Integer);
 procedure DejPocatek(X,Y:Integer;JednX,JednY,MinX,MaxX,MinY,MaxY:ShortInt;var PocX,PocY:Integer);
 begin
  PocX:=(X div 2)-(JednX* ( Abs(MaxX)-Abs(MinX) ) );
-       PÖlka     jednotky   posun poü†tku
+       P≈Ølka     jednotky   posun poƒç√°tku
  PocY:=(Y div 2)-(JednY* ( Abs(MaxY)-Abs(MinY) ) );
-       PÖlka     jednotky   posun poü†tku
+       P≈Ølka     jednotky   posun poƒç√°tku
 end;
 
 procedure NewOsaX(X,Y,PocY:Integer);

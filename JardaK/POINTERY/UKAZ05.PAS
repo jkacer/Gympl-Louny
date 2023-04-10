@@ -1,10 +1,10 @@
 { Created by Gas 1995 }
 {
- Napiçte program, kt. pıeŸte ze vstup. txt souboru zadanou posloupnost
- znak… a vytvoı¡ 2 spojov‚ seznamy znak…. Prvn¡ bude obs. vçechna velk 
- p¡smena angl. abecedy ve stejn‚m poıad¡, jako byla zad na.
- Do druh‚ho seznamu se ulo§¡ vçechny Ÿ¡slice v opaŸn‚m poıad¡,
- ne§ byly zad ny.
+ NapiÅ¡te program, kt. pÅ™eÄte ze vstup. txt souboru zadanou posloupnost
+ znakÅ¯ a vytvoÅ™Ã­ 2 spojovÃ© seznamy znakÅ¯. PrvnÃ­ bude obs. vÅ¡echna velkÃ¡
+ pÃ­smena angl. abecedy ve stejnÃ©m poÅ™adÃ­, jako byla zadÃ¡na.
+ Do druhÃ©ho seznamu se uloÅ¾Ã­ vÅ¡echny ÄÃ­slice v opaÄnÃ©m poÅ™adÃ­,
+ neÅ¾ byly zadÃ¡ny.
 }
 program XXX;
 
@@ -21,31 +21,31 @@ begin
  Desktop(Blue,LightGray,#176);
  Ramecek(3,3,78,23,'GAS Pointer & Object Demo',Blue,White,Yellow,#32);
  Window(5,4,76,22);
- Pis('Budou vytvoıeny 2 seznamy znak… ze souboru '+JmenoS+'.',NeMez,NePip);
- Pis('1.seznam: velk  p¡smena.',                             NeMez,NePip);
- Pis('2.seznam: Ÿ¡slice.',                                   NeMez,NePip);
- Pis('2.seznam bude pot‚ pıehozen od zaŸ tku do konce.',     NeMez,NePip);
+ Pis('Budou vytvoÅ™eny 2 seznamy znakÅ¯ ze souboru '+JmenoS+'.',NeMez,NePip);
+ Pis('1.seznam: velkÃ¡ pÃ­smena.',                             NeMez,NePip);
+ Pis('2.seznam: ÄÃ­slice.',                                   NeMez,NePip);
+ Pis('2.seznam bude potÃ© pÅ™ehozen od zaÄÃ¡tku do konce.',     NeMez,NePip);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
  Pismena:=New(PCharSeznam,Init(JmenoS,65,90));
  Cisla  :=New(PCharSeznam,Init(JmenoS,48,57));
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 
- Pismena^.Tisk('Seznam p¡smen:');
- Cisla^.Tisk('Seznam Ÿ¡sel:');
+ Pismena^.Tisk('Seznam pÃ­smen:');
+ Cisla^.Tisk('Seznam ÄÃ­sel:');
  WriteLn('==== Enter ====');
  ReadLn;
 
- Pis('HraniŸn¡ znaky obou seznam…,poŸty polo§ek a n zvy soubor…:',NeMez,NePip);
- Pis('Prvn¡: MIN="'+Chr(Pismena^.GetMin)+'" , MAX="'+Chr(Pismena^.GetMax)+'".',NeMez,NePip);
+ Pis('HraniÄnÃ­ znaky obou seznamÅ¯,poÄty poloÅ¾ek a nÃ¡zvy souborÅ¯:',NeMez,NePip);
+ Pis('PrvnÃ­: MIN="'+Chr(Pismena^.GetMin)+'" , MAX="'+Chr(Pismena^.GetMax)+'".',NeMez,NePip);
  Pis('Druhy: MIN="'+Chr(Cisla^.GetMin)  +'" , MAX="'+Chr(Cisla^.GetMax)  +'".',NeMez,NePip);
  Str(Pismena^.GetPocet,S);
- Pis('Prvn¡: '+S+' polo§ek.',NeMez,NePip);
+ Pis('PrvnÃ­: '+S+' poloÅ¾ek.',NeMez,NePip);
  Str(Cisla^.GetPocet,S);
- Pis('Druhì: '+S+' polo§ek.',NeMez,NePip);
- Pis('Prvn¡ je nata§en ze souboru '+Pismena^.GetJmeno+'.',NeMez,NePip);
- Pis('Druhì je nata§en ze souboru '+Cisla^.GetJmeno+'.',NeMez,NePip);
+ Pis('DruhÃ½: '+S+' poloÅ¾ek.',NeMez,NePip);
+ Pis('PrvnÃ­ je nataÅ¾en ze souboru '+Pismena^.GetJmeno+'.',NeMez,NePip);
+ Pis('DruhÃ½ je nataÅ¾en ze souboru '+Cisla^.GetJmeno+'.',NeMez,NePip);
  Cisla^.Prehod;
- Cisla^.Tisk('Seznam Ÿ¡sel po pıehozen¡:');
+ Cisla^.Tisk('Seznam ÄÃ­sel po pÅ™ehozenÃ­:');
 
  Dispose(Pismena,Done);
  Dispose(Cisla,Done);

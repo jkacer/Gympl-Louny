@@ -1,7 +1,7 @@
 { Created by GAS 1995 }
 {
- NaleznØte vçechny PYTHAGOREJSK troj£heln¡ky,
- jejich§ vçechny 3 strany jsou menç¡ ne§ dan‚ N.
+ NaleznÄ›te vÅ¡echny PYTHAGOREJSKÃ‰ trojÃºhelnÃ­ky,
+ jejichÅ¾ vÅ¡echny 3 strany jsou menÅ¡Ã­ neÅ¾ danÃ© N.
 }
 
 program XXX;
@@ -13,8 +13,8 @@ var I,J,K:Integer;
 
 begin
  ClrScr;
- WriteLn('Budou vyps ny vçechny pythagorejsk‚ troj£heln¡ky,');
- WriteLn('jejich§ vçechny 3 strany jsou menç¡ ne§ N.');
+ WriteLn('Budou vypsÃ¡ny vÅ¡echny pythagorejskÃ© trojÃºhelnÃ­ky,');
+ WriteLn('jejichÅ¾ vÅ¡echny 3 strany jsou menÅ¡Ã­ neÅ¾ N.');
  Write('N ? (max. 32767) ');
  ReadLn(N);
 

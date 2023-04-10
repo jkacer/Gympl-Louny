@@ -1,9 +1,9 @@
 {
- BOOLEAN - p˝°klad 02
+ BOOLEAN - p≈ô√≠klad 02
 }
 
 {
- Urüete hodnoty:
+ Urƒçete hodnoty:
    Ord (True)
    Ord (False)
 
@@ -25,11 +25,11 @@ begin
  WriteLn('Ord (True)  = ',Ord (True)   );
  WriteLn('Ord (False) = ',Ord (False)  );
 
- WriteLn('Succ (True) = ',Succ (True),'  ???' ); { Nemÿlo by bÏt definov†no }
+ WriteLn('Succ (True) = ',Succ (True),'  ???' ); { Nemƒõlo by b√Ωt definov√°no }
  WriteLn('Succ (False)= ',Succ (False) );
 
  WriteLn('Pred (True) = ',Pred (True)  );
- WriteLn('Pred (False)= ',Pred (False),' ???' ); { Nemÿlo by bÏt definov†no }
+ WriteLn('Pred (False)= ',Pred (False),' ???' ); { Nemƒõlo by b√Ωt definov√°no }
 
  ReadLn;
 end.

@@ -11,7 +11,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  {$I+}
@@ -28,6 +28,6 @@ begin
    until Kde<1;
   end;
  Close(F);
- WriteLn('V souboru se ýetØzec ''PEPES'' vyskytuje ',K,'-kr t.');
+ WriteLn('V souboru se Å™etÄ›zec ''PEPES'' vyskytuje ',K,'-krÃ¡t.');
  ReadLn;
 end.

@@ -41,7 +41,7 @@ var GD,GM:   Integer;
 
     A1,B1,C1,
     A2,B2,C2,
-    A3,B3,C3:Real; { Pro ob. rovnice os £seŸek troj. }
+    A3,B3,C3:Real; { Pro ob. rovnice os ÃºseÄek troj. }
 
     K1,K2,K3,
     Q1,Q2,Q3:Real;
@@ -79,7 +79,7 @@ begin
     ( (BX1=BX3) and (BY1=BY3) ) or
     ( (BX3=BX2) and (BY3=BY2) ) then
      begin
-      OutTextXY(X div 2,Y div 2,'æpatnØ zadan  Ÿ¡sla !');
+      OutTextXY(X div 2,Y div 2,'Å patnÄ› zadanÃ¡ ÄÃ­sla !');
       ReadLn;
       GoTo 1;
      end;
@@ -141,8 +141,8 @@ begin
  if BY2>NejVY then NejVY:=BY2;
  if BY3>NejVY then NejVY:=BY3;
 
- { TeÔ se najde, kterej ze stýed… le§¡ mezi nejkrajnØjç¡ma
-   bodama troj£heln¡ku. Dalç¡ dva le§ej dycky venku. }
+ { TeÄ se najde, kterej ze stÅ™edÅ¯ leÅ¾Ã­ mezi nejkrajnÄ›jÅ¡Ã­ma
+   bodama trojÃºhelnÃ­ku. DalÅ¡Ã­ dva leÅ¾ej dycky venku. }
 
  if (SX1>NejMX) and (SX1<NejVX) and
     (SY1>NejMY) and (SY1<NejVY)
@@ -167,8 +167,8 @@ begin
  SetLineStyle(SolidLn,0,ThickWidth);
  SetColor(Red);
 
- { Klasickej vìpoŸet vzd lenosti bodu od pý¡mky
-   pomoc¡ obecnì rovnice pý¡mky }
+ { Klasickej vÃ½poÄet vzdÃ¡lenosti bodu od pÅ™Ã­mky
+   pomocÃ­ obecnÃ½ rovnice pÅ™Ã­mky }
  R:=Abs((KonSX*A1+KonSY*B1+C1)/Sqrt(Sqr(A1)+Sqr(B1)));
  Ellipse(PX2,PY2,0,360,Round(R*JednX),Round(R*JednY));
 

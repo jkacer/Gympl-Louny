@@ -9,7 +9,7 @@ var
 
 begin
  ClrScr;
- WriteLn('Soustava 2 rovnic o 2 nezn mìch.');
+ WriteLn('Soustava 2 rovnic o 2 neznÃ¡mÃ½ch.');
  WriteLn('X1 + Y1 = Z1');
  WriteLn('X2 + Y2 = Z2');
 
@@ -23,13 +23,13 @@ begin
 
  Res_Sous2(S,DX,DY,D);
  if D<>0 then begin
-               WriteLn('Soustava je regul rn¡.');
+               WriteLn('Soustava je regulÃ¡rnÃ­.');
                WriteLn('X = ',(DX/D):6:4,' ,  Y = ',(DY/D):6:4);
               end
          else begin
-               Write('Soustava je singul rn¡ ');
-               if (DX=0)and(DY=0) then WriteLn('a m  nekoneŸnØ ıeçen¡.')
-                                  else WriteLn('a nem  § dn‚ ıeçen¡.');
+               Write('Soustava je singulÃ¡rnÃ­ ');
+               if (DX=0)and(DY=0) then WriteLn('a mÃ¡ nekoneÄnÄ› Å™eÅ¡enÃ­.')
+                                  else WriteLn('a nemÃ¡ Å¾Ã¡dnÃ© Å™eÅ¡enÃ­.');
               end;
  ReadLn;
 end.

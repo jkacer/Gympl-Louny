@@ -11,7 +11,7 @@ var
      Levelu: Byte;
 begin
  ClrScr;
- Write('Kolik vnoýen¡ ? <1,256> ');
+ Write('Kolik vnoÅ™enÃ­ ? <1,256> ');
  ReadLn(Levelu);
  if Graph_Init = g_Chyba then begin
                                WriteLn('Exit');

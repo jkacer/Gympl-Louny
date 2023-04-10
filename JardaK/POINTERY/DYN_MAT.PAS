@@ -7,7 +7,7 @@ interface
 uses Crt,Dos,Objects,GasCrt;
 
 const
-      Ch_Intg = 'Matice poruÁena !'#13#10'==>Exit';
+      Ch_Intg = 'Matice poru≈°ena !'#13#10'==>Exit';
 
 type
       PObecRealPrvek = ^TObecRealPrvek;
@@ -34,12 +34,12 @@ type
       PDynMatice = ^TDynMatice;
       TDynMatice =  object(TObject)
 
-         { PRIVATE } private { Z venku nep˝°stupnÇ !!! }
+         { PRIVATE } private { Z venku nep≈ô√≠stupn√© !!! }
 
                      Pocet_Rad:  Word;
                      Hlava:      PVytahPrvek;
 
-         { PUBLIC }  public  { Z venku je p˝ece mus°me volat !!! }
+         { PUBLIC }  public  { Z venku je p≈ôece mus√≠me volat !!! }
 
                      constructor Init(Rad,Sl:Word;Hod:Real);
                      destructor  Done;                       virtual;
@@ -89,15 +89,15 @@ begin
  New(Hlava);
  Hlava^.Pocet_Sl:=0;
  Hlava^.Pos_Rad :=0;
- Hlava^.Ukaz:=nil; { navßdy }
- Hlava^.Prev:=nil; { navßdy }
+ Hlava^.Ukaz:=nil; { nav≈ædy }
+ Hlava^.Prev:=nil; { nav≈ædy }
  Hlava^.Next:=nil;
 
- { samotn† matice }
+ { samotn√° matice }
  PomV1:=Hlava;
  for I:=1 to Rad do
   begin
-   { ¸†dky }
+   { ≈ò√°dky }
    New(PomV2);
    PomV2^.Pocet_Sl:=0;
    PomV2^.Pos_Rad :=I;
@@ -107,17 +107,17 @@ begin
    PomV2^.Next:=nil;
    PomV2^.Ukaz:=nil;
 
-   { 1. sloupec a jeho nastaven° }
+   { 1. sloupec a jeho nastaven√≠ }
    New(PomH1);
 
    if Sl>0 then begin
-                 { Napojen° z vÏtahu na 1. prvek }
+                 { Napojen√≠ z v√Ωtahu na 1. prvek }
                  PomV2^.Ukaz:=PomH1;
 
                  PomH1^.Cislo :=Hod;
                  PomH1^.Pos_Sl:=1;
 
-                 PomH1^.Prev:=nil; { navßdy }
+                 PomH1^.Prev:=nil; { nav≈ædy }
                  PomH1^.Next:=nil;
                  Inc(PomV2^.Pocet_Sl);
 
@@ -136,12 +136,12 @@ begin
                   end; { for J }
 
                 end { if }
-           else Dispose(PomH1); { alokov†no zbyteünÿ p˝i 0 sloupcÖ }
+           else Dispose(PomH1); { alokov√°no zbyteƒçnƒõ p≈ôi 0 sloupc≈Ø }
    PomV1:=PomV2;
    Inc(Pocet_Rad); { OBJ }
   end; { for I }
- WriteLn('Vytvo˝ena dynamick† matice s ',Rad,' ˝†dky.');
- WriteLn('KaßdÏ ˝†dek m† ',Sl,' sloupcÖ o hodnotÿ ',Hod:5:3,'.');
+ WriteLn('Vytvo≈ôena dynamick√° matice s ',Rad,' ≈ô√°dky.');
+ WriteLn('Ka≈æd√Ω ≈ô√°dek m√° ',Sl,' sloupc≈Ø o hodnotƒõ ',Hod:5:3,'.');
 end;  { constructor TDynMatice.Init }
 
 
@@ -149,11 +149,11 @@ destructor TDynMatice.Done;
 var    I:    Word;
 begin
  for I:=1 to Pocet_Rad do
-  UberRad(1);  { DolejÁ° ˝†dky se posouvaj° nahoru ==>> nutno 1 }
+  UberRad(1);  { Dolej≈°√≠ ≈ô√°dky se posouvaj√≠ nahoru ==>> nutno 1 }
  if Hlava<>nil then Dispose(Hlava)
-               else WriteLn('Chyba p˝i ruÁen° hlavy !');
+               else WriteLn('Chyba p≈ôi ru≈°en√≠ hlavy !');
  inherited Done;
- WriteLn('Dynamick† matice zruÁena.');
+ WriteLn('Dynamick√° matice zru≈°ena.');
 end; { destructor TDynMatice.Done }
 
 
@@ -253,21 +253,21 @@ var
 begin
  if not(Check) then begin
                      WriteLn(Ch_Intg);
-                     WriteLn('Exit se nekon†.');
+                     WriteLn('Exit se nekon√°.');
                     end;
- WriteLn('Tisk matice pouze pro £üely ladÿn°.');
+ WriteLn('Tisk matice pouze pro √∫ƒçely ladƒõn√≠.');
  V:=Hlava;
  for I:=1 to Pocet_Rad do
   begin
    V:=V^.Next;
    WriteLn('I=',I,', V^.Pocet_Sl=',V^.Pocet_Sl,', V^.Pos_Rad=',V^.Pos_Rad);
-   WriteLn('¸†dek ü.',I,' obsahuje ',V^.Pocet_Sl,' ü°sel : ');
+   WriteLn('≈ò√°dek ƒç.',I,' obsahuje ',V^.Pocet_Sl,' ƒç√≠sel : ');
    Enter;
    H:=V^.Ukaz;
    for J:=1 to V^.Pocet_Sl do
     begin
      Write('J=',J,', H^.Pos_Sl=',H^.Pos_Sl,', H^.Cislo=',H^.Cislo);
-     Write(' ˛˛˛ ',H^.Cislo:5:3);
+     Write(' ‚ñ†‚ñ†‚ñ† ',H^.Cislo:5:3);
      if J=V^.Pocet_Sl then WriteLn('.')
                       else WriteLn(', ');
      Enter;
@@ -295,7 +295,7 @@ begin
  Dec(S);
  for I:=1 to S do
   H:=H^.Next;
- { z†pis }
+ { z√°pis }
  H^.Cislo:=Co;
 end; { procedure TDynMatice.Zapis }
 
@@ -318,7 +318,7 @@ begin
  Dec(S);
  for I:=1 to S do
   H:=H^.Next;
- { üten° }
+ { ƒçten√≠ }
  At:=H^.Cislo;
 end; { function TDynMatice.At }
 
@@ -343,7 +343,7 @@ begin
  Nov^.Cislo:=Co;
  Nov^.Pos_Sl:=ZaS+1;
  if ZaS=0 then begin
-                Nov^.Prev:=nil; { navßdy }
+                Nov^.Prev:=nil; { nav≈ædy }
                 Nov^.Next:=V^.Ukaz;
                 V^.Ukaz:=Nov;
                 Nov^.Next^.Prev:=Nov;
@@ -360,7 +360,7 @@ begin
                 if (ZaS+1)<>V^.Pocet_Sl then Nov^.Next^.Prev:=Nov;
                end;
  Inc(V^.Pocet_Sl);
- { P˝eü°slov†n° sloupeükÖ }
+ { P≈ôeƒç√≠slov√°n√≠ sloupeƒçk≈Ø }
  H:=V^.Ukaz;
  for I:=1 to V^.Pocet_Sl do
   begin
@@ -391,14 +391,14 @@ begin
  if (S+1)<>1 then           H^.Prev^.Next:=H^.Next
              else           begin
                              H^.Next^.Prev:=nil;
-                             { Speci†ln° p˝°pad-nutno nav†zat z vÏtahu }
+                             { Speci√°ln√≠ p≈ô√≠pad-nutno nav√°zat z v√Ωtahu }
                              V^.Ukaz:=H^.Next;
                             end;
  if (S+1)<>V^.Pocet_Sl then H^.Next^.Prev:=H^.Prev
                        else H^.Prev^.Next:=nil;
  Dispose(H);
  Dec(V^.Pocet_Sl);
- { P˝eü°slov†n° sloupeükÖ }
+ { P≈ôeƒç√≠slov√°n√≠ sloupeƒçk≈Ø }
  H:=V^.Ukaz;
  for I:=1 to V^.Pocet_Sl do
   begin
@@ -420,9 +420,9 @@ begin
  V1:=Hlava;
  for I:=1 to Za do
   V1:=V1^.Next;
- { Vloß°me ZA V1 }
+ { Vlo≈æ√≠me ZA V1 }
 
- { NovÏ prvek a jeho sv†z†n° }
+ { Nov√Ω prvek a jeho sv√°z√°n√≠ }
  New(V2);
  V2^.Pocet_Sl:=0;
  V2^.Pos_Rad :=Za+1;
@@ -434,7 +434,7 @@ begin
  V1^.Next:=V2;
 
  Inc(Pocet_Rad);
- { P˝eü°slov†n° vÏtahovÏch prvkÖ }
+ { P≈ôeƒç√≠slov√°n√≠ v√Ωtahov√Ωch prvk≈Ø }
  V1:=Hlava;
  for I:=1 to Pocet_Rad do
   begin
@@ -456,10 +456,10 @@ begin
                      Exit;
                     end;
  V1:=Hlava;
- { ZruÁ°me V1 }
+ { Zru≈°√≠me V1 }
  for J:=1 to Co do
   V1:=V1^.Next;
- { Vyülenÿn° V1 }
+ { Vyƒçlenƒõn√≠ V1 }
  V2:=V1^.Prev;
  V2^.Next:=V1^.Next;
  V1^.Next^.Prev:=V2;
@@ -468,14 +468,14 @@ begin
   begin
    H1:=V1^.Ukaz;
    H2:=H1^.Next;
-   V1^.Ukaz:=H2;                    { H1 vyülenÿno }
-   if H1<>nil then Dispose(H1)      { a zruÁeno }
-              else WriteLn('Chyba p˝i ruÁen° obecnÇho prvku !');
+   V1^.Ukaz:=H2;                    { H1 vyƒçlenƒõno }
+   if H1<>nil then Dispose(H1)      { a zru≈°eno }
+              else WriteLn('Chyba p≈ôi ru≈°en√≠ obecn√©ho prvku !');
   end;
- if V1<>nil then Dispose(V1) { PomV1 zruÁeno (vyülenÿno d˝°ve) }
-            else WriteLn('Chyba p˝i ruÁen° prvku vÏtahu !');
+ if V1<>nil then Dispose(V1) { PomV1 zru≈°eno (vyƒçlenƒõno d≈ô√≠ve) }
+            else WriteLn('Chyba p≈ôi ru≈°en√≠ prvku v√Ωtahu !');
  Dec(Pocet_Rad);
- { P˝eü°slov†n° vÏtahovÏch prvkÖ }
+ { P≈ôeƒç√≠slov√°n√≠ v√Ωtahov√Ωch prvk≈Ø }
  V1:=Hlava;
  for I:=1 to Pocet_Rad do
   begin

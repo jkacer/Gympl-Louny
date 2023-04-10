@@ -19,13 +19,13 @@ begin
  NasobMatice(A,B,C1);
  NasobMatice(B,A,C2);
 
- Desktop(Blue,LightGray,#176); { Teükov†n°}
+ Desktop(Blue,LightGray,#176); { Teƒçkov√°n√≠}
 
  Ramecek(2, 3, 38,8, 'Matice A',Blue,White,Yellow,#32); { Vyplnit mezerou }
  Ramecek(41,3, 79,8, 'Matice B',Blue,White,Yellow,#32); { Vyplnit mezerou }
  Ramecek(2, 12,38,17,'A X B',   Blue,White,Yellow,#32); { Vyplnit mezerou }
  Ramecek(41,12,79,17,'B X A',   Blue,White,Yellow,#32); { Vyplnit mezerou }
- Ramecek(15,19,65,22,'VÏsledek',Blue,White,Yellow,#32); { Vyplnit mezerou }
+ Ramecek(15,19,65,22,'V√Ωsledek',Blue,White,Yellow,#32); { Vyplnit mezerou }
 
  UmistiMatici(3, 4, A, Blue,Yellow);
  UmistiMatici(42,4, B, Blue,Yellow);
@@ -33,10 +33,10 @@ begin
  UmistiMatici(42,13,C2,Blue,Yellow);
 
  GoToXY(18,20);
- if Porovnani(C1,C2) then Write('Matice jsou stejnÇ !!!')
-                     else Write('Matice jsou rÖznÇ.');
+ if Porovnani(C1,C2) then Write('Matice jsou stejn√© !!!')
+                     else Write('Matice jsou r≈Øzn√©.');
  GoToXY(18,21);
- Write('Stisknÿte <Enter> pro ukonüen° programu.');
+ Write('Stisknƒõte <Enter> pro ukonƒçen√≠ programu.');
  ReadLn;
 
  TextBackGround(Black);

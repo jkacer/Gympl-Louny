@@ -4,8 +4,8 @@ program Soub222;
 {
 *******************************************************************
 
- V souboru SOUB2.CIS nesmÿj° bÏt z†porn† ü°sla
- kvÖli z†vÿr. vÏpisu !
+ V souboru SOUB2.CIS nesmƒõj√≠ b√Ωt z√°porn√° ƒç√≠sla
+ kv≈Øli z√°vƒõr. v√Ωpisu !
 
 *******************************************************************
 }
@@ -30,22 +30,22 @@ begin
  {$I-}
  ReWrite(PomS);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v p˝°stupu k pomocnÇmu souboru !!!');
+                      WriteLn('Chyba v p≈ô√≠stupu k pomocn√©mu souboru !!!');
                       Exit;
                      end;
  Reset(OdkudS);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v p˝°stupu k SOUB2.CIS !!!');
+                      WriteLn('Chyba v p≈ô√≠stupu k SOUB2.CIS !!!');
                       Exit;
                      end;
  ReWrite(Kam1);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v p˝°stupu k POSL1.CIS !!!');
+                      WriteLn('Chyba v p≈ô√≠stupu k POSL1.CIS !!!');
                       Exit;
                      end;
  ReWrite(Kam2);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v p˝°stupu k POSL2.CIS !!!');
+                      WriteLn('Chyba v p≈ô√≠stupu k POSL2.CIS !!!');
                       Exit;
                      end;
  {$I+}
@@ -97,21 +97,21 @@ begin
  ReadLn;
  Reset(Kam1);
  Reset(Kam2);
- WriteLn('C°lovÏ soubor ü.1:');
+ WriteLn('C√≠lov√Ω soubor ƒç.1:');
  while not(Eof(Kam1)) do
   begin
    Read(Kam1,Cislo1);
-   if Cislo1=-1 then if not(Eof(Kam1)) then Write(' ˛ ,')
-                                       else Write(' ˛ .')
+   if Cislo1=-1 then if not(Eof(Kam1)) then Write(' ‚ñ† ,')
+                                       else Write(' ‚ñ† .')
                 else Write(Cislo1,' , ');
   end;
  WriteLn;
- WriteLn('C°lovÏ soubor ü.2:');
+ WriteLn('C√≠lov√Ω soubor ƒç.2:');
  while not(Eof(Kam2)) do
   begin
    Read(Kam2,Cislo1);
-   if Cislo1=-1 then if not(Eof(Kam2)) then Write(' ˛ ,')
-                                       else Write(' ˛ .')
+   if Cislo1=-1 then if not(Eof(Kam2)) then Write(' ‚ñ† ,')
+                                       else Write(' ‚ñ† .')
                 else Write(Cislo1,' , ');
   end;
  WriteLn;

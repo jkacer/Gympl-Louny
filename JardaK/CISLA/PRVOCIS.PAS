@@ -149,7 +149,7 @@ procedure Pis_Radu(X:Rada);
 var I:Byte;
 begin
  WriteLn;
- WriteLn('¸ada : ');
+ WriteLn('≈òada : ');
  for I:=1 to MaxPole do
   Write(X[I],' ');
  WriteLn;
@@ -158,10 +158,10 @@ end;
 procedure Pis_Posl(X:Rada;Start,Fin:Byte);
 var I:Byte;
 begin
- Write(' ˛ ');
+ Write(' ‚ñ† ');
  for I:=Start to Fin do
   Write(X[I],' ');
- WriteLn('˛ ');
+ WriteLn('‚ñ† ');
 end;
 
 function  Dej_Max_Del_Posl(X:Posloupnost):Byte;
@@ -209,7 +209,7 @@ function  Dej_Soucet_Pruhu(X:Matice;Pruh:Byte):Integer;
 {
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
- !!!!!!!!!!     Nelze pouß°t na samostatnou kostiüku uprost˝ed    !!!!!!!!!!
+ !!!!!!!!!!     Nelze pou≈æ√≠t na samostatnou kostiƒçku uprost≈ôed    !!!!!!!!!!
 
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 }
@@ -227,11 +227,11 @@ begin
  for I:=Pruh to MaxMat+1-Pruh do
   Inc(Pom,X[I,MaxMat+1-Pruh]);
 
- { Horn° zbytek }
+ { Horn√≠ zbytek }
  for I:=Pruh+1 to MaxMat-Pruh do
   Inc(Pom,X[Pruh,I]);
 
- { Doln° zbytek }
+ { Doln√≠ zbytek }
  for I:=Pruh+1 to MaxMat-Pruh do
   Inc(Pom,X[MaxMat+1-Pruh,I]);
 
@@ -242,7 +242,7 @@ function  Dej_Kolik_Pruhu(X:Matice;Pruh:Byte):Integer;
 {
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
- !!!!!!!!!!     Nelze pouß°t na samostatnou kostiüku uprost˝ed    !!!!!!!!!!
+ !!!!!!!!!!     Nelze pou≈æ√≠t na samostatnou kostiƒçku uprost≈ôed    !!!!!!!!!!
 
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 }
@@ -260,11 +260,11 @@ begin
  for I:=Pruh to MaxMat+1-Pruh do
   Inc(Pom);
 
- { Horn° zbytek }
+ { Horn√≠ zbytek }
  for I:=Pruh+1 to MaxMat-Pruh do
   Inc(Pom);
 
- { Doln° zbytek }
+ { Doln√≠ zbytek }
  for I:=Pruh+1 to MaxMat-Pruh do
   Inc(Pom);
 

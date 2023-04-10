@@ -5,11 +5,11 @@ program Priklad4;
 uses Prvocis,Crt;
 {
  *******************************************
- *  Pro zmØnu rozmØr… matice modifikujte   *
+ *  Pro zmÄ›nu rozmÄ›rÅ¯ matice modifikujte   *
  *  konstantu > MaxMat < v unitu PRVOCIS   *
- *  a vçe pıekompilujte.                   *
- *  Dynamick  alokace je na dom c¡ £kol    *
- *  pıeci jen trochu moc.                  *
+ *  a vÅ¡e pÅ™ekompilujte.                   *
+ *  DynamickÃ¡ alokace je na domÃ¡cÃ­ Ãºkol    *
+ *  pÅ™eci jen trochu moc.                  *
  *******************************************
 }
 
@@ -29,12 +29,12 @@ begin
   begin
    Cel:=Dej_Soucet_Pruhu(Mat,I);
    Kolik:=Dej_Kolik_Pruhu(Mat,I);
-   WriteLn('Obvod Ÿ.',I,': souŸet=',Cel,',poŸet=',Kolik,' =>> ',(Cel/Kolik):6:3);
+   WriteLn('Obvod Ä.',I,': souÄet=',Cel,',poÄet=',Kolik,' =>> ',(Cel/Kolik):6:3);
   end;
  if Odd(MaxMat) then begin
                       Cel:=Mat[(MaxMat div 2)+1,(MaxMat div 2)+1];
-                      WriteLn('Obvod Ÿ.',(MaxMat div 2)+1,': souŸet=',Cel,',poŸet=1 =>> ',Cel:3);
+                      WriteLn('Obvod Ä.',(MaxMat div 2)+1,': souÄet=',Cel,',poÄet=1 =>> ',Cel:3);
                      end;
- WriteLn('Obvody jsou Ÿ¡slov ny od kraje do stıedu.');
+ WriteLn('Obvody jsou ÄÃ­slovÃ¡ny od kraje do stÅ™edu.');
  ReadLn;
 end.

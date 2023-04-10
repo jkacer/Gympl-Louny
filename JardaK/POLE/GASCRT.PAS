@@ -30,23 +30,23 @@ begin
  ClrScr;
  Window(1,1,80,25);
  TextColor(BRam);
- GoToXY(X1,Y1); Write('É');
- GoToXY(X2,Y1); Write('»');
- GoToXY(X1,Y2); Write('È');
- GoToXY(X2,Y2); Write('¼');
+ GoToXY(X1,Y1); Write('â•”');
+ GoToXY(X2,Y1); Write('â•—');
+ GoToXY(X1,Y2); Write('â•š');
+ GoToXY(X2,Y2); Write('â•');
  for I:=X1+1 to X2-1 do
   begin
    GoToXY(I,Y1);
-   Write('Í');
+   Write('â•');
    GoToXY(I,Y2);
-   Write('Í');
+   Write('â•');
   end;
  for I:=Y1+1 to Y2-1 do
   begin
    GoToXY(X1,I);
-   Write('º');
+   Write('â•‘');
    GoToXY(X2,I);
-   Write('º');
+   Write('â•‘');
   end;
  if Length(S)>(X2-X1-3) then Delete(S,X2-X1-2,Length(S)-(X2-X1-1)+2);
  S:=' '+S+' ';

@@ -1,7 +1,7 @@
 { Created by GAS 1995 }
 program XXX;
 {
- Vyuß°v† toho, ße do X dosazuje f(X), dokud X-Y>Eta = povolen† odchylka
+ Vyu≈æ√≠v√° toho, ≈æe do X dosazuje f(X), dokud X-Y>Eta = povolen√° odchylka
                          ||||
                          VVVV
                         x=fce(x)
@@ -15,11 +15,11 @@ var
 
 begin  { program }
  ClrScr;
- WriteLn('VÏpoüet " x=f(x) "');
+ WriteLn('V√Ωpoƒçet " x=f(x) "');
  Prirad_Fci;
 
- X:=Dej_Real('Zaü†tek ?');
- Eta:=Dej_Real('P˝esnost ?');
+ X:=Dej_Real('Zaƒç√°tek ?');
+ Eta:=Dej_Real('P≈ôesnost ?');
  Vyp:=False;
  repeat
   Y:=Pocitej(X);
@@ -30,13 +30,13 @@ begin  { program }
                        end;
   if KeyPressed then begin
                       Vyp:=True;
-                      WriteLn('P˝eruÁeno-vÏsledek neplat°');
+                      WriteLn('P≈ôeru≈°eno-v√Ωsledek neplat√≠');
                       Vysl:=0;
                      end;
   X:=Y; { Tady !!! }
  until Vyp;
  WriteLn;
- WriteLn('VÏsledek : ',Vysl:8:5);
+ WriteLn('V√Ωsledek : ',Vysl:8:5);
  ReadLn;
 end.
 

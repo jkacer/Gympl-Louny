@@ -32,7 +32,7 @@ procedure QuickSort(var A:List;Lo,Hi:Integer);
           J:=J-1;
 
          if I<=J then begin
-                       Y:=A[I];       { prohozen¡ }
+                       Y:=A[I];       { prohozenÃ­ }
                        A[I]:=A[J];
                        A[J]:=Y;
 
@@ -55,7 +55,7 @@ begin {qsort}
   Data[I]:=Random(30000);
  WriteLn;
 
- Write('Tý¡d¡m...');
+ Write('TÅ™Ã­dÃ­m...');
  QuickSort(Data,1,Max);
  WriteLn;
  for I:=1 to Max do

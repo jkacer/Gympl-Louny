@@ -1,45 +1,45 @@
-Tento adres ı obsahuje tyto soubory:
+Tento adresÃ¡Å™ obsahuje tyto soubory:
 
-S202     PAS - urŸ¡ poŸet znak… v souboru
-S203     PAS - urŸ¡ poŸet ı dk… v souboru
-S204     PAS - udØl  kopii souboru
-S205     PAS - spoj¡ dva soubory za sebe do tıet¡ho
-S206     PAS - vyp¡çe prvn¡ch 10 ı dk… ze souboru
-S207     PAS - udØl  kopii souboru s 5 mezerami na zaŸ tku ka§d‚ho ı dku
-S208     PAS - urŸ¡ poŸet slov v souboru
-S209     PAS - urŸ¡ poŸet slov v souboru, kter  konŸ¡ na A
-S210     PAS - urŸ¡ poŸet slov v souboru, kter  konŸ¡ a zaŸ¡naj¡ stejnìm
-               p¡smenem
-S211     PAS - urŸ¡ max. poŸet slov na jednom ı dku
-S212     PAS - urŸ¡ d‚lku nejdelç¡ho slova v souboru
-S213     PAS - vyp¡çe nejdelç¡ slovo v souboru
-S214     PAS - urŸ¡ poŸet vØt v dopise(vØty konŸ¡ ".");
-               urŸ¡ poŸet znak… bez mezer v nejdelç¡ a nejkratç¡ vØtØ
-S215     PAS - vytiskne nejdelç¡ slovo z ka§d‚ vØty;
-               oddØlovaŸe jsou mezery,CR,Ÿ rky,teŸky
-S216     PAS - urŸ¡ poŸet znak… A,B,C s souboru
-S217     PAS - spoŸ¡t  vçechny vìskyty vçech p¡smen v souboru
-S218     PAS - nalezne nejvØtç¡ Ÿ¡slo v souboru
-S219     PAS - zjist¡, zda je 1. Ÿ¡slo vØtç¡ ne§ posledn¡
-S220     PAS - vytvoı¡ jinì soubor, obsahuj¡c¡ ka§d‚ 3. Ÿ¡slo z p…vodn¡ho
-S221     PAS - vytvoı¡ jinì soubor, kde se vylouŸ¡ Ÿ¡sla opakuj¡c¡ se za sebou;
-               z…stane jen prvn¡
-S222     PAS - lich‚ rostouc¡ posloupnosti ze souboru ulo§¡ do dalç¡ho 
-               souboru a sud‚ do jin‚ho
-S223     PAS - vytvoı¡ novì soubor se starìch dvou, Ÿ¡sla v nov‚m
-               budou uspoı d na podle velikosti
+S202     PAS - urÄÃ­ poÄet znakÅ¯ v souboru
+S203     PAS - urÄÃ­ poÄet Å™Ã¡dkÅ¯ v souboru
+S204     PAS - udÄ›lÃ¡ kopii souboru
+S205     PAS - spojÃ­ dva soubory za sebe do tÅ™etÃ­ho
+S206     PAS - vypÃ­Å¡e prvnÃ­ch 10 Å™Ã¡dkÅ¯ ze souboru
+S207     PAS - udÄ›lÃ¡ kopii souboru s 5 mezerami na zaÄÃ¡tku kaÅ¾dÃ©ho Å™Ã¡dku
+S208     PAS - urÄÃ­ poÄet slov v souboru
+S209     PAS - urÄÃ­ poÄet slov v souboru, kterÃ¡ konÄÃ­ na A
+S210     PAS - urÄÃ­ poÄet slov v souboru, kterÃ¡ konÄÃ­ a zaÄÃ­najÃ­ stejnÃ½m
+               pÃ­smenem
+S211     PAS - urÄÃ­ max. poÄet slov na jednom Å™Ã¡dku
+S212     PAS - urÄÃ­ dÃ©lku nejdelÅ¡Ã­ho slova v souboru
+S213     PAS - vypÃ­Å¡e nejdelÅ¡Ã­ slovo v souboru
+S214     PAS - urÄÃ­ poÄet vÄ›t v dopise(vÄ›ty konÄÃ­ ".");
+               urÄÃ­ poÄet znakÅ¯ bez mezer v nejdelÅ¡Ã­ a nejkratÅ¡Ã­ vÄ›tÄ›
+S215     PAS - vytiskne nejdelÅ¡Ã­ slovo z kaÅ¾dÃ© vÄ›ty;
+               oddÄ›lovaÄe jsou mezery,CR,ÄÃ¡rky,teÄky
+S216     PAS - urÄÃ­ poÄet znakÅ¯ A,B,C s souboru
+S217     PAS - spoÄÃ­tÃ¡ vÅ¡echny vÃ½skyty vÅ¡ech pÃ­smen v souboru
+S218     PAS - nalezne nejvÄ›tÅ¡Ã­ ÄÃ­slo v souboru
+S219     PAS - zjistÃ­, zda je 1. ÄÃ­slo vÄ›tÅ¡Ã­ neÅ¾ poslednÃ­
+S220     PAS - vytvoÅ™Ã­ jinÃ½ soubor, obsahujÃ­cÃ­ kaÅ¾dÃ© 3. ÄÃ­slo z pÅ¯vodnÃ­ho
+S221     PAS - vytvoÅ™Ã­ jinÃ½ soubor, kde se vylouÄÃ­ ÄÃ­sla opakujÃ­cÃ­ se za sebou;
+               zÅ¯stane jen prvnÃ­
+S222     PAS - lichÃ© rostoucÃ­ posloupnosti ze souboru uloÅ¾Ã­ do dalÅ¡Ã­ho 
+               souboru a sudÃ© do jinÃ©ho
+S223     PAS - vytvoÅ™Ã­ novÃ½ soubor se starÃ½ch dvou, ÄÃ­sla v novÃ©m
+               budou uspoÅ™Ã¡dÃ¡na podle velikosti
 S224     PAS - jako S223, ale soubory jsou 4
-S225     PAS - urŸ¡ poŸet vìskyt… ıetØzce PES
-S226     PAS - urŸ¡ poŸet vìskyt… slova PES
-S227     PAS - urŸ¡ poŸet vìskyt… slova PEPES
-S228     PAS - vytvoı¡ novì soubor, kterì obsahuje ze star‚ho slova
-               o 5 p¡smenech
-S229     PAS - vyp¡çe ze souboru slova, kter  se skl daj¡ ze stejnìch
-               p¡smen ve stejnìch poŸtech jako 1. slovo souboru
-S_PR5    PAS - zkop¡ruje soubor T1.TXT z C:\BANKA do K_T1.TXT ve stejn‚m
-               adres ıi; na monitor se budou vypisovat jen p¡smena 'a',
-               m¡sto ostatn¡ch budou mezery
+S225     PAS - urÄÃ­ poÄet vÃ½skytÅ¯ Å™etÄ›zce PES
+S226     PAS - urÄÃ­ poÄet vÃ½skytÅ¯ slova PES
+S227     PAS - urÄÃ­ poÄet vÃ½skytÅ¯ slova PEPES
+S228     PAS - vytvoÅ™Ã­ novÃ½ soubor, kterÃ½ obsahuje ze starÃ©ho slova
+               o 5 pÃ­smenech
+S229     PAS - vypÃ­Å¡e ze souboru slova, kterÃ¡ se sklÃ¡dajÃ­ ze stejnÃ½ch
+               pÃ­smen ve stejnÃ½ch poÄtech jako 1. slovo souboru
+S_PR5    PAS - zkopÃ­ruje soubor T1.TXT z C:\BANKA do K_T1.TXT ve stejnÃ©m
+               adresÃ¡Å™i; na monitor se budou vypisovat jen pÃ­smena 'a',
+               mÃ­sto ostatnÃ­ch budou mezery
 
-SOUBORY  PAS - vçe potıebn‚ pro vìçe uveden‚
+SOUBORY  PAS - vÅ¡e potÅ™ebnÃ© pro vÃ½Å¡e uvedenÃ©
 
-Datum posledn¡ aktualizace: 7.5.1996
+Datum poslednÃ­ aktualizace: 7.5.1996

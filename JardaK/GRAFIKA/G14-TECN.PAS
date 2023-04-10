@@ -20,18 +20,18 @@ var GD,GM:   Integer;
     KolikY:  ShortInt;
     JednX,
     JednY:   ShortInt;
-    SX,SY,R,           { PÖvodn° krußnice }
+    SX,SY,R,           { P≈Øvodn√≠ kru≈ænice }
     P,Q:     ShortInt; { Bod X }
     PomX,
     PomY,
-    PomR:    Real;     { Data Thaletovy krußnice }
+    PomR:    Real;     { Data Thaletovy kru≈ænice }
     PX1,PY1,
     PX2,PY2: Integer;
     Vzdal:   Real;
     S:       String;
 
     AA,BB,CC:Real;     { Pro kvadr. rovnici }
-    T,U:     Real;     { PomocnÇ promn. pro kvad. rci }
+    T,U:     Real;     { Pomocn√© promn. pro kvad. rci }
     X1,X2,             { Body dotyku }
     Y1,Y2:   Real;
 
@@ -55,9 +55,9 @@ begin
  JednX:=(X div 2) div KolikX;
  JednY:=(Y div 2) div KolikY;
 
- SX:=DejRozsah('St˝ed kruhu X ?',-KolikX,KolikX,X,Y);
- SY:=DejRozsah('St˝ed kruhu Y ?',-KolikY,KolikY,X,Y);
- R :=DejRozsah('Polomÿr kruhu ?',1,KolikY,X,Y);
+ SX:=DejRozsah('St≈ôed kruhu X ?',-KolikX,KolikX,X,Y);
+ SY:=DejRozsah('St≈ôed kruhu Y ?',-KolikY,KolikY,X,Y);
+ R :=DejRozsah('Polomƒõr kruhu ?',1,KolikY,X,Y);
  P :=DejRozsah('X bodu ?',-KolikX,KolikX,X,Y);
  Q :=DejRozsah('Y bodu ?',-KolikY,KolikY,X,Y);
 
@@ -98,7 +98,7 @@ begin
  DejStred(SX,SY,P,Q,PomX,PomY);
  PomR:=Sqrt( Sqr(SX-PomX) + Sqr(SY-PomY) );
 
- { Naplnÿn° hodnot do obecnÏch rovnic krußnic }
+ { Naplnƒõn√≠ hodnot do obecn√Ωch rovnic kru≈ænic }
  A1:=-2*SX;
  B1:=-2*SY;
  C1:=Sqr(SX)+Sqr(SY)-Sqr(R);
@@ -107,7 +107,7 @@ begin
  B2:=-2*PomY;
  C2:=Sqr(PomX)+Sqr(PomY)-Sqr(PomR);
 
- { Naplnÿn° T,U,AA,BB,CC - kvadr. rce }
+ { Naplnƒõn√≠ T,U,AA,BB,CC - kvadr. rce }
  T:=(B2-B1)/(A1-A2);
  U:=(C2-C1)/(A1-A2);
 
@@ -115,7 +115,7 @@ begin
  BB:=(2*T*U)+(A1*T)+B1;
  CC:=(A1*U)+C1+Sqr(U);
 
- { VÏpoüet X a Y }
+ { V√Ωpoƒçet X a Y }
  Y1:=(-BB+Sqrt(Sqr(BB)-4*AA*CC))/(2*AA);
  Y2:=(-BB-Sqrt(Sqr(BB)-4*AA*CC))/(2*AA);
  X1:=(T*Y1)+U;

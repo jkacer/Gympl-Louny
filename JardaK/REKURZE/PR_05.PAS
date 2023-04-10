@@ -12,7 +12,7 @@ var
 
 procedure MoveRing(Odkud,Kam:Byte);
 begin
- WriteLn('Pıesuå disk z ### ',Odkud,' ### na ### ',Kam,' ###.');
+ WriteLn('PÅ™esuÅˆ disk z ### ',Odkud,' ### na ### ',Kam,' ###.');
  Inc(Presunu);
  ReadLn;
 end;
@@ -30,13 +30,13 @@ end; { procedure MoveTower }
 begin
  ClrScr;
  Presunu:=0;
- WriteLn('Hanojsk‚ vØ§e');
- Write('Kolik disk… ? Max. 255 ');
+ WriteLn('HanojskÃ© vÄ›Å¾e');
+ Write('Kolik diskÅ¯ ? Max. 255 ');
  ReadLn(PocetKr);
 
  MoveTower(PocetKr,1,3,2);
 
- WriteLn('Celkem provedeno ',Presunu,' pıesun… disk….');
+ WriteLn('Celkem provedeno ',Presunu,' pÅ™esunÅ¯ diskÅ¯.');
  WriteLn('Hotovo.');
  ReadLn;
  WriteLn('(c) Gama Software 1996');

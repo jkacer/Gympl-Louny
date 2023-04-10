@@ -31,7 +31,7 @@ begin
                         end;
  X:=GetMaxX;
  Y:=GetMaxY;
- N:=DejRozsah('Kolik vnoıen¡ ?',1,5,X,Y);
+ N:=DejRozsah('Kolik vnoÅ™enÃ­ ?',1,5,X,Y);
 
  AX:=0;
  AY:=Y;

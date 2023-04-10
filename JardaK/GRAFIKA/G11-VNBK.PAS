@@ -42,9 +42,9 @@ begin
  JednX:=(X div 2) div KolikX;
  JednY:=(Y div 2) div KolikY;
 
- SX:=DejRozsah('Stýed kruhu X ?',-KolikX,KolikX,X,Y);
- SY:=DejRozsah('Stýed kruhu Y ?',-KolikY,KolikY,X,Y);
- R :=DejRozsah('PolomØr kruhu ?',1,KolikY,X,Y);
+ SX:=DejRozsah('StÅ™ed kruhu X ?',-KolikX,KolikX,X,Y);
+ SY:=DejRozsah('StÅ™ed kruhu Y ?',-KolikY,KolikY,X,Y);
+ R :=DejRozsah('PolomÄ›r kruhu ?',1,KolikY,X,Y);
  P :=DejRozsah('X bodu ?',-KolikX,KolikX,X,Y);
  Q :=DejRozsah('Y bodu ?',-KolikY,KolikY,X,Y);
 

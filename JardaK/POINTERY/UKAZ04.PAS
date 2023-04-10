@@ -1,7 +1,7 @@
 { Created by Gas 1995 }
 {
- Napiçte program, kt. vynech  vçechny prvky dØliteln‚ Ÿ¡slem
- zadanìm u§ivatelem.
+ NapiÅ¡te program, kt. vynechÃ¡ vÅ¡echny prvky dÄ›litelnÃ© ÄÃ­slem
+ zadanÃ½m uÅ¾ivatelem.
 }
 program XXX;
 
@@ -13,20 +13,20 @@ begin
  Desktop(Blue,LightGray,#176);
  Ramecek(3,3,78,23,'GAS Pointer Demo',Blue,White,Yellow,#32);
  Window(5,4,76,22);
- Pis('Bude vytvoıen line rn¡ spojovì seznam celìch Ÿ¡sel o 20 prvc¡ch.',NeMez,JoPip);
+ Pis('Bude vytvoÅ™en lineÃ¡rnÃ­ spojovÃ½ seznam celÃ½ch ÄÃ­sel o 20 prvcÃ­ch.',NeMez,JoPip);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
  Seznam:=VytvorSez(20);
  TiskniSez(Seznam);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
- Pis('Budou zruçena Ÿ¡sla dØliteln  V mi zadanìm Ÿ¡slem.',NeMez,JoPip);
+ Pis('Budou zruÅ¡ena ÄÃ­sla dÄ›litelnÃ¡ VÃ¡mi zadanÃ½m ÄÃ­slem.',NeMez,JoPip);
  repeat
-  Write('DØliteln‚ kolika ? ');
+  Write('DÄ›litelnÃ© kolika ? ');
   ReadLn(Cislo);
-  if Cislo<1 then WriteLn('VØtç¡ ne§ 0 !');
+  if Cislo<1 then WriteLn('VÄ›tÅ¡Ã­ neÅ¾ 0 !');
  until Cislo>0;
 
  ZrusDelCimSez(Seznam,Cislo);
- Pis('Po zruçen¡:',NeMez,JoPip);
+ Pis('Po zruÅ¡enÃ­:',NeMez,JoPip);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
  TiskniSez(Seznam);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');

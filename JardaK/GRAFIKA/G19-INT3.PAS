@@ -13,7 +13,7 @@ uses Crt,Graph,Grafika;
 
 
 var
-    { Zobrazen° }
+    { Zobrazen√≠ }
 
     GD,GM:   Integer;
     X,Y:     Integer;
@@ -32,7 +32,7 @@ var
     TYS:     Integer;
     I:       Integer;
 
-    { VÏpoüet }
+    { V√Ωpoƒçet }
 
     H:       Real;
     Suma:    Real;
@@ -74,20 +74,20 @@ begin
 
  Sinusoida(X,Y,JednX,JednY,KolikX,KolikY,Pomalu);
 
- { H je dÇlka 1 d°lku }
+ { H je d√©lka 1 d√≠lku }
  if (Max*Min)>0 then H:=Abs( (Abs(Max)-Abs(Min))/KolikD )
                 else H:=Abs( (Abs(Max)+Abs(Min))/KolikD );
 
  {
-  S jednoho d°lku = ( (x2 - x0) / 6 ) * (y0 + 4y1 + y2)
+  S jednoho d√≠lku = ( (x2 - x0) / 6 ) * (y0 + 4y1 + y2)
  }
 
  {
   Algoritmus:
 
-  Vstup: f(x)-tady sin(x),a,b,n-sudÇ
+  Vstup: f(x)-tady sin(x),a,b,n-sud√©
   S = f(x0) + 4f(x1) + f(xn)
-  X = a + 2H         - vÏpoüet zaü°n† od x2
+  X = a + 2H         - v√Ωpoƒçet zaƒç√≠n√° od x2
 
   pro k = 2,4,6,....,n-2
     S = s + 2f(X) + 4f (x+H)
@@ -100,14 +100,14 @@ begin
  SetLineStyle(SolidLn,0,NormWidth);
  SetFillStyle(5,Blue);
  Suma:= Abs(Sin(Min)) + Abs(4*Sin(Min+H)) + Abs(Sin(Max));
- Kde_X:=Min + 2*H; { Zaü°n† se od X2 }
+ Kde_X:=Min + 2*H; { Zaƒç√≠n√° se od X2 }
  Udelej_Krivku(Min,Sin(Min),Min+H,Sin(Min+H),Min+2*H,Sin(Min+2*H),X,Y,JednX,JednY);
 
 { pro k = 2,4,6,...,n-2 }
-{ MÖßu to udÿlat, protoße na I tam nic nez†leß°, dÖleßitej je jenom poüet }
+{ M≈Ø≈æu to udƒõlat, proto≈æe na I tam nic nez√°le≈æ√≠, d≈Øle≈æitej je jenom poƒçet }
  for I:=1 to ((KolikD-2) div 2) do
   begin
-   Suma := Suma + Abs(2*Sin(Kde_X) + 4*Sin(Kde_X+H)); { Celej d°lek v ABS }
+   Suma := Suma + Abs(2*Sin(Kde_X) + 4*Sin(Kde_X+H)); { Celej d√≠lek v ABS }
    Udelej_Krivku(Kde_X,Sin(Kde_X),Kde_X+H,Sin(Kde_X+H),Kde_X+2*H,Sin(Kde_X+2*H),X,Y,JednX,JednY);
    Kde_X := Kde_X + 2*H;
   end;
@@ -120,7 +120,7 @@ begin
  SetTextStyle(DefaultFont,HorizDir,1);
  OutTextXY(10,Y,S);
 
- { Te‘ se to p˝ekresl° }
+ { Teƒè se to p≈ôekresl√≠ }
  SetColor(Green);
  SetBkColor(White);
  OsaX(X,Y,Rychle); SipkaX(X,Y);

@@ -1,4 +1,6 @@
 *     text=auto
-*.pas text eol=CRLF working-tree-encoding=CP852
-*.PAS text eol=CRLF working-tree-encoding=CP852
-*.$$$ text eol=CRLF working-tree-encoding=CP852
+*.pas text eol=CRLF
+*.PAS text eol=CRLF
+*.$$$ text eol=CRLF
+*.pdf binary
+*.cis binary

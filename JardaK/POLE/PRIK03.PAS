@@ -1,7 +1,7 @@
 { Created by GAS 1995 }
 {
- SpoŸ¡tejte a vytisknØte vçechna 3-cifern  Ÿ¡sla,
- v nich§ se § dn  cifra neopakuje-vçechny 3 cifry jsou r…zn‚.
+ SpoÄÃ­tejte a vytisknÄ›te vÅ¡echna 3-cifernÃ¡ ÄÃ­sla,
+ v nichÅ¾ se Å¾Ã¡dnÃ¡ cifra neopakuje-vÅ¡echny 3 cifry jsou rÅ¯znÃ©.
 }
 
 program XXX;
@@ -12,8 +12,8 @@ var I:Word;
 
 begin
  ClrScr;
- WriteLn('Budou vyps na vçechna trojcifern  Ÿ¡sla,');
- WriteLn('kter  maj¡ vçechny 3 cifry r…zn‚.');
+ WriteLn('Budou vypsÃ¡na vÅ¡echna trojcifernÃ¡ ÄÃ­sla,');
+ WriteLn('kterÃ¡ majÃ­ vÅ¡echny 3 cifry rÅ¯znÃ©.');
  for I:=100 to 999 do
   if CifryJenJednou(I) then Write(I,' , ');
  GoToXY(WhereX-2,WhereY);

@@ -79,7 +79,7 @@ end;
 procedure Delen(A,B:TComplex_Alg;var X:TComplex_Alg);
 var
       DoplnekB: TComplex_Alg;
-      Jmenov:   Real;      { Jmenovatel pro dØlen¡ }
+      Jmenov:   Real;      { Jmenovatel pro dÄ›lenÃ­ }
       Citatel:  TComplex_Alg;
 begin
  Dopln(B,DoplnekB);
@@ -93,9 +93,9 @@ end;
 
 procedure Dej_Alg(var X:TComplex_Alg);
 begin
- Write('Re ln  slo§ka ? ');
+ Write('ReÃ¡lnÃ¡ sloÅ¾ka ? ');
  ReadLn(X.Re);
- Write('Imagin rn¡ slo§ka ? ');
+ Write('ImaginÃ¡rnÃ­ sloÅ¾ka ? ');
  ReadLn(X.Im);
 end;
 
@@ -104,7 +104,7 @@ begin
  Write('Velikost ? ');
  ReadLn(X.Vel);
  repeat
-  Write('éhel ? <0,360>');
+  Write('Ãšhel ? <0,360>');
   ReadLn(X.Fi);
  until (X.Fi>=0) and (X.Fi<=360);
 end;
@@ -112,12 +112,12 @@ end;
 procedure Pis_Alg(X:TComplex_Alg);
 begin
  if X.Im>=0 then Write(X.Re:5:3,'+',X.Im:5:3,'i ')
-            else Write(X.Re:5:3,X.Im:5:3,'i '); { Minus se dod  }
+            else Write(X.Re:5:3,X.Im:5:3,'i '); { Minus se dodÃ¡ }
 end;
 
 procedure Pis_Gon(X:TComplex_Gon);
 begin
- Write(X.Vel:5:3,' . (cos ',X.Fi:5:3,'ø + i.sin ',X.Fi:5:3,'ø )');
+ Write(X.Vel:5:3,' . (cos ',X.Fi:5:3,'Â° + i.sin ',X.Fi:5:3,'Â° )');
 end;
 
 procedure Alg_Gon(X:TComplex_Alg;var Y:TComplex_Gon);
@@ -127,7 +127,7 @@ begin
  Y.Vel := Velikost(X);
  if X.Re<>0 then begin
                   Uhel := ArcTan( Abs(X.Im) / Abs(X.Re) );
-                  Uhel := 180*Uhel/PI; { pýevod na stupnØ }
+                  Uhel := 180*Uhel/PI; { pÅ™evod na stupnÄ› }
                  end
             else Uhel := 90;
 

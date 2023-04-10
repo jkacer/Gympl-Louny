@@ -14,11 +14,11 @@ var
 begin
  ClrScr;
 
- WriteLn('VÏpoüet faktori†lu z N ITERA¨N∑.');
+ WriteLn('V√Ωpoƒçet faktori√°lu z N ITERAƒåNƒö.');
  Write('N ? <0,255> '); ReadLn(N);
  Vysl:=N_Faktorial_Iter(N);
 
- WriteLn('Faktori†l z ',N,' je ',Vysl,'.');
+ WriteLn('Faktori√°l z ',N,' je ',Vysl,'.');
  ReadLn;
  WriteLn('(c) Gama Software 1996');
 end.

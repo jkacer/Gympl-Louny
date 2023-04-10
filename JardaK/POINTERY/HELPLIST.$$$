@@ -1,18 +1,18 @@
-Tento adres ı obsahuje tyto soubory:
+Tento adresÃ¡Å™ obsahuje tyto soubory:
 
-UKAZ01   PAS - vytvoı¡ line rn¡ spojovì seznam celìch Ÿ¡sel o 10 Ÿ¡slech
-               a pak z nØj vycuc v  dalç¡
-UKAZ02   PAS - vytvoı¡ line rn¡ spojovì seznam celìch Ÿ¡sel o 20 Ÿ¡slech
-               a pak z nØj udØl  dalç¡, kterì obsahuje Ÿ¡sla dØliteln 
-               zadanìm Ÿ¡slem
-UKAZ03   PAS - vyhled  max/min prvek ze seznamu c.Ÿ. o 20 Ÿ¡slech
-UKAZ04   PAS - v seznamu vynech  vŸechny prvky dØliteln‚ zadanìm Ÿ¡slem
-UKAZ05   PAS - ze souboru VYTAHNI.TXT vyt hne seznam velkìch p¡smen
-               a seznam Ÿ¡slic - ten pak obr t¡; tak‚ s nimi d le pracuje
-UKAZ06   PAS - vytvoı¡ dynamickou GAS matici a pracuje s n¡
+UKAZ01   PAS - vytvoÅ™Ã­ lineÃ¡rnÃ­ spojovÃ½ seznam celÃ½ch ÄÃ­sel o 10 ÄÃ­slech
+               a pak z nÄ›j vycucÃ¡vÃ¡ dalÅ¡Ã­
+UKAZ02   PAS - vytvoÅ™Ã­ lineÃ¡rnÃ­ spojovÃ½ seznam celÃ½ch ÄÃ­sel o 20 ÄÃ­slech
+               a pak z nÄ›j udÄ›lÃ¡ dalÅ¡Ã­, kterÃ½ obsahuje ÄÃ­sla dÄ›litelnÃ¡
+               zadanÃ½m ÄÃ­slem
+UKAZ03   PAS - vyhledÃ¡ max/min prvek ze seznamu c.Ä. o 20 ÄÃ­slech
+UKAZ04   PAS - v seznamu vynechÃ¡ vÄechny prvky dÄ›litelnÃ© zadanÃ½m ÄÃ­slem
+UKAZ05   PAS - ze souboru VYTAHNI.TXT vytÃ¡hne seznam velkÃ½ch pÃ­smen
+               a seznam ÄÃ­slic - ten pak obrÃ¡tÃ­; takÃ© s nimi dÃ¡le pracuje
+UKAZ06   PAS - vytvoÅ™Ã­ dynamickou GAS matici a pracuje s nÃ­
 
-DYN_MAT  PAS - unita pro dynamick‚ GAS matice - objektovØ
-POINTERY PAS - unita pro line rn¡ spojov‚ seznamy
-VYTAZKY  PAS - unita pro limitovan‚ vìta§ky ze soubor… - objektovØ
+DYN_MAT  PAS - unita pro dynamickÃ© GAS matice - objektovÄ›
+POINTERY PAS - unita pro lineÃ¡rnÃ­ spojovÃ© seznamy
+VYTAZKY  PAS - unita pro limitovanÃ© vÃ½taÅ¾ky ze souborÅ¯ - objektovÄ›
 
-Datum posledn¡ aktualizace: 21.1.1996
+Datum poslednÃ­ aktualizace: 21.1.1996

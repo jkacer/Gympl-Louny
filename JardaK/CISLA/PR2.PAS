@@ -31,7 +31,7 @@ begin
                              end;
  until Staci or (Zacatek>MaxPole);
  NejDels:=Dej_Max_Del_Posl(Vysledky);
- WriteLn('NejdelÁ° posloupnost(i) m†(j°) ',NejDels,' ü°sel.');
+ WriteLn('Nejdel≈°√≠ posloupnost(i) m√°(j√≠) ',NejDels,' ƒç√≠sel.');
  for I:=1 to MaxPole do
   begin
    Zaznam:=Vysledky[I];

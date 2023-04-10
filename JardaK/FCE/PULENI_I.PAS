@@ -1,8 +1,8 @@
 { Created by GAS 1995 }
 program XXX;
 {
- Vyuß°v† toho, ße vypoü°t†v† st˝ed, dokud X-Y>Eta = povolen† odchylka
- Na C se pak uprav° bu‘ A nebo B, podle toho, aby to pak prot°nalo osu x
+ Vyu≈æ√≠v√° toho, ≈æe vypoƒç√≠t√°v√° st≈ôed, dokud X-Y>Eta = povolen√° odchylka
+ Na C se pak uprav√≠ buƒè A nebo B, podle toho, aby to pak prot√≠nalo osu x
 }
 uses Crt,Pom_Un;
 
@@ -15,12 +15,12 @@ var
 
 begin  { program }
  ClrScr;
- WriteLn('VÏpoüet " 0=f(x) "');
+ WriteLn('V√Ωpoƒçet " 0=f(x) "');
  Prirad_Fci;
 
- A:=Dej_Real('Doln° interval ?');
- B:=Dej_Real('Horn° interval ?');
- Eta:=Dej_Real('P˝esnost ?');
+ A:=Dej_Real('Doln√≠ interval ?');
+ B:=Dej_Real('Horn√≠ interval ?');
+ Eta:=Dej_Real('P≈ôesnost ?');
  if A>B then begin
               Pom:=A;
               A:=B;
@@ -28,7 +28,7 @@ begin  { program }
              end;
  if Pocitej(A)*Pocitej(B)>0 then
      begin
-      WriteLn('Funkce neproch†z° x pr†vÿ 1x !!! Konec.');
+      WriteLn('Funkce neproch√°z√≠ x pr√°vƒõ 1x !!! Konec.');
       Sound(500);Delay(100);NoSound;
       Exit;
      end;
@@ -60,6 +60,6 @@ begin  { program }
                                                         end;
  until Vyp;
  WriteLn;
- WriteLn('VÏsledek : ',Vysl:8:5);
+ WriteLn('V√Ωsledek : ',Vysl:8:5);
  ReadLn;
 end.

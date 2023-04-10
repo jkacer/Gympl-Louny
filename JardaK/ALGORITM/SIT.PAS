@@ -29,7 +29,7 @@ var
 
 begin
  ClrScr;
- WriteLn('!!! Pouze Ÿ¡sla <7 !!!');
+ WriteLn('!!! Pouze ÄÃ­sla <7 !!!');
  repeat
   Write('X = '); ReadLn(X);
  until (X<7);
@@ -40,8 +40,8 @@ begin
  V1 := N_Nad_K(X+Y,X);
  V2 := N_Nad_K(X+Y,Y);
 
- if V1=V2 then WriteLn('Existuje ',V1,' mo§nìch cest.')
-          else WriteLn('Chyba pýi vìpoŸtu => ',V1,' <> ',V2);
+ if V1=V2 then WriteLn('Existuje ',V1,' moÅ¾nÃ½ch cest.')
+          else WriteLn('Chyba pÅ™i vÃ½poÄtu => ',V1,' <> ',V2);
  ReadLn;
 end.
 

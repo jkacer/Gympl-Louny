@@ -15,7 +15,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  {$I+}
@@ -33,7 +33,7 @@ begin
    until not(Je);
    if NaTom>K then K:=NaTom;
   end;
- WriteLn('Soubor m  na ý dku nejv¡ce ',K,' slov.');
+ WriteLn('Soubor mÃ¡ na Å™Ã¡dku nejvÃ­ce ',K,' slov.');
  Close(F);
  ReadLn;
 end.

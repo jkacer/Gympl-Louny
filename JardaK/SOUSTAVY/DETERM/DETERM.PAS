@@ -52,7 +52,7 @@ procedure Res_Sous2(X:Soustava2;var DX,DY,D:Real);
 var
     Det: Determinant22;
 begin
- { P…vodn¡ naplnØn¡ }
+ { PÅ¯vodnÃ­ naplnÄ›nÃ­ }
  Det[1,1]:=X[1,1];
  Det[1,2]:=X[1,2];
  Det[2,1]:=X[2,1];
@@ -81,7 +81,7 @@ procedure Res_Sous3(X:Soustava3;var DX,DY,DZ,D:Real);
 var
      Det: Determinant33;
 begin
- { P…vodn¡ naplnØn¡ }
+ { PÅ¯vodnÃ­ naplnÄ›nÃ­ }
  Det[1,1]:=X[1,1];
  Det[1,2]:=X[1,2];
  Det[1,3]:=X[1,3];

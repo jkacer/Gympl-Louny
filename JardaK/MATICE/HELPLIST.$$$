@@ -1,33 +1,33 @@
-Tento adres ı obsahuje tyto soubory:
+Tento adresÃ¡Å™ obsahuje tyto soubory:
 
-M166     PAS - zjist¡, v kolika sloupc¡ch matice je stejnì
-               souŸet jako v 1. sloupci
-M167     PAS - urŸ¡ Ÿ¡slo sloupce s maxim ln¡m souŸtem prvk…;
-               je-li jich v¡c, urŸ¡ vçechny
-M168     PAS - urŸ¡ vçechny sloupce, kter‚ maj¡ stejn‚ prvky
-               na stejnìch pozic¡ch jako 1. sloupec
-M169     PAS - urŸ¡, v kolika sloupc¡ch jsou stejn  Ÿ¡sla jako v 1. sloupci,
-               na poıad¡ naz le§¡
-M170     PAS - zjist¡, zda je matice soumØrn  podle hlavn¡ £hlopı¡Ÿky
-M171     PAS - pıerovn  sloupce matice, aby byly uspoı d ny podle velikosti
-M172     PAS - pıerovn  ı dky matice, aby byly uspoı d ny podle sv‚ho
-               1. prvku; obsah ı dk… z…st v  zachov n
-M173     PAS - pıerovn  ı dky matice, aby byly uspoı d ny podle souŸtu
-               vçech svìch prvk…; obsah ı dku z…st v  zachov n
-M174     PAS - urŸ¡, v kolika ı dc¡ch se nach z¡ permutace-ka§d‚ jen jednou;
+M166     PAS - zjistÃ­, v kolika sloupcÃ­ch matice je stejnÃ½
+               souÄet jako v 1. sloupci
+M167     PAS - urÄÃ­ ÄÃ­slo sloupce s maximÃ¡lnÃ­m souÄtem prvkÅ¯;
+               je-li jich vÃ­c, urÄÃ­ vÅ¡echny
+M168     PAS - urÄÃ­ vÅ¡echny sloupce, kterÃ© majÃ­ stejnÃ© prvky
+               na stejnÃ½ch pozicÃ­ch jako 1. sloupec
+M169     PAS - urÄÃ­, v kolika sloupcÃ­ch jsou stejnÃ¡ ÄÃ­sla jako v 1. sloupci,
+               na poÅ™adÃ­ nazÃ¡leÅ¾Ã­
+M170     PAS - zjistÃ­, zda je matice soumÄ›rnÃ¡ podle hlavnÃ­ ÃºhlopÅ™Ã­Äky
+M171     PAS - pÅ™erovnÃ¡ sloupce matice, aby byly uspoÅ™Ã¡dÃ¡ny podle velikosti
+M172     PAS - pÅ™erovnÃ¡ Å™Ã¡dky matice, aby byly uspoÅ™Ã¡dÃ¡ny podle svÃ©ho
+               1. prvku; obsah Å™Ã¡dkÅ¯ zÅ¯stÃ¡vÃ¡ zachovÃ¡n
+M173     PAS - pÅ™erovnÃ¡ Å™Ã¡dky matice, aby byly uspoÅ™Ã¡dÃ¡ny podle souÄtu
+               vÅ¡ech svÃ½ch prvkÅ¯; obsah Å™Ã¡dku zÅ¯stÃ¡vÃ¡ zachovÃ¡n
+M174     PAS - urÄÃ­, v kolika Å™Ã¡dcÃ­ch se nachÃ¡zÃ­ permutace-kaÅ¾dÃ© jen jednou;
                matice je NxN, permutace 1...N
-M175     PAS - vyp¡çe vçechny ı dky s permutac¡ 1...N; matice je NxN
-M176     PAS - vymØn¡ nejvØtç¡ prvek z matice s nejmenç¡m
-M177     PAS - vymØn¡ v matici prvek s nejmenç¡ v hou za prvek s nejmenç¡
-               v hou; VµHA = 2 x vlastn¡ hodnota + souŸet soused… (max. 8)
-M178     PAS - vymØn¡ v matici prvek s nejvØtç¡ hodnotou nad diagon lou
-               za prvek s nejmenç¡ hodnotou pod diagon lou
-M179     PAS - nalezne sedlovì bod matice;
-               SEDLOVí BOD = nejvØtç¡ v ı dku a nejmenç¡ ve sloupci
-               nebo nejmenç¡ v ı dku a nejvØtç¡ ve sloupci
-M180     PAS - na ka§d‚m ı dku matice najde minim ln¡ prvek a prohod¡ ho
-               s prvkem na diagon le
+M175     PAS - vypÃ­Å¡e vÅ¡echny Å™Ã¡dky s permutacÃ­ 1...N; matice je NxN
+M176     PAS - vymÄ›nÃ­ nejvÄ›tÅ¡Ã­ prvek z matice s nejmenÅ¡Ã­m
+M177     PAS - vymÄ›nÃ­ v matici prvek s nejmenÅ¡Ã­ vÃ¡hou za prvek s nejmenÅ¡Ã­
+               vÃ¡hou; VÃHA = 2 x vlastnÃ­ hodnota + souÄet sousedÅ¯ (max. 8)
+M178     PAS - vymÄ›nÃ­ v matici prvek s nejvÄ›tÅ¡Ã­ hodnotou nad diagonÃ¡lou
+               za prvek s nejmenÅ¡Ã­ hodnotou pod diagonÃ¡lou
+M179     PAS - nalezne sedlovÃ½ bod matice;
+               SEDLOVÃ BOD = nejvÄ›tÅ¡Ã­ v Å™Ã¡dku a nejmenÅ¡Ã­ ve sloupci
+               nebo nejmenÅ¡Ã­ v Å™Ã¡dku a nejvÄ›tÅ¡Ã­ ve sloupci
+M180     PAS - na kaÅ¾dÃ©m Å™Ã¡dku matice najde minimÃ¡lnÃ­ prvek a prohodÃ­ ho
+               s prvkem na diagonÃ¡le
 
-MATICE   PAS - vçe potıebn‚ pro vìçe uveden‚
+MATICE   PAS - vÅ¡e potÅ™ebnÃ© pro vÃ½Å¡e uvedenÃ©
 
-Datum posledn¡ aktualizace: 8.5.1996
+Datum poslednÃ­ aktualizace: 8.5.1996

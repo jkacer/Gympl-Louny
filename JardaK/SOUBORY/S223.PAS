@@ -19,17 +19,17 @@ begin
  {$I-}
  ReWrite(Kam);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v p˝°stupu k VYSL.CIS !!!');
+                      WriteLn('Chyba v p≈ô√≠stupu k VYSL.CIS !!!');
                       Exit;
                      end;
  Reset(Odkud1);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v p˝°stupu k ZDROJ1.CIS !!!');
+                      WriteLn('Chyba v p≈ô√≠stupu k ZDROJ1.CIS !!!');
                       Exit;
                      end;
  Reset(Odkud2);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v p˝°stupu k ZDROJ2.CIS !!!');
+                      WriteLn('Chyba v p≈ô√≠stupu k ZDROJ2.CIS !!!');
                       Exit;
                      end;
  {$I+}
@@ -54,16 +54,16 @@ begin
 
  Reset(Kam);
 
- { Pomalu , ale jistÿ ! }
+ { Pomalu , ale jistƒõ ! }
  { BubbleSort v souboru }
 
  for I:=Kolik downto 1 do
   for J:=2 to I do
    begin
-    Seek(Kam,J-2);    { Seek zmenÁuje o 1 }
+    Seek(Kam,J-2);    { Seek zmen≈°uje o 1 }
     Read(Kam,Cislo1);
     Seek(Kam,J-1);
-    Read(Kam,Cislo2); { Seek zmenÁuje o 1 }
+    Read(Kam,Cislo2); { Seek zmen≈°uje o 1 }
     if Cislo1>Cislo2 then begin
                            Seek(Kam,J-2);
                            Write(Kam,Cislo2);
@@ -78,7 +78,7 @@ begin
  Reset(Odkud1);
  Reset(Odkud2);
 
- WriteLn('ZdrojovÏ soubor ü.1:');
+ WriteLn('Zdrojov√Ω soubor ƒç.1:');
  while not(Eof(Odkud1)) do
   begin
    Read(Odkud1,Cislo1);
@@ -86,7 +86,7 @@ begin
                   else Write(Cislo1,' , ');
   end;
  WriteLn;
- WriteLn('ZdrojovÏ soubor ü.2:');
+ WriteLn('Zdrojov√Ω soubor ƒç.2:');
  while not(Eof(Odkud2)) do
   begin
    Read(Odkud2,Cislo2);
@@ -94,7 +94,7 @@ begin
                   else Write(Cislo2,' , ');
   end;
  WriteLn;
- WriteLn('VÏslednÏ soubor :');
+ WriteLn('V√Ωsledn√Ω soubor :');
  while not(Eof(Kam)) do
   begin
    Read(Kam,Cislo1);

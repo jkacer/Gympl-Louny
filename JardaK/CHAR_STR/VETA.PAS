@@ -15,7 +15,7 @@ var
 
 begin
  ClrScr;
- WriteLn('Zadej vØtu zakonŸenou teŸkou.');
+ WriteLn('Zadej vÄ›tu zakonÄenou teÄkou.');
  ReadLn(S);
 
  Kolik_AA :=0;
@@ -33,10 +33,10 @@ begin
                       else;
                      end; { case }
 
- WriteLn('A§ do prvn¡ teŸky je tam :');
- WriteLn(Kolik_AA:3,' znak… A,');
- WriteLn(Kolik_A:3 ,' znak… a,');
- WriteLn(Kolik_X:3 ,' znak… x.');
+ WriteLn('AÅ¾ do prvnÃ­ teÄky je tam :');
+ WriteLn(Kolik_AA:3,' znakÅ¯ A,');
+ WriteLn(Kolik_A:3 ,' znakÅ¯ a,');
+ WriteLn(Kolik_X:3 ,' znakÅ¯ x.');
  ReadLn;
 end.
 

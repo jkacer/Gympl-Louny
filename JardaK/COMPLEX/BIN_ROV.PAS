@@ -25,8 +25,8 @@ var
 
 begin
  ClrScr;
- WriteLn('Binomick  rovnice');
- WriteLn('ZnØn¡ je: X^n = A       A-komplexn¡ Ÿ¡slo');
+ WriteLn('BinomickÃ¡ rovnice');
+ WriteLn('ZnÄ›nÃ­ je: X^n = A       A-komplexnÃ­ ÄÃ­slo');
 
  repeat
   WriteLn('Zadej N>0 a N<',MaxPoc+1);
@@ -42,14 +42,14 @@ begin
  WriteLn;
  WriteLn;
 
- Velikost := Nta_Odmocnina(B.Vel,N);  { velikost vçech vìsledk… }
- Uhel     := B.Fi / N;                { bude se pýiŸ¡tat Ÿ st 360/N}
+ Velikost := Nta_Odmocnina(B.Vel,N);  { velikost vÅ¡ech vÃ½sledkÅ¯ }
+ Uhel     := B.Fi / N;                { bude se pÅ™iÄÃ­tat ÄÃ¡st 360/N}
 
- for K := 0 to N-1 do   { naplnØn¡ pole Ÿ¡sel v gon. tvaru }
+ for K := 0 to N-1 do   { naplnÄ›nÃ­ pole ÄÃ­sel v gon. tvaru }
   begin
    Pole_G[K+1].Vel := Velikost;
    Pole_G[K+1].Fi  := Uhel + K*(360/N);
-   { pý.:   3Fi = 45 + k.360  ==>> Fi = 15 + k.120 }
+   { pÅ™.:   3Fi = 45 + k.360  ==>> Fi = 15 + k.120 }
   end;
 
  for K := 0 to N-1 do

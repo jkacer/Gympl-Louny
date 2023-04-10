@@ -13,6 +13,6 @@ begin
  Napln_Mat(Mat);
  Pis_Mat(Mat);
  Cel:=Dej_Soucet_Prv_Mat(Mat);
- WriteLn('SouŸet vçech prvoŸ¡sel v matice je ',Cel,'.');
+ WriteLn('SouÄet vÅ¡ech prvoÄÃ­sel v matice je ',Cel,'.');
  ReadLn;
 end.

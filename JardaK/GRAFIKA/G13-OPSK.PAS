@@ -39,7 +39,7 @@ var GD,GM:   Integer;
 
     A1,B1,C1,
     A2,B2,C2,
-    A3,B3,C3:Real; { Pro ob. rovnice os £seüek troj. }
+    A3,B3,C3:Real; { Pro ob. rovnice os √∫seƒçek troj. }
 
 begin
  ClrScr;
@@ -74,7 +74,7 @@ begin
     ( (BX1=BX3) and (BY1=BY3) ) or
     ( (BX3=BX2) and (BY3=BY2) ) then
      begin
-      OutTextXY(X div 2,Y div 2,'Êpatnÿ zadan† ü°sla !');
+      OutTextXY(X div 2,Y div 2,'≈†patnƒõ zadan√° ƒç√≠sla !');
       ReadLn;
       GoTo 1;
      end;
@@ -135,7 +135,7 @@ begin
  C2:=-A2*SX2-B2*SY2;
  C3:=-A3*SX3-B3*SY3;
 
- { V determinantu se poü°t† jenom se 2 stranama troj. }
+ { V determinantu se poƒç√≠t√° jenom se 2 stranama troj. }
  Det[1,1]:=A1;
  Det[1,2]:=B1;
  Det[2,1]:=A2;
@@ -158,7 +158,7 @@ begin
  SX:=DX/D;
  SY:=DY/D;
 
- { Vypoü°t†v† se jenom z 1 bodu - A }
+ { Vypoƒç√≠t√°v√° se jenom z 1 bodu - A }
 
  R:=Sqrt( Sqr(BX1-SX) + Sqr(BY1-SY) );
 

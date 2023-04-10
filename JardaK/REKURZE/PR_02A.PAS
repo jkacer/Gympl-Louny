@@ -13,10 +13,10 @@ var
 begin
  ClrScr;
 
- Write('SpoŸ¡tat faktori l pro co ? <0,255> ');
+ Write('SpoÄÃ­tat faktoriÃ¡l pro co ? <0,255> ');
  ReadLn(Co);
  Vysl:=N_Faktorial(Co);
- WriteLn('Faktori l Ÿ¡sla ',Co,' je ',Vysl,'.');
+ WriteLn('FaktoriÃ¡l ÄÃ­sla ',Co,' je ',Vysl,'.');
  ReadLn;
  WriteLn('(c) Gama Software 1996');
 end.

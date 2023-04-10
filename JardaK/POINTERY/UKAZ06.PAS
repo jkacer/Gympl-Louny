@@ -1,6 +1,6 @@
 { Created by Gas 1995 }
 {
- Vytvoı¡ dynamickou matici a pracuje s n¡.
+ VytvoÅ™Ã­ dynamickou matici a pracuje s nÃ­.
 }
 program XXX;
 
@@ -16,15 +16,15 @@ var
 begin
  Pred:=MemAvail;
  Str(Pred,S);
- S:='Voln  pamØœ na zaŸ tku : '+S+' byt….';
+ S:='VolnÃ¡ pamÄ›Å¥ na zaÄÃ¡tku : '+S+' bytÅ¯.';
 
  Randomize;
  Desktop(Blue,LightGray,#176);
  Ramecek(3,3,78,23,'GAS Pointer & Object Demo',Blue,White,Yellow,#32);
  Window(5,4,76,22);
  Pis(S,                                                   NeMez,JoPip);
- Pis('Bude vytvoıena dynamick  matice 5 X 5, jej¡§ prvky',NeMez,JoPip);
- Pis('budou m¡t poŸ teŸn¡ hodnotu  8.456',                NeMez,JoPip);
+ Pis('Bude vytvoÅ™ena dynamickÃ¡ matice 5 X 5, jejÃ­Å¾ prvky',NeMez,JoPip);
+ Pis('budou mÃ­t poÄÃ¡teÄnÃ­ hodnotu  8.456',                NeMez,JoPip);
  Pis('Mat := New(PDynMatice,Init(5,5,8.456));',           NeMez,JoPip);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
  Mat:=New(PDynMatice,Init(5,5,8.456));
@@ -32,31 +32,31 @@ begin
  Mat^.Tisk('Tisk matice:');
  Enter;
 
- Pis('Nyn¡ budeme vyu§¡vat funkc¡ pro zjiçtØn¡ poŸtu ı dk…',          NeMez,JoPip);
- Pis('a poŸtu sloupc… v jednotlivìch ı dc¡ch.',                       NeMez,JoPip);
- Pis('I := Mat^.GetPocetR;   J := Mat^.GetPocetS(Ÿ¡slo ı dku);',      NeMez,JoPip);
+ Pis('NynÃ­ budeme vyuÅ¾Ã­vat funkcÃ­ pro zjiÅ¡tÄ›nÃ­ poÄtu Å™Ã¡dkÅ¯',          NeMez,JoPip);
+ Pis('a poÄtu sloupcÅ¯ v jednotlivÃ½ch Å™Ã¡dcÃ­ch.',                       NeMez,JoPip);
+ Pis('I := Mat^.GetPocetR;   J := Mat^.GetPocetS(ÄÃ­slo Å™Ã¡dku);',      NeMez,JoPip);
  I:=Mat^.GetPocetR;
- WriteLn('Pocet ı dk… = ',I);
+ WriteLn('Pocet Å™Ã¡dkÅ¯ = ',I);
  for J:=1 to I do
-  WriteLn('PoŸet sloupeŸk… v ',J,'-t‚m ı dku je ',Mat^.GetPocetS(J));
+  WriteLn('PoÄet sloupeÄkÅ¯ v ',J,'-tÃ©m Å™Ã¡dku je ',Mat^.GetPocetS(J));
  Enter;
 
- Pis('TØÔ se pıidaj¡ do matice n hodn  Ÿ¡sla na n hodn‚ pozice.',     NeMez,JoPip);
- Pis('Vol n¡ Mat^.Pridej(J,Random(Mat^.GetPocetS(J)+1),10*Random);',  NeMez,JoPip);
+ Pis('TÄ›Ä se pÅ™idajÃ­ do matice nÃ¡hodnÃ¡ ÄÃ­sla na nÃ¡hodnÃ© pozice.',     NeMez,JoPip);
+ Pis('VolÃ¡nÃ­ Mat^.Pridej(J,Random(Mat^.GetPocetS(J)+1),10*Random);',  NeMez,JoPip);
  for J:=1 to I do
   Mat^.Pridej(J,Random(Mat^.GetPocetS(J)+1),10*Random);
  Mat^.Tisk('Tisk matice:');
  Enter;
 
- Pis('TØÔ se pıep¡ç¡ do matice n hodn  Ÿ¡sla na n hodn‚ pozice.',     NeMez,JoPip);
- Pis('Vol n¡ Mat^.Zapis(J,Random(Mat^.GetPocetS(J))+1,10*Random);',   NeMez,JoPip);
+ Pis('TÄ›Ä se pÅ™epÃ­Å¡Ã­ do matice nÃ¡hodnÃ¡ ÄÃ­sla na nÃ¡hodnÃ© pozice.',     NeMez,JoPip);
+ Pis('VolÃ¡nÃ­ Mat^.Zapis(J,Random(Mat^.GetPocetS(J))+1,10*Random);',   NeMez,JoPip);
  for J:=1 to I do
   Mat^.Zapis(J,Random(Mat^.GetPocetS(J))+1,10*Random);
  Mat^.Tisk('Tisk matice:');
  Enter;
 
- Pis('TØÔ se vyma§ou vçechny Ÿ¡sla na pozic¡ch 1,3 a 6.',             NeMez,JoPip);
- Pis('Vol n¡ Mat^.Uber(Ÿ¡slo ı dku,Ÿ¡slo sloupce);',                  NeMez,JoPip);
+ Pis('TÄ›Ä se vymaÅ¾ou vÅ¡echny ÄÃ­sla na pozicÃ­ch 1,3 a 6.',             NeMez,JoPip);
+ Pis('VolÃ¡nÃ­ Mat^.Uber(ÄÃ­slo Å™Ã¡dku,ÄÃ­slo sloupce);',                  NeMez,JoPip);
  for J:=1 to I do
   begin
    Mat^.Uber(J,1); { = 1. }
@@ -66,17 +66,17 @@ begin
  Mat^.Tisk('Tisk matice:');
  Enter;
 
- Pis('TØÔ se vyma§e ı dek Ÿ.4',                                       NeMez,JoPip);
- Pis('Vol n¡ Mat^.UberRad(4);',                                       NeMez,JoPip);
+ Pis('TÄ›Ä se vymaÅ¾e Å™Ã¡dek Ä.4',                                       NeMez,JoPip);
+ Pis('VolÃ¡nÃ­ Mat^.UberRad(4);',                                       NeMez,JoPip);
  Mat^.UberRad(4);
  Mat^.Tisk('Tisk matice:');
  Enter;
 
- Pis('TØÔ se pıidaj¡ ı dky na pozici 1 a 6.',                         NeMez,JoPip);
- Pis('A ulo§¡me do nich Ÿ¡sla 11.0 (7X) a 55.5.(1X)',                 NeMez,JoPip);
- Pis('V GAS matic¡ch m…§e toti§ m¡t ka§dì ı dek jinì poŸet Ÿ¡sel !!!',NeMez,JoPip);
- Pis('Vol n¡ Mat^.PridejRad(za kterì ı dek);',                        NeMez,JoPip);
- Pis('Vol n¡ Mat^.Pridej(na kterì ı dek,za kterì sloupec,Ÿ¡slo);',    NeMez,JoPip);
+ Pis('TÄ›Ä se pÅ™idajÃ­ Å™Ã¡dky na pozici 1 a 6.',                         NeMez,JoPip);
+ Pis('A uloÅ¾Ã­me do nich ÄÃ­sla 11.0 (7X) a 55.5.(1X)',                 NeMez,JoPip);
+ Pis('V GAS maticÃ­ch mÅ¯Å¾e totiÅ¾ mÃ­t kaÅ¾dÃ½ Å™Ã¡dek jinÃ½ poÄet ÄÃ­sel !!!',NeMez,JoPip);
+ Pis('VolÃ¡nÃ­ Mat^.PridejRad(za kterÃ½ Å™Ã¡dek);',                        NeMez,JoPip);
+ Pis('VolÃ¡nÃ­ Mat^.Pridej(na kterÃ½ Å™Ã¡dek,za kterÃ½ sloupec,ÄÃ­slo);',    NeMez,JoPip);
  Mat^.PridejRad(0);
  Mat^.PridejRad(5);
  for I:=1 to 7 do
@@ -85,18 +85,18 @@ begin
  Mat^.Tisk('Tisk matice:');
  Enter;
 
- Pis('TeÔ celou matici zruç¡me vol n¡m destructoru Done.',            NeMez,JoPip);
+ Pis('TeÄ celou matici zruÅ¡Ã­me volÃ¡nÃ­m destructoru Done.',            NeMez,JoPip);
  Dispose(Mat,Done);
  Enter;
 
  Po:=MemAvail;
  Str(Po,S);
- S:='Voln  pamØœ na konci : '+S+' byt….';
+ S:='VolnÃ¡ pamÄ›Å¥ na konci : '+S+' bytÅ¯.';
  Pis(S,                                                               NeMez,JoPip);
 
  Po:=Pred-Po;
  Str(Po,S);
- S:='To znamen , §e jsme ztratili '+S+' byt….';
+ S:='To znamenÃ¡, Å¾e jsme ztratili '+S+' bytÅ¯.';
  Pis(S,                                                               NeMez,JoPip);
  Enter;
 

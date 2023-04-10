@@ -15,7 +15,7 @@ begin
  Dej_Gon(B);
 
  Gon_Alg(B,A);
- WriteLn('V algebraick‚m tvaru:');
+ WriteLn('V algebraickÃ©m tvaru:');
  Pis_Alg(A);
 
  ReadLn;

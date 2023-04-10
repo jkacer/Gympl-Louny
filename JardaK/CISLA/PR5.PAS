@@ -10,7 +10,7 @@ var
 
 begin
  ClrScr;
- WriteLn('Program vyp°Áe prvn°ch N prvoü°sel.');
+ WriteLn('Program vyp√≠≈°e prvn√≠ch N prvoƒç√≠sel.');
  repeat
   Write('N ? <1,1000> ');
   ReadLn(N);

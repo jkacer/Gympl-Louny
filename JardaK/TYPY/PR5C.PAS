@@ -12,18 +12,18 @@ var
 begin
  ClrScr;
  repeat
-  WriteLn('ZnØn¡ rovnice je ³ X-A ³  = B');
-  WriteLn('Zad vej!');
+  WriteLn('ZnÄ›nÃ­ rovnice je â”‚ X-A â”‚  = B');
+  WriteLn('ZadÃ¡vej!');
 
   Write('A = ');  ReadLn(A);
   Write('B = ');  ReadLn(B);
 
   X1:=A+B;
   X2:=A-B;
-  WriteLn('Rovnice m  2 ıeçen¡: ',X1:6:3,' a ',X2:6:3);
+  WriteLn('Rovnice mÃ¡ 2 Å™eÅ¡enÃ­: ',X1:6:3,' a ',X2:6:3);
 
   repeat
-   WriteLn('Chceç jeçtØ? - 1/0');
+   WriteLn('ChceÅ¡ jeÅ¡tÄ›? - 1/0');
    ReadLn(Q);
   until (Q=1) or (Q=0);
 

@@ -1,8 +1,8 @@
 { Created by GAS 1995 }
 {
- Pıirozen‚ Ÿ¡slo se nazìv  Palindrom, je-li jeho dekadickì
- z pis symetrickì(313,111,78787).
- NaleznØte vçechny palindromy z intervalu <A,B>.
+ PÅ™irozenÃ© ÄÃ­slo se nazÃ½vÃ¡ Palindrom, je-li jeho dekadickÃ½
+ zÃ¡pis symetrickÃ½(313,111,78787).
+ NaleznÄ›te vÅ¡echny palindromy z intervalu <A,B>.
 }
 
 program XXX;
@@ -14,7 +14,7 @@ var A,B:Integer;
 
 begin
  ClrScr;
- WriteLn('Budou vyhled na vçechna symetrick  Ÿ¡sla z intervalu <A,B>.');
+ WriteLn('Budou vyhledÃ¡na vÅ¡echna symetrickÃ¡ ÄÃ­sla z intervalu <A,B>.');
  Write('A ? ');
  ReadLn(A);
  Write('B ? ');

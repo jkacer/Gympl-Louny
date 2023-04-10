@@ -11,11 +11,11 @@ var
 begin
  ClrScr;
  Napln(Pole);
- WriteLn('N hodnØ vygenerovan‚ pole:');
+ WriteLn('NÃ¡hodnÄ› vygenerovanÃ© pole:');
  Vypis(Pole);
 
  BubbleSort(Pole);
- WriteLn('Setı¡dØno BubbleSortem:');
+ WriteLn('SetÅ™Ã­dÄ›no BubbleSortem:');
  Vypis(Pole);
  ReadLn;
 end.

@@ -14,12 +14,12 @@ var
       DoVal:    Integer;
       LS:       Byte;
 begin
- LS:=0;       { LichÇ/sudÇ }
+ LS:=0;       { Lich√©/sud√© }
  Kolik:=0;
 
  for I:=Length(S) downto 1 do
   begin
-   Inc(LS); { Prvn° odzadu lichej }
+   Inc(LS); { Prvn√≠ odzadu lichej }
    if Odd(LS) then begin
                     Val(S[I],DoVal,Code);
                     Kolik:=Kolik+DoVal;
@@ -34,10 +34,10 @@ var
       C:        Integer;
 begin
  ClrScr;
- Write('Zadej ü°slo ! ');
+ Write('Zadej ƒç√≠slo ! ');
  ReadLn(C);
  Str(C,S);
- WriteLn('Souüet lichÏch ü°slic odzadu je ',SoucLichCiselOdzadu(S));
+ WriteLn('Souƒçet lich√Ωch ƒç√≠slic odzadu je ',SoucLichCiselOdzadu(S));
  ReadLn;
 end.
 

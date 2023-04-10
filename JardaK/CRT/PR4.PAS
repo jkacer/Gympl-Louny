@@ -6,7 +6,7 @@ uses
       Crt;
 
 const
-      Name : string = 'The Big Boss K†üula';
+      Name : string = 'The Big Boss K√°ƒçula';
 
 var
       I:        Byte;

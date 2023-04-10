@@ -13,7 +13,7 @@ uses Crt,Graph,Grafika;
 
 
 var
-    { Zobrazen° }
+    { Zobrazen√≠ }
 
     GD,GM:   Integer;
     X,Y:     Integer;

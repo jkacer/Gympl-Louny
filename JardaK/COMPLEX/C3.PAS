@@ -16,7 +16,7 @@ begin
 
  WriteLn('Velikost A je ',Velikost(A):5:3);
  Alg_Gon(A,B);
- WriteLn('V goniometrick‚m tvaru:');
+ WriteLn('V goniometrickÃ©m tvaru:');
  Pis_Gon(B);
 
  ReadLn;

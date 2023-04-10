@@ -1,18 +1,18 @@
 
-P˝evodn° funkce
+P≈ôevodn√≠ funkce
  Chr (funkce)
  Ord (funkce)
  Round (funkce)
  Trunc (funkce)
 
-Ordin†ln° procedury a funkce
+Ordin√°ln√≠ procedury a funkce
  Dec (procedura)
  Inc (procedura)
  Odd (funkce)
  Pred (funkce)
  Succ (funkce)
 
-AritmetickÇ funkce
+Aritmetick√© funkce
  Abs (funkce)
  ArcTan (funkce)
  Cos (funkce)

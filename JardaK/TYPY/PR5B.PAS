@@ -11,20 +11,20 @@ var
 begin
  ClrScr;
  repeat
-  WriteLn('ZnØn¡ rovnice je A*X = B');
-  WriteLn('Zad vej!');
+  WriteLn('ZnÄ›nÃ­ rovnice je A*X = B');
+  WriteLn('ZadÃ¡vej!');
 
   Write('A = ');  ReadLn(A);
   Write('B = ');  ReadLn(B);
 
-  if A=0 then if B=0 then WriteLn('Rovnice m  nekoneŸnØ mnoho ıeçen¡.')
-                     else WriteLn('Rovnice nem  § dn‚ ıeçen¡.')
+  if A=0 then if B=0 then WriteLn('Rovnice mÃ¡ nekoneÄnÄ› mnoho Å™eÅ¡enÃ­.')
+                     else WriteLn('Rovnice nemÃ¡ Å¾Ã¡dnÃ© Å™eÅ¡enÃ­.')
          else begin
                X:=B/A;
-               WriteLn('Rovnice m  1 ıeçen¡: ',X:6:3);
+               WriteLn('Rovnice mÃ¡ 1 Å™eÅ¡enÃ­: ',X:6:3);
               end;
   repeat
-   WriteLn('Chceç jeçtØ? - 1/0');
+   WriteLn('ChceÅ¡ jeÅ¡tÄ›? - 1/0');
    ReadLn(Q);
   until (Q=1) or (Q=0);
 

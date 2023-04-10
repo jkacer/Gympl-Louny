@@ -15,7 +15,7 @@ var
 
 begin
  ClrScr;
- WriteLn('Zadej najednou 4 cel  Ÿ¡sla.');
+ WriteLn('Zadej najednou 4 celÃ¡ ÄÃ­sla.');
  ReadLn(A,B,C,D);
 
  if Jsou3VetsiNez4(A,B,C,D) and
@@ -46,8 +46,8 @@ begin
     Jsou3VetsiNez4(D,C,A,B) and
     Jsou3VetsiNez4(D,C,B,A)
 
-     then WriteLn('SouŸet libovolnìch 3 Ÿ¡sel z nich je vØtç¡ ne§ 4.Ÿ¡slo.')
-     else WriteLn('SouŸet libovolnìch 3 Ÿ¡sel z nich nen¡ vØtç¡ ne§ 4.Ÿ¡slo.');
+     then WriteLn('SouÄet libovolnÃ½ch 3 ÄÃ­sel z nich je vÄ›tÅ¡Ã­ neÅ¾ 4.ÄÃ­slo.')
+     else WriteLn('SouÄet libovolnÃ½ch 3 ÄÃ­sel z nich nenÃ­ vÄ›tÅ¡Ã­ neÅ¾ 4.ÄÃ­slo.');
 
  ReadLn;
 end.

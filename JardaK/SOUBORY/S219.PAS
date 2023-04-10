@@ -10,7 +10,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pı¡stupu k SOUB2.CIS !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB2.CIS !!!');
                       Exit;
                      end;
  {$I+}
@@ -19,11 +19,11 @@ begin
  Seek(F,FileSize(F)-SizeOf(Integer));
  Read(F,Posl);
  Close(F);
- WriteLn('Prvn¡ Ÿ¡slo:    ',Prvni);
- WriteLn('Posledn¡ Ÿ¡slo: ',Posl);
- if Prvni=Posl then WriteLn('Jsou stejn .')
-               else if Prvni>Posl then WriteLn('Prvni je vØtç¡.')
-                                  else WriteLn('Posledn¡ je vØtç¡.');
+ WriteLn('PrvnÃ­ ÄÃ­slo:    ',Prvni);
+ WriteLn('PoslednÃ­ ÄÃ­slo: ',Posl);
+ if Prvni=Posl then WriteLn('Jsou stejnÃ¡.')
+               else if Prvni>Posl then WriteLn('Prvni je vÄ›tÅ¡Ã­.')
+                                  else WriteLn('PoslednÃ­ je vÄ›tÅ¡Ã­.');
 
  ReadLn;
 end.

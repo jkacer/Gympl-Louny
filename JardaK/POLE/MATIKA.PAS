@@ -74,13 +74,13 @@ var Pole:    TPoleDel;
     I:       Byte;
     B:       Boolean;
 begin
- for I:=1 to 5 do { Nulov†n° pole }
+ for I:=1 to 5 do { Nulov√°n√≠ pole }
   Pole[I]:=25;
 
  PomC:=Cislo;
  I:=1;
 
- { D†v†n° ü°slic do pole }
+ { D√°v√°n√≠ ƒç√≠slic do pole }
  Cislice:=PomC mod 10;
  PomC:=PomC div 10;
  Pole[I]:=Cislice;
@@ -135,12 +135,12 @@ begin
  for I:=1 to Length(PS) do
   begin
    Z:=PS[I];
-   Inc(Pole[Ord(Z)-Ord('0')]); { ZvÿtÁit poloßku pole podle ü°slice }
+   Inc(Pole[Ord(Z)-Ord('0')]); { Zvƒõt≈°it polo≈æku pole podle ƒç√≠slice }
   end;
 
  B:=True;
  for I:=0 to 9 do
-  if Pole[I]>1 then B:=False; { Mus° bejt 0 nebo 1 }
+  if Pole[I]>1 then B:=False; { Mus√≠ bejt 0 nebo 1 }
 
  CifryJenJednou:=B;
 end; { CifryJenJednou }
@@ -228,7 +228,7 @@ var CoDelat:      String[8];
     I:            Byte;
 begin
  if N<1 then begin
-              WriteLn('Exponent mus° bÏt vÿtÁ° neß 1 ! => Exit.');
+              WriteLn('Exponent mus√≠ b√Ωt vƒõt≈°√≠ ne≈æ 1 ! => Exit.');
               Exit;
              end;
  UzNasobeno:=False;
@@ -255,14 +255,14 @@ begin
   Zaklad[I]:=New(PMatice44);
 
  {
-  Naplnÿn° z†kladn°ch matic (expon=n†sobky 2 do 128)
+  Naplnƒõn√≠ z√°kladn√≠ch matic (expon=n√°sobky 2 do 128)
 
  }
  for I:=2 to 8 do
   NasobMatice(Zaklad[I-1],Zaklad[I-1],Zaklad[I]);
 
  WriteLn('Matice nahozeny.');
- WriteLn('Program†tor nezodpov°d† za p˝°padnÇ chyby programu.');
+ WriteLn('Program√°tor nezodpov√≠d√° za p≈ô√≠padn√© chyby programu.');
 end; { Matice_Init }
 
 procedure Matice_Done;
@@ -271,7 +271,7 @@ begin
  for I:=1 to 8 do
  Dispose(Zaklad[I]);
 
- WriteLn('Matice uvolnÿny.');
+ WriteLn('Matice uvolnƒõny.');
 end;
 
 function  Porovnani(A,B:PMatice44):Boolean;
@@ -324,7 +324,7 @@ end; { UmistiMatici }
 function  JePythagTrojuh(A,B,C:Integer):Boolean;
 var P:  Integer;
 begin
- { Do C se nacpe nejvÿtÁ° ü°slo = odvÿsna }
+ { Do C se nacpe nejvƒõt≈°√≠ ƒç√≠slo = odvƒõsna }
  P:=C;
  if A>C then begin
               C:=A;

@@ -22,15 +22,15 @@ procedure Natahni(var X:TTabulka;var KolikZ:Byte);
 var
       I:        Byte;
 begin
- Write('Poüet z†vodn°kÖ ? ');
+ Write('Poƒçet z√°vodn√≠k≈Ø ? ');
  ReadLn(KolikZ);
 
  for I:=1 to KolikZ do
   begin
-   WriteLn(I,'.z†vodn°k------------------------------');
-   Write('JmÇno:          '); ReadLn(X[I].Jmeno);
-   Write('Bÿh (s):        '); ReadLn(X[I].Beh);
-   Write('Plav†n° (s):    '); ReadLn(X[I].Plav);
+   WriteLn(I,'.z√°vodn√≠k------------------------------');
+   Write('Jm√©no:          '); ReadLn(X[I].Jmeno);
+   Write('Bƒõh (s):        '); ReadLn(X[I].Beh);
+   Write('Plav√°n√≠ (s):    '); ReadLn(X[I].Plav);
    Write('Cyklistika (s): '); ReadLn(X[I].Cyklo);
    WriteLn;
   end;
@@ -126,15 +126,15 @@ var
       Tab:      TTabulka;
 begin
  ClrScr;
- WriteLn('*** Zad†v†n° vÏsledkÖ ***');
+ WriteLn('*** Zad√°v√°n√≠ v√Ωsledk≈Ø ***');
  Natahni     (Tab,KolikZ);
- WriteLn('*** Po˝ad° v bÿhu ***');
+ WriteLn('*** Po≈ôad√≠ v bƒõhu ***');
  Print_B     (KolikZ,Tab);
- WriteLn('*** Po˝ad° v plav†n° ***');
+ WriteLn('*** Po≈ôad√≠ v plav√°n√≠ ***');
  Print_P     (KolikZ,Tab);
- WriteLn('*** Po˝ad° v cyklystice ***');
+ WriteLn('*** Po≈ôad√≠ v cyklystice ***');
  Print_C     (KolikZ,Tab);
- WriteLn('*** CelkovÇ po˝ad° ***');
+ WriteLn('*** Celkov√© po≈ôad√≠ ***');
  Print_Celkem(KolikZ,Tab);
  WriteLn('*** Enter ***');
  ReadLn;

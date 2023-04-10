@@ -1,7 +1,7 @@
 { Created by GAS 1995 }
 {
-  NaleznØte vçechna pıir. Ÿ¡sla menç¡ ne§ dan‚ N,
-  kter  jsou dØliteln  ka§dou svou cifrou.
+  NaleznÄ›te vÅ¡echna pÅ™ir. ÄÃ­sla menÅ¡Ã­ neÅ¾ danÃ© N,
+  kterÃ¡ jsou dÄ›litelnÃ¡ kaÅ¾dou svou cifrou.
 }
 program XXX;
 
@@ -12,8 +12,8 @@ var N:Integer;
 
 begin
  ClrScr;
- WriteLn('Budou vyps na vçechna Ÿ¡sla menç¡ ne§ N,');
- WriteLn('kter  jsou dØliteln  ka§dou svou cifrou.');
+ WriteLn('Budou vypsÃ¡na vÅ¡echna ÄÃ­sla menÅ¡Ã­ neÅ¾ N,');
+ WriteLn('kterÃ¡ jsou dÄ›litelnÃ¡ kaÅ¾dou svou cifrou.');
  Write('N ? ');
  ReadLn(N);
  Write('1');

@@ -13,7 +13,7 @@ uses Crt,Graph,Grafika;
 
 
 var
-    { Zobrazen¡ }
+    { ZobrazenÃ­ }
 
     GD,GM:   Integer;
     X,Y:     Integer;
@@ -52,7 +52,7 @@ begin
    Teleso[I].Z:=DejRozsah('Z ?',-30,+30,X,Y);
   end;
 
- H:=DejRozsah('Vìçka horizontu ?',-5,+5,X,Y);
+ H:=DejRozsah('VÃ½Å¡ka horizontu ?',-5,+5,X,Y);
  D:=DejRozsah('Distance ?',-5,+10,X,Y);
 
  SetColor(Green);

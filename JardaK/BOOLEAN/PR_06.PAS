@@ -1,9 +1,9 @@
 {
- BOOLEAN - p˝°klad 06
+ BOOLEAN - p≈ô√≠klad 06
 }
 
 {
- Zjist°, zda je ü°slo prvoü°slo
+ Zjist√≠, zda je ƒç√≠slo prvoƒç√≠slo
 }
 
 program XXX;
@@ -34,7 +34,7 @@ begin
  ClrScr;
  for I:=1 to 24 do
   if Je_Prvocislo(I) then WriteLn(I:4,'  JE')
-                     else WriteLn(I:4,'  NEN÷');
+                     else WriteLn(I:4,'  NEN√ç');
  ReadLn;
 end.
 

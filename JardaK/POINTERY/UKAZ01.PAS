@@ -1,7 +1,7 @@
 { Created by Gas 1995 }
 {
- Napiçte program, kt. vytvoı¡ lin. spojovì seznam celìch Ÿ¡sel -
- - 10 prvk… s hodnotou 1..10 .
+ NapiÅ¡te program, kt. vytvoÅ™Ã­ lin. spojovÃ½ seznam celÃ½ch ÄÃ­sel -
+ - 10 prvkÅ¯ s hodnotou 1..10 .
 }
 program XXX;
 
@@ -15,8 +15,8 @@ begin
  Desktop(Blue,LightGray,#176);
  Ramecek(3,3,78,23,'GAS Pointer Demo',Blue,White,Yellow,#32);
  Window(5,4,76,22);
- Pis('Bude vytvoıen line rn¡ spojovì seznam celìch Ÿ¡sel o 10 prvc¡ch',NeMez,JoPip);
- Pis('s hodnotami 1 a§ 10.',NeMez,JoPip);
+ Pis('Bude vytvoÅ™en lineÃ¡rnÃ­ spojovÃ½ seznam celÃ½ch ÄÃ­sel o 10 prvcÃ­ch',NeMez,JoPip);
+ Pis('s hodnotami 1 aÅ¾ 10.',NeMez,JoPip);
  WriteLn('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
  Seznam:=VytvorSez(10);
  TiskniSez(Seznam);
@@ -39,28 +39,28 @@ begin
  WriteLn('==== Enter ====');
  ReadLn;
  ClrScr;
- Pis('Bude vytvoıen novì seznam o 3 Ÿ¡slech vycucnut¡m',NeMez,JoPip);
- Pis('ze star‚ho seznamu poŸ¡naje 5. Ÿ¡slem.',NeMez,JoPip);
+ Pis('Bude vytvoÅ™en novÃ½ seznam o 3 ÄÃ­slech vycucnutÃ­m',NeMez,JoPip);
+ Pis('ze starÃ©ho seznamu poÄÃ­naje 5. ÄÃ­slem.',NeMez,JoPip);
  Novej1:=VytahniSez(Seznam,5,3);
- Pis('P…vodn¡ seznam:',NeMez,JoPip);
+ Pis('PÅ¯vodnÃ­ seznam:',NeMez,JoPip);
  TiskniSez(Seznam);
- Pis('Novì seznam:',NeMez,JoPip);
+ Pis('NovÃ½ seznam:',NeMez,JoPip);
  TiskniSez(Novej1);
 
  WriteLn('==== Enter ====');
  ReadLn;
  ClrScr;
 
- Pis('Bude vytvoıen 3.seznam o 4 Ÿ¡slech vycucnut¡m',NeMez,JoPip);
- Pis('ze star‚ho seznamu poŸ¡naje 4. Ÿ¡slem.',NeMez,JoPip);
- Pis('To je a§ do konce !',NeMez,JoPip);
+ Pis('Bude vytvoÅ™en 3.seznam o 4 ÄÃ­slech vycucnutÃ­m',NeMez,JoPip);
+ Pis('ze starÃ©ho seznamu poÄÃ­naje 4. ÄÃ­slem.',NeMez,JoPip);
+ Pis('To je aÅ¾ do konce !',NeMez,JoPip);
 
  Novej2:=VytahniSez(Seznam,4,4);
- Pis('P…vodn¡ seznam:',NeMez,JoPip);
+ Pis('PÅ¯vodnÃ­ seznam:',NeMez,JoPip);
  TiskniSez(Seznam);
- Pis('Novì seznam:',NeMez,JoPip);
+ Pis('NovÃ½ seznam:',NeMez,JoPip);
  TiskniSez(Novej1);
- Pis('NejnovØjç¡ seznam:',NeMez,JoPip);
+ Pis('NejnovÄ›jÅ¡Ã­ seznam:',NeMez,JoPip);
  TiskniSez(Novej2);
 
  ZrusSez(Seznam);
@@ -73,7 +73,7 @@ begin
  TextBackGround(Black);
  ClrScr;
  WriteLn('To je maglajs, co ?');
- WriteLn('UŸit se, uŸit se, uŸit se. (Pascal) - V.I.Lenin');
+ WriteLn('UÄit se, uÄit se, uÄit se. (Pascal) - V.I.Lenin');
 end.
 
 

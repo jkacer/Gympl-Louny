@@ -13,8 +13,11 @@ Pokud nemáte z 90. let schovaný [Turbo Pascal](https://cs.wikipedia.org/wiki/T
 zkuste dnešní [Free Pascal](https://www.freepascal.org/), snad budou vzájemně kompatibilní.
 
 A jestli máte něco z té doby schované na disku, přispějte taky! Přijímám merge requesty od všech spolužáků :-)
+A když merge request nebude, i se ZIPem poslaným emailem se spokojím.
 
-Soubory jsou uloženy v kódování CP-852 alias IBM-852 alias PC Latin 2.
+Soubory s pascalskými zdrojáky jsou uloženy v kódování UTF-8, protože tak to dnes na Internetu chodí.
+Nicméně pro kompilaci Turbo Pascalem pod stařičkým DOSem by měly být převedeny do CP-852 alias IBM-852 alias PC Latin 2, protože to je kódová stránka,
+kterou kdysi IBM ustanovilo jako tu pro střední Evropu nejlepší.
 
 
 ## Přispěvatelé

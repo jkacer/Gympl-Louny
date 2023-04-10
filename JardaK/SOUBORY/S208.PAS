@@ -5,7 +5,7 @@ var F:      Text;
     S:      String;
     K:      Integer;
     Zacatek,
-    Konec:  Word;   { pouze pomocnØ }
+    Konec:  Word;   { pouze pomocnÄ› }
     Je:     Boolean;
 
 begin
@@ -14,7 +14,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  {$I+}
@@ -30,7 +30,7 @@ begin
                end;
    until not(Je);
   end;
- WriteLn('Soubor m  ',K,' slov.');
+ WriteLn('Soubor mÃ¡ ',K,' slov.');
  Close(F);
  ReadLn;
 end.

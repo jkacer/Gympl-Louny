@@ -1,7 +1,7 @@
 {
 
-Nakreslete kruhov‚ hodiny s ruŸiŸkami ukazuj¡c¡mi Ÿas, kt. je zad n.
-PozmØnØno na syst‚movì Ÿas.
+Nakreslete kruhovÃ© hodiny s ruÄiÄkami ukazujÃ­cÃ­mi Äas, kt. je zadÃ¡n.
+PozmÄ›nÄ›no na systÃ©movÃ½ Äas.
 
 }
 

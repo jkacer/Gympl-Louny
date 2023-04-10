@@ -13,7 +13,7 @@ program XXX;
 uses Crt,Graph,Grafika;
 
 var
-    { Zobrazen° }
+    { Zobrazen√≠ }
 
     GD,GM:   Integer;
     X,Y:     Integer;
@@ -63,7 +63,7 @@ begin
    Body[I].Y:=DejRozsah(S1,-KolikY,KolikY,X,Y);
   end;
 
- MX:=DejRozsah('Pro kterÇ X ?',-50,50,X,Y);
+ MX:=DejRozsah('Pro kter√© X ?',-50,50,X,Y);
  DejKoefABC(KolikB,Body,A,B,C);
 
  SetColor(Green);
@@ -146,7 +146,7 @@ begin
 
  MY:=( A*Sqr(MX)) + (B*MX) + C ;
  Prepocti(MX,MY,PX1,PY1,X,Y,JednX,JednY);
- S1:='P˝edpovÿ‘';
+ S1:='P≈ôedpovƒõƒè';
  ZanesBod(S1,PX1,PY1,X,Y);
 
  Str(MX:3:2,S1);

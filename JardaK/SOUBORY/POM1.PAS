@@ -10,7 +10,7 @@ begin
  {$I-}
  ReWrite(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB1.CIS !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.CIS !!!');
                       Exit;
                      end;
  {$I+}

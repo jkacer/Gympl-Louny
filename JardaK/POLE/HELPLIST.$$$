@@ -1,18 +1,18 @@
-Tento adres†˝ obsahuje tyto soubory:
+Tento adres√°≈ô obsahuje tyto soubory:
 
-PRIK01   PAS - nalezne vÁechna p˝irozen† ü°sla menÁ° neß N,
-               kter† jsou dÿliteln† kaßdou svou cifrou
-PRIK02   PAS - z intervalu <A,B> nalezne vÁechny palindromy,
-               tj. symetrick† ü°sla
-PRIK03   PAS - vyp°Áe vÁechna 3-cif. ü°sla, v nichß se ß†dn† cifra neopakuje
-PRIK04   PAS - n†soben° matice 4x4 aß na 255;
+PRIK01   PAS - nalezne v≈°echna p≈ôirozen√° ƒç√≠sla men≈°√≠ ne≈æ N,
+               kter√° jsou dƒõliteln√° ka≈ædou svou cifrou
+PRIK02   PAS - z intervalu <A,B> nalezne v≈°echny palindromy,
+               tj. symetrick√° ƒç√≠sla
+PRIK03   PAS - vyp√≠≈°e v≈°echna 3-cif. ƒç√≠sla, v nich≈æ se ≈æ√°dn√° cifra neopakuje
+PRIK04   PAS - n√°soben√≠ matice 4x4 a≈æ na 255;
                dynamicky, Matice_Init, Matice_Done,....
-PRIK05   PAS - zjist° ße matice AxB nen° to samÇ jako BxA;
-               vyuß°v† GasCrt pro par†du
-PRIK06   PAS - nalezne vÁechny PYTHAGOREJSKê TROJÈHELN÷KY,
-               jejichß strany jsou menÁ° neß danÇ N
+PRIK05   PAS - zjist√≠ ≈æe matice AxB nen√≠ to sam√© jako BxA;
+               vyu≈æ√≠v√° GasCrt pro par√°du
+PRIK06   PAS - nalezne v≈°echny PYTHAGOREJSK√â TROJ√öHELN√çKY,
+               jejich≈æ strany jsou men≈°√≠ ne≈æ dan√© N
 
-MATIKA   PAS - vÏpoüty, hlavnÿ matic - dynamicky
-GASCRT   PAS - par†diüky: DeskTop, Ramecek, ...
+MATIKA   PAS - v√Ωpoƒçty, hlavnƒõ matic - dynamicky
+GASCRT   PAS - par√°diƒçky: DeskTop, Ramecek, ...
 
-Datum posledn° aktualizace: 21.1.1996
+Datum posledn√≠ aktualizace: 21.1.1996

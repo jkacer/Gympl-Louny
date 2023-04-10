@@ -11,8 +11,8 @@ var M:  ElM;
 
 begin
  ClrScr;
- WriteLn('Soustava o ',Nez,' nezn†mÏch.');
- WriteLn('Bude poußita metoda "GEM" a pak metoda "Zpÿtn†Substituce".');
+ WriteLn('Soustava o ',Nez,' nezn√°m√Ωch.');
+ WriteLn('Bude pou≈æita metoda "GEM" a pak metoda "Zpƒõtn√°Substituce".');
 
  Udelej(M);
 
@@ -27,7 +27,7 @@ begin
                 end;
 
  if ZpetnaSub(M,Y) then begin
-                         WriteLn(' Po zpÿtnÇ substituci :');
+                         WriteLn(' Po zpƒõtn√© substituci :');
                          Vypis(M);
                          ReadLn;
                         end
@@ -36,7 +36,7 @@ begin
                          goto 1;
                         end;
 
- WriteLn('Ko˝eny:');
+ WriteLn('Ko≈ôeny:');
  for I:=1 to R do
   WriteLn(Y[I]:7:2);
 

@@ -56,7 +56,7 @@ begin
  DetectGraph(GD,GM);
  InitGraph(GD,GM,'');
  if GraphResult<>grOK then begin
-                            WriteLn('Chyba p˝i inicializaci grafiky !');
+                            WriteLn('Chyba p≈ôi inicializaci grafiky !');
                             Graph_Init := g_Chyba;
                            end
                       else Graph_Init := g_OK;
@@ -149,10 +149,10 @@ begin
                   SetColor(Yellow);
                   SetFillStyle(1,Yellow);
 
-                  SX := X1+ ( (X2-X1) div 2); { poloviny uhlop˝°üky }
+                  SX := X1+ ( (X2-X1) div 2); { poloviny uhlop≈ô√≠ƒçky }
                   SY := Y1+ ( (Y2-Y1) div 2);
 
-                  ESX := Round(X1+ ( (X2-X1) * MullerConst)); { st˝ed elipsy }
+                  ESX := Round(X1+ ( (X2-X1) * MullerConst)); { st≈ôed elipsy }
                   ESY := Round(Y1+ ( (Y2-Y1) * MullerConst));
 
                   R:= Round( Sqrt( Abs( Sqr(SX-ESX) + Sqr(SY-ESY)) ) );

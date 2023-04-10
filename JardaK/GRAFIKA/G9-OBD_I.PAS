@@ -29,7 +29,7 @@ begin
                         end;
  X:=GetMaxX;
  Y:=GetMaxY;
- N:=DejRozsah('Kolik vnoıen¡ ?',1,20,X,Y);
+ N:=DejRozsah('Kolik vnoÅ™enÃ­ ?',1,20,X,Y);
 
  AX:=10;
  AY:=10;

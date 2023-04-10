@@ -14,13 +14,13 @@ var
 begin
  ClrScr;
 
- WriteLn('VÏpoüet Fibonacciho posloupnosti z N.');
+ WriteLn('V√Ωpoƒçet Fibonacciho posloupnosti z N.');
  Write('N ? <0,255> '); ReadLn(N);
  Vysl:=FibonaccihoPosl(N);
 
  WriteLn('Fibonaccoho posloupnost z ',N,' je ',Vysl,'.');
 
- WriteLn('VÏpis 1-25 :');
+ WriteLn('V√Ωpis 1-25 :');
  for I:=0 to 25 do
   Write(FibonaccihoPosl(I),' ');
 

@@ -10,7 +10,7 @@ var
 
 begin
  ClrScr;
- WriteLn('Soustava 3 rovnic o 3 nezn†mÏch.');
+ WriteLn('Soustava 3 rovnic o 3 nezn√°m√Ωch.');
  WriteLn('X1 + Y1 + Z1 = Q1');
  WriteLn('X2 + Y2 + Z2 = Q2');
  WriteLn('X3 + Y3 + Z3 = Q3');
@@ -32,15 +32,15 @@ begin
  Res_Sous3(S,DX,DY,DZ,D);
 
  if D<>0 then begin
-               WriteLn('Soustava je regul†rn°.');
+               WriteLn('Soustava je regul√°rn√≠.');
                WriteLn('X = ',(DX/D):6:4,' ,  Y = ',(DY/D):6:4,
                        '  Z = ',(DZ/D):6:4);
               end
          else begin
-               Write('Soustava je singul†rn° ');
+               Write('Soustava je singul√°rn√≠ ');
                if (DX=0) and (DY=0) and (DZ=0)
-                      then WriteLn('a m† nekoneünÿ ˝eÁen°.')
-                      else WriteLn('a nem† ß†dnÇ ˝eÁen°.');
+                      then WriteLn('a m√° nekoneƒçnƒõ ≈ôe≈°en√≠.')
+                      else WriteLn('a nem√° ≈æ√°dn√© ≈ôe≈°en√≠.');
               end;
  ReadLn;
 end.

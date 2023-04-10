@@ -47,16 +47,16 @@ begin
   begin
    New(Pom2);
    Pom1^.Cislo:=I;
-   if I<Kolik then begin      { Pro posledn° prvek NEpot˝ebujeme dalÁ° }
+   if I<Kolik then begin      { Pro posledn√≠ prvek NEpot≈ôebujeme dal≈°√≠ }
                     Pom1^.Dalsi:=Pom2;
                     Pom1:=Pom2;
                    end
-              else Dispose(Pom2); { Pro posl. prvek se zruÁ° sloßka DalÁ° }
+              else Dispose(Pom2); { Pro posl. prvek se zru≈°√≠ slo≈æka Dal≈°√≠ }
   end;
 
- Pom1^.Dalsi:=nil;                { a nacpe se do n° NIL }
+ Pom1^.Dalsi:=nil;                { a nacpe se do n√≠ NIL }
  VytvorSez:=Hlava;
- WriteLn('Seznam vytvo˝en.');
+ WriteLn('Seznam vytvo≈ôen.');
 end; { VytvorSez }
 
 procedure TiskniSez(Misto:PPrvekInt);
@@ -67,7 +67,7 @@ begin
                     Sound(500); Delay(500); NoSound;
                     Exit;
                    end;
- WriteLn('Tisk ü°sel : ');
+ WriteLn('Tisk ƒç√≠sel : ');
  Pom:=Misto^.Dalsi;
  while Pom<>nil do
   begin
@@ -97,7 +97,7 @@ begin
   end;
  if Misto<>nil then Dispose(Misto);
  Misto:=nil;
- WriteLn('Seznam uvolnÿn z pamÿti.');
+ WriteLn('Seznam uvolnƒõn z pamƒõti.');
 end; { ZrusSez }
 
 function  VytahniSez(Misto:PPrvekInt;Odkud,Kolik:Integer):PPrvekInt;
@@ -118,33 +118,33 @@ begin
  for I:=1 to Odkud-1 do
   if Pom1<>nil then begin
                      Pom2:=Pom1^.Dalsi;
-                     if I<Odkud-1 then Pom1:=Pom2; { posledn° p˝ed 1. vybranÏm}
+                     if I<Odkud-1 then Pom1:=Pom2; { posledn√≠ p≈ôed 1. vybran√Ωm}
                     end
                else begin
-                     WriteLn('1 Seznam nem† dostateünÏ poüet prvkÖ => Exit.');
-                     WriteLn('1 Neruü°m za spr†vnÏ chod programu !');
+                     WriteLn('1 Seznam nem√° dostateƒçn√Ω poƒçet prvk≈Ø => Exit.');
+                     WriteLn('1 Neruƒç√≠m za spr√°vn√Ω chod programu !');
                      VytahniSez:=nil;
                      Exit;
                     end;
- { v Pom2 je zaü†tek novÏho seznamu }
+ { v Pom2 je zaƒç√°tek nov√Ωho seznamu }
  Posledni:=Pom1;
  NovaHlava^.Dalsi:=Pom2;
 
  for I:=1 to Kolik do
   begin
    Pom1:=Pom2^.Dalsi;
-   if (Pom1=nil) and { ta 2. podm°nka je tu kvÖli tomu, kdyby se Álo aß }
-      (I<Kolik)  then{ nakonec ˝etÿzce=>Exit a pak by se to nenav†zalo => }
+   if (Pom1=nil) and { ta 2. podm√≠nka je tu kv≈Øli tomu, kdyby se ≈°lo a≈æ }
+      (I<Kolik)  then{ nakonec ≈ôetƒõzce=>Exit a pak by se to nenav√°zalo => }
                     begin { => runtime error 204 v ZrusSez }
-                     WriteLn('2 Seznam nem† dostateünÏ poüet prvkÖ => Exit.');
-                     WriteLn('2 Neruü°m za spr†vnÏ chod programu !');
+                     WriteLn('2 Seznam nem√° dostateƒçn√Ω poƒçet prvk≈Ø => Exit.');
+                     WriteLn('2 Neruƒç√≠m za spr√°vn√Ω chod programu !');
                      VytahniSez:=NovaHlava;
                      Exit;
                     end;
    if I<Kolik then Pom2:=Pom1;
   end;
 
- { ukonüen° novÏho seznamu a napojen° zbytku na Posledni }
+ { ukonƒçen√≠ nov√Ωho seznamu a napojen√≠ zbytku na Posledni }
  Pom2^.Dalsi:=nil;
  Posledni^.Dalsi:=Pom1;
 
@@ -209,7 +209,7 @@ begin
 end; { DejMinSez }
 
 procedure VymazPrvekZa(Kde:PPrvekInt);
-var  P1,             { na zruÁen° }
+var  P1,             { na zru≈°en√≠ }
      P2:  PPrvekInt; { za nim }
 begin
  if Kde=nil then begin
@@ -218,7 +218,7 @@ begin
                   Exit;
                  end;
  P1:=Kde^.Dalsi;
- if P1=nil then WriteLn('Prvek na zruÁen° je NIL => nelze zruÁit.')
+ if P1=nil then WriteLn('Prvek na zru≈°en√≠ je NIL => nelze zru≈°it.')
            else begin
                  P2:=P1^.Dalsi;
                  Kde^.Dalsi:=P2;
@@ -246,7 +246,7 @@ end; { VlozPrvekZa }
 
 procedure ZrusDelCimSez(Misto:PPrvekInt;Cim:Integer);
 var   Pom1,
-      Pom2:  PPrvekInt; { ruÁit }
+      Pom2:  PPrvekInt; { ru≈°it }
 begin
  if Misto=nil then begin
                     WriteLn('Vstup v "ZrusDelCimSez" je NIL => Exit.');
@@ -254,15 +254,15 @@ begin
                     Exit;
                  end;
 
- {!!!!!!! V Ì J I M K A kvÖli 1. ülenu }
+ {!!!!!!! V √ù J I M K A kv≈Øli 1. ƒçlenu }
  Pom1:=Misto;
- while Pom1^.Dalsi<>nil do { Tady by se u jenom Pom1 sk†kalo do nekoneü.}
+ while Pom1^.Dalsi<>nil do { Tady by se u jenom Pom1 sk√°kalo do nekoneƒç.}
   begin
    Pom2:=Pom1^.Dalsi;
    if Pom2<>nil then
     if ((Pom2^.Cislo mod Cim)=0) then begin
                                        VymazPrvekZa(Pom1);
-{ aby se nesk†kalo p˝es/u 1=Cis        Pom1:=Pom1^.Dalsi; }
+{ aby se nesk√°kalo p≈ôes/u 1=Cis        Pom1:=Pom1^.Dalsi; }
                                       end
                                  else Pom1:=Pom2;
   end;

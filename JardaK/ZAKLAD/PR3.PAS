@@ -23,10 +23,10 @@ var
 
 begin
  ClrScr;
- WriteLn('Zadej vØtu, kde jsou slova oddØlena jednou mezerou.');
+ WriteLn('Zadej vÄ›tu, kde jsou slova oddÄ›lena jednou mezerou.');
  ReadLn(Veta);
 
- WriteLn('Ve vØtØ je ',PocetMezer(Veta)+1,' slov.');
+ WriteLn('Ve vÄ›tÄ› je ',PocetMezer(Veta)+1,' slov.');
  ReadLn;
 end.
 

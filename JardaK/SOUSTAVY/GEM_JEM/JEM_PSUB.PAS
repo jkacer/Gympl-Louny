@@ -11,8 +11,8 @@ var M:  ElM;
 
 begin
  ClrScr;
- WriteLn('Soustava o ',Nez,' nezn mìch.');
- WriteLn('Bude pou§ita metoda "JEM" a pak metoda "Pý¡m Substituce".');
+ WriteLn('Soustava o ',Nez,' neznÃ¡mÃ½ch.');
+ WriteLn('Bude pouÅ¾ita metoda "JEM" a pak metoda "PÅ™Ã­mÃ¡Substituce".');
 
  Udelej(M);
 
@@ -27,7 +27,7 @@ begin
                 end;
 
  if PrimaSub(M,Y) then begin
-                         WriteLn(' Po pý¡m‚ substituci :');
+                         WriteLn(' Po pÅ™Ã­mÃ© substituci :');
                          Vypis(M);
                          ReadLn;
                         end
@@ -36,7 +36,7 @@ begin
                          goto 1;
                         end;
 
- WriteLn('Koýeny:');
+ WriteLn('KoÅ™eny:');
  for I:=1 to R do
   WriteLn(Y[I]:7:2);
 

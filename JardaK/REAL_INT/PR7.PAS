@@ -10,8 +10,8 @@ var
 
 begin
  ClrScr;
- WriteLn('Program zjist¡, zda je Ÿ¡slo prvoŸ¡slo.');
- Write('¬¡slo = ');
+ WriteLn('Program zjistÃ­, zda je ÄÃ­slo prvoÄÃ­slo.');
+ Write('ÄŒÃ­slo = ');
  ReadLn(Cislo);
 
  if Je_Prvoc(Cislo) then WriteLn('ANO')

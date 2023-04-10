@@ -15,7 +15,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pı¡stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  {$I+}
@@ -30,7 +30,7 @@ begin
      Delete(S,1,Poz);
     end;
   end;
- WriteLn('V souboru je ',K,' vØt.');
+ WriteLn('V souboru je ',K,' vÄ›t.');
 
  Close(F);
  Reset(F);
@@ -58,8 +58,8 @@ begin
    end;
   end;
 
- WriteLn('Nejkratç¡ vØta : ',NejM,' pismen .');
- WriteLn('Nejdelç¡  vØta : ',NejV,' pismen .');
+ WriteLn('NejkratÅ¡Ã­ vÄ›ta : ',NejM,' pismen .');
+ WriteLn('NejdelÅ¡Ã­  vÄ›ta : ',NejV,' pismen .');
  Close(F);
  ReadLn;
 end.

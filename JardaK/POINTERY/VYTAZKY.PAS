@@ -8,8 +8,8 @@ uses Crt,Dos,Objects,GasCrt;
 
 const
       Ch_Syn = 'Chyba v synchronizaci seznamu !';
-      Ch_OtS = 'Chyba p˝i otev°r†n° souboru ';
-      Ch_Nil = ' je NIL,ale nic se nedÿje.';
+      Ch_OtS = 'Chyba p≈ôi otev√≠r√°n√≠ souboru ';
+      Ch_Nil = ' je NIL,ale nic se nedƒõje.';
 
 type
      PPrvekChar = ^TPrvekChar;
@@ -24,7 +24,7 @@ type
      PCharSeznam = ^TCharSeznam;
      TCharSeznam =  object(TObject)
 
-         { PRIVATE } private { Z venku nep˝°stupnÇ !!! }
+         { PRIVATE } private { Z venku nep≈ô√≠stupn√© !!! }
 
                      Hlava:     PPrvekChar;
                      Pata:      PPrvekChar;
@@ -37,25 +37,25 @@ type
                      Min:       Byte;
                      Max:       Byte;
 
-         { PUBLIC }  public  { Z venku je p˝ece mus°me volat !!! }
+         { PUBLIC }  public  { Z venku je p≈ôece mus√≠me volat !!! }
 
                      constructor Init(Jm:PathStr;MinC,MaxC:Byte);
                      destructor  Done;                            virtual;
 
                      function    Check:Boolean;
-                     procedure   Hop(OKolik:Word;Dopredu:Boolean);{skoü° OKol}
-                     function    MakeCur(Kde:Word):Boolean;{udÿl† akt.pol.Kde}
+                     procedure   Hop(OKolik:Word;Dopredu:Boolean);{skoƒç√≠ OKol}
+                     function    MakeCur(Kde:Word):Boolean;{udƒõl√° akt.pol.Kde}
                      function    At(Kde:Word):Char;    {znak na pozici Kde   }
-                     function    GetMin:Byte;          {vr†t° min. pro vÏbÿr }
-                     function    GetMax:Byte;          {vr†t° max. pro vÏbÿr }
-                     function    GetPocet:Word;        {vr†t° poüet poloßek  }
-                     function    GetJmeno:PathStr;     {vr†t° jmÇno souboru  }
-                     function    CurNo:Word;           {aktu†ln° poloßka     }
-                     function    AtCurNo:Char;         {znak na aktual.poloß.}
+                     function    GetMin:Byte;          {vr√°t√≠ min. pro v√Ωbƒõr }
+                     function    GetMax:Byte;          {vr√°t√≠ max. pro v√Ωbƒõr }
+                     function    GetPocet:Word;        {vr√°t√≠ poƒçet polo≈æek  }
+                     function    GetJmeno:PathStr;     {vr√°t√≠ jm√©no souboru  }
+                     function    CurNo:Word;           {aktu√°ln√≠ polo≈æka     }
+                     function    AtCurNo:Char;         {znak na aktual.polo≈æ.}
 
                      procedure   Tisk(Hlavicka:String);{vytiskne sez. s hlav.}
-                     procedure   Zapis(Kam:Word;Co:Char);{zap°Áe Co na poz.Ka}
-                     procedure   Prehod;               {p˝ehod° vÁechny prvky}
+                     procedure   Zapis(Kam:Word;Co:Char);{zap√≠≈°e Co na poz.Ka}
+                     procedure   Prehod;               {p≈ôehod√≠ v≈°echny prvky}
 
                     end; { object TCharSeznam }
 
@@ -90,7 +90,7 @@ begin
  if IOResult<>0 then begin
                       WriteLn('"Constuctor TCharSeznam.Init" :');
                       WriteLn(Ch_OtS,Jm,' !!!');
-                      WriteLn('Nelze naü°st data do seznamu => Exit.');
+                      WriteLn('Nelze naƒç√≠st data do seznamu => Exit.');
                       Exit;
                      end;
  {$I+}
@@ -99,7 +99,7 @@ begin
  New(Hlava);
  Hlava^.Znak:=#0;
  Hlava^.Kde :=0;
- Hlava^.Prev:=nil; { navßdy }
+ Hlava^.Prev:=nil; { nav≈ædy }
  Hlava^.Next:=nil;
 
  { OBJ }
@@ -107,7 +107,7 @@ begin
  Pata^.Znak:=#0;
  Pata^.Kde :=0;
  Pata^.Prev:=Hlava;
- Pata^.Next:=nil;  { navßdy }
+ Pata^.Next:=nil;  { nav≈ædy }
 
  Hlava^.Next:=Pata; { OBJ }
 
@@ -143,7 +143,7 @@ begin
  if Count>0 then begin
                   Curr:=Hlava^.Next;
                   Poz:=1;
-                  WriteLn('Vytvo˝en seznam s ',Count,' prvky.');
+                  WriteLn('Vytvo≈ôen seznam s ',Count,' prvky.');
                  end
             else begin
                   Curr:=nil;
@@ -166,7 +166,7 @@ begin
    if Pom<>nil then Dispose(Pom);
    Dec(Count);
   end;
- if Count<>0 then WriteLn('Nÿco nesouhlas° !');
+ if Count<>0 then WriteLn('Nƒõco nesouhlas√≠ !');
  Poz:=0;
  if Pata<>nil then Dispose(Pata)
               else begin
@@ -179,7 +179,7 @@ begin
                     WriteLn('Hlava',Ch_Nil);
                    end;
  inherited Done;
- WriteLn('Seznam zruÁen.');
+ WriteLn('Seznam zru≈°en.');
 end; { destructor TCharSeznam.Done }
 
 
@@ -233,7 +233,7 @@ begin
  MakeCur:=False;
  if Count<1 then Exit;
  if (Kde<1) or (Kde>Count) then begin
-                                 WriteLn('"TCharSeznam.MakeCur" vol†no se ÁpatnÏm parametrem !!!');
+                                 WriteLn('"TCharSeznam.MakeCur" vol√°no se ≈°patn√Ωm parametrem !!!');
                                  Exit;
                                 end;
  if Kde<Poz then begin
@@ -306,7 +306,7 @@ end; { procedure TCharSeznam.Tisk }
 procedure TCharSeznam.Zapis(Kam:Word;Co:Char);
 begin
  if MakeCur(Kam) then Curr^.Znak:=Co
-                 else WriteLn('Chyba p˝i z†pisu znaku "',Co,'" na pozici ',Kam,'.');
+                 else WriteLn('Chyba p≈ôi z√°pisu znaku "',Co,'" na pozici ',Kam,'.');
 end; { procedure TCharSeznam.Zapis }
 
 

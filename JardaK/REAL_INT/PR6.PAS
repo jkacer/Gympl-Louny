@@ -10,11 +10,11 @@ var
 
 begin
  ClrScr;
- WriteLn('Program zjist¡ souŸet sudìch Ÿ¡slic v zadan‚m Ÿ¡sle.');
- Write('¬¡slo = ');
+ WriteLn('Program zjistÃ­ souÄet sudÃ½ch ÄÃ­slic v zadanÃ©m ÄÃ­sle.');
+ Write('ÄŒÃ­slo = ');
  ReadLn(Cislo);
 
- WriteLn('SouŸet je ',SoucetSudCis(Cislo));
+ WriteLn('SouÄet je ',SoucetSudCis(Cislo));
  ReadLn;
 end.
 

@@ -31,7 +31,7 @@ begin
 end; { function Dej_Real }
 
 
-{ ¬ st fc¡ typu TRealFce - BEGIN }
+{ ÄŒÃ¡st fcÃ­ typu TRealFce - BEGIN }
 
 function SinX(X:Real):Real; far;
 begin
@@ -68,7 +68,7 @@ begin
  ArcTanX:=Cos(X);
 end;
 
-{ ¬ st fc¡ typu TRealFce - END }
+{ ÄŒÃ¡st fcÃ­ typu TRealFce - END }
 
 procedure Prirad_Fci;
 var
@@ -85,7 +85,7 @@ begin
  WriteLn('6: ArcusTangens');
  repeat
   B:=True;
-  WriteLn('Vaçe volba ? ');
+  WriteLn('VaÅ¡e volba ? ');
   C:=ReadKey;
   case C of
    '1': AktFce:=SinX;
@@ -102,7 +102,7 @@ begin
   end; { case }
  until B;
  *)
- WriteLn('ImplicitnØ pýiýazena funkce Sinus (x) .');
+ WriteLn('ImplicitnÄ› pÅ™iÅ™azena funkce Sinus (x) .');
  AktFce:=SinX;
 end; { procedure Prirad_Fci }
 

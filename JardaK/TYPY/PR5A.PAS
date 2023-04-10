@@ -15,36 +15,36 @@ var
 begin
  ClrScr;
  repeat
-  WriteLn('Znÿn° rovnice je A*X^2 + B*X + C = 0');
-  WriteLn('Zad†vej!');
+  WriteLn('Znƒõn√≠ rovnice je A*X^2 + B*X + C = 0');
+  WriteLn('Zad√°vej!');
 
   Write('A = ');  ReadLn(A);
   Write('B = ');  ReadLn(B);
   Write('C = ');  ReadLn(C);
 
   if A<>0 then begin
-                WriteLn('Rovnice je kvadratick†.');
+                WriteLn('Rovnice je kvadratick√°.');
                 D:=Sqr(B)-(4*A*C);
-                if D<0 then WriteLn('Rovnice nem† ˝eÁen° v R.')
+                if D<0 then WriteLn('Rovnice nem√° ≈ôe≈°en√≠ v R.')
                        else begin
                              E:=Sqrt(D);
                              X1:=(-B+E)/(2*A);
                              X2:=(-B-E)/(2*A);
-                             if X1=X2 then WriteLn('Rovnice m† 1 ˝eÁen°:',X1:6:3)
-                                      else WriteLn('Rovnice m† 2 ˝eÁen°:',X1:6:3,' a ',X2:6:3);
+                             if X1=X2 then WriteLn('Rovnice m√° 1 ≈ôe≈°en√≠:',X1:6:3)
+                                      else WriteLn('Rovnice m√° 2 ≈ôe≈°en√≠:',X1:6:3,' a ',X2:6:3);
                             end
                end
           else begin
-                WriteLn('Rovnice je line†rn°.');
-                if B=0 then if C=0 then WriteLn('Rovnice m† nekoneünÿ ˝eÁen°.')
-                                   else WriteLn('Rovnice nem† ˝eÁen°.')
+                WriteLn('Rovnice je line√°rn√≠.');
+                if B=0 then if C=0 then WriteLn('Rovnice m√° nekoneƒçnƒõ ≈ôe≈°en√≠.')
+                                   else WriteLn('Rovnice nem√° ≈ôe≈°en√≠.')
                        else begin
                              X1:=(-C)/B;
-                             WriteLn('¸eÁen° je ',X1:6:3);
+                             WriteLn('≈òe≈°en√≠ je ',X1:6:3);
                             end
                end;
   repeat
-   WriteLn('ChceÁ jeÁtÿ? - 1/0');
+   WriteLn('Chce≈° je≈°tƒõ? - 1/0');
    ReadLn(Q);
   until (Q=1) or (Q=0);
 

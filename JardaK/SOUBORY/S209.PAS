@@ -14,7 +14,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v p˝°stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v p≈ô√≠stupu k SOUB1.TXT !!!');
                       Exit;
                      end;
  {$I+}
@@ -30,7 +30,7 @@ begin
                end;
    until not(Je);
   end;
- WriteLn('Soubor m† ',K,' slov, co konü° na "A"');
+ WriteLn('Soubor m√° ',K,' slov, co konƒç√≠ na "A"');
  Close(F);
  ReadLn;
 end.

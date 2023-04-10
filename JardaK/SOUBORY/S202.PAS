@@ -10,7 +10,7 @@ begin
  {$I-}
  Reset(F);
  if IOResult<>0 then begin
-                      WriteLn('Chyba v pý¡stupu k SOUB1.TXT !!!');
+                      WriteLn('Chyba v pÅ™Ã­stupu k SOUB1.TXT !!!');
                       ReadLn;
                       Exit;
                      end;
@@ -21,7 +21,7 @@ begin
    ReadLn(F,S);
    K:=K+Length(S);
   end;
- WriteLn('V souboru je ',K,' znak….');
+ WriteLn('V souboru je ',K,' znakÅ¯.');
  Close(F);
  ReadLn;
 end.

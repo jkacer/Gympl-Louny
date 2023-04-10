@@ -1,9 +1,9 @@
 {
- BOOLEAN - p˝°klad 07
+ BOOLEAN - p≈ô√≠klad 07
 }
 
 {
- Zjist°, zda existuje troj£heln°k, kdyß se zadaj° b. A B C.
+ Zjist√≠, zda existuje troj√∫heln√≠k, kdy≈æ se zadaj√≠ b. A B C.
 }
 
 program XXX;
@@ -21,8 +21,8 @@ type
 procedure Dej_Bod(Z:Char;var B:TBod);
 begin
  WriteLn('Zadej bod ',Z,' !');
- Write('X-ov† sloßka = '); ReadLn(B.X);
- Write('Y-ov† sloßka = '); ReadLn(B.Y);
+ Write('X-ov√° slo≈æka = '); ReadLn(B.X);
+ Write('Y-ov√° slo≈æka = '); ReadLn(B.Y);
 end;
 
 
@@ -55,7 +55,7 @@ begin
  Dej_Bod('B',B);
  Dej_Bod('C',C);
 
- if Exist_Troj(A,B,C) then WriteLn('Troj£heln°k existuje.')
-                      else WriteLn('Troj£heln°k neexistuje.');
+ if Exist_Troj(A,B,C) then WriteLn('Troj√∫heln√≠k existuje.')
+                      else WriteLn('Troj√∫heln√≠k neexistuje.');
  ReadLn;
 end.

@@ -10,8 +10,8 @@ var M:  ElM;
 
 begin
  ClrScr;
- WriteLn('Soustava o ',Nez,' nezn†mÏch.');
- WriteLn('Bude poußita metoda "GEM" a pak metoda "JEM".');
+ WriteLn('Soustava o ',Nez,' nezn√°m√Ωch.');
+ WriteLn('Bude pou≈æita metoda "GEM" a pak metoda "JEM".');
 
  Udelej(M);
 
@@ -35,14 +35,14 @@ begin
                  goto 1;
                 end;
 
- { Èprava, aby byly u nezn†mÏch 1 => v posl. sloupci jsou uß ko˝eny }
+ { √öprava, aby byly u nezn√°m√Ωch 1 => v posl. sloupci jsou u≈æ ko≈ôeny }
  for I:=1 to R do
   begin
    M[I,S]:=M[I,S]/M[I,I];
    M[I,I]:=1;
   end;
 
- WriteLn('Ko˝eny:');
+ WriteLn('Ko≈ôeny:');
  for I:=1 to R do
   WriteLn(M[I,S]:7:2);
 
